@@ -4,7 +4,7 @@
 
 This is a graduate-level course on computer networks, which cover a subset of advanced topics in network protocols and systems. This year we will focus on networked systems for machine learning. Recently  The course will include lectures, in-class presentations, paper discussions, and a research project.
 
-- Instructor: Minlan Yu (SEC 4.415)
+- Instructor: Minlan Yu
 - Lecture time: MW 1:30pm-2:45pm
 - Location: 
 - Office hour: W 12:30-1:30, SEC 4.415
