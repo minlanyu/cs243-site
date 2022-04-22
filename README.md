@@ -1,15 +1,14 @@
-# CS 243, Fall 2020: Advanced Computer Networks
+# CS 243, Fall 2022: Advanced Computer Networks
 
 ## Overview
 
-This is a graduate-level course on computer networks. It provides a comprehensive overview on advanced topics in network protocols and networked systems. The course will cover both classic papers on computer networks and recent research results. It will examine a wide range of topics including routing, congestion control, network architectures, network management, datacenter networks, software-defined networking, and programmable networks, with an emphasis on core networking concepts and principles and their usage in practice. The course will include lectures, in-class presentations, paper discussions, and a research project.
+This is a graduate-level course on computer networks, which cover a subset of advanced topics in network protocols and systems. This year we will focus on networked systems for machine learning. Recently  The course will include lectures, in-class presentations, paper discussions, and a research project.
 
-- Instructor: Minlan Yu (MD 137)
+- Instructor: Minlan Yu (SEC 4.415)
 - Lecture time: MW 1:30pm-2:45pm
 - Location: 
-- Office hour: W 12:30-1:30, MD 137
-- Discussion list: [Piazza](https://piazza.com/class/k9ixwk6x4wp3vx)
-- Prerequisite: Some basic knowledge about networking is required. You can also pick up the knowledge from textbooks and papers.
+- Office hour: W 12:30-1:30, SEC 4.415
+- Prerequisite: This course has no prerequisites, but you will need to be able to read textbooks and papers to pick up the relevant background.
 - Recommended prep: system programming at the level of CS 61 or CS 143 or CS 145.
 
 
