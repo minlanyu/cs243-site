@@ -2,7 +2,9 @@
 
 ## Overview
 
-This is a graduate-level course on computer networks, which cover a subset of advanced topics in network protocols and systems. This year we will focus on networked systems for machine learning. Recently  The course will include lectures, in-class presentations, paper discussions, and a research project.
+This is a graduate-level course on computer networks. Each year we may cover a selected subset of advanced topics in network systems. The goal of this course is not to have the full coverage of networking concepts and protocols, but for you to learn the latest development in networking and how networking plays a role in the end-to-end systems and affect higher-level applications through case studies.
+
+This year we will focus on networked systems for machine learning. Recent trend of machine learning is to use large models and large amount of data to gain knowledge about the world. For example, Google start to train XX billions size language models for a wide variety of use cases. This means we need to build systems that process this large amount of data and run distributed machine learning frameworks across the network. In this course, we will study recent advances in networked systems in supporting large-scale machine learning applications. The course will include lectures, in-class presentations, paper discussions, and a research project.
 
 - Instructor: Minlan Yu
 - Lecture time: MW 1:30pm-2:45pm
