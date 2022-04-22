@@ -10,12 +10,12 @@ This year we will focus on networked systems for machine learning. Recent trend 
 - Lecture time: MW 1:30pm-2:45pm
 - Location: 
 - Office hour: W 12:30-1:30, SEC 4.415
-- Prerequisite: This course has no prerequisites, but you will need to be able to read textbooks and papers to pick up the relevant background.
+- Prerequisite: This course has no prerequisites. But since this course will cover advanced topics in networking and systems, you will need to be able to read textbooks and papers to pick up the relevant background for each topic.
 - Recommended prep: system programming at the level of CS 61 or CS 143 or CS 145.
 
 
 ## Textbook
-There are no required textbooks for the course. We have papers for your references in the syllabus page. You have to read the papers before each class to get the most out of the class. For backgrounds, you are encouraged to refer to the following books:
+There are no required textbooks for the course. You will read papers before each class to get the most out of the class. For backgrounds, you are encouraged to refer to the following books:
 - For basic networking concepts, you can refer to the textbook (K&R): Computer Networking: A Top-Down Approach (7th edition), by Jim Kurose and Keith Ross. Earlier editions are fine. 
 - An alternative book is Computer Networks: A Systems Approach (5th edition), by Larry Peterson and Bruce Davie. You can find [an online version](https://proquest-safaribooksonline-com.ezp-prod1.hul.harvard.edu/9780123850591) in Harvard library.
 - Please contact me if some concepts are hard to understand and I'll provide more supplemental materials.
