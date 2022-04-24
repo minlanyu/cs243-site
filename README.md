@@ -46,7 +46,9 @@ Please see detailed requirements after the syllabus
 
 ### Parallelism
 - 9/21 Wed:
-- 9/26 Mon:
+- 9/26 Mon: Pipeline parallelism
+  * Reading: [PipeDream: Generalized Pipeline Parallelism for DNN Training](https://cs.stanford.edu/~matei/papers/2019/sosp_pipedream.pdf)
+  * Optional reading: [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](https://proceedings.neurips.cc/paper/2019/file/093f65e080a295f8076b1c5722a46aa2-Paper.pdf)
 
 ### Programming frameworks
 - 9/28 Wed: 
