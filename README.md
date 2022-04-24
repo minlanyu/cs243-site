@@ -28,7 +28,8 @@ Please see detailed requirements after the syllabus
 
 ## Syllabus
 
-- 8/31 Wed: Introduction  [Berkely view](https://arxiv.org/pdf/1712.05855.pdf)  [How to read](https://www.cs.princeton.edu/courses/archive/fall13/cos597E/papers/howtoread.pdf)
+- 8/31 Wed: Introduction  
+  * Readings: [Berkely view](https://arxiv.org/pdf/1712.05855.pdf), [How to read](https://www.cs.princeton.edu/courses/archive/fall13/cos597E/papers/howtoread.pdf)
 - 9/5 Mon: no class (labor day)
 - 9/7 Wed: 
 - 9/12 Mon:
