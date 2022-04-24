@@ -28,6 +28,35 @@ Please see detailed requirements after the syllabus
 
 ## Syllabus
 
+- 8/31 Wed: Introduction  [Berkely view](https://arxiv.org/pdf/1712.05855.pdf)  [How to read](https://www.cs.princeton.edu/courses/archive/fall13/cos597E/papers/howtoread.pdf)
+- 9/5 Mon: no class (labor day)
+- 9/7 Wed: 
+- 9/12 Mon:
+- 9/14 Wed:
+- 9/19 Mon:
+- 9/21 Wed:
+- 9/26 Mon:
+- 9/28 Wed:
+- 10/3 Mon:
+- 10/5 Wed:
+- 10/10 Mon:
+- 10/12 Wed:
+- 10/17 Mon:
+- 10/19 Wed:
+- 10/24 Mon:
+- 10/26 Wed:
+- 10/31 Mon:
+- 11/2 Wed:
+- 11/7 Mon:
+- 11/9 Wed:
+- 11/14 Mon:
+- 11/16 Wed:
+- 11/21 Mon:
+- 11/23 Wed: no class (Thanksgiving break)
+- 11/28 Mon: Project presentation
+- 11/30 Wed: Project presentation
+- 12/17 Project due date
+
 ## Reviews
 - Students are expected to write reviews for the papers in each class. We will give scores based on the top 90\% of the reviews. This means it is ok if you miss 10\% of the reviews throughout the class.
 - Your reviews are due at noon one day before (Sunday noon for Monday classes; Tuesday noon for Wed classes). So the presenter of the paper can have more time collect all your questions and we can discuss in class. For the lectures we have guest speakers, the TF will collect the questions and please raise your question in class.
