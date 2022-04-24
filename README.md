@@ -32,22 +32,33 @@ Please see detailed requirements after the syllabus
   * Reading 1: [A Berkeley View of Systems Challenges for AI](https://arxiv.org/pdf/1712.05855.pdf)
   * Reading 2: [How to Read a Paper](https://www.cs.princeton.edu/courses/archive/fall13/cos597E/papers/howtoread.pdf)
 - 9/5 Mon: no class (labor day)
-- 9/7 Wed: 
-- 9/12 Mon:
-- 9/14 Wed:
-- 9/19 Mon:
+
+### Communication frameworks
+- 9/7 Wed: Parameter Server
+  * Reading: Scaling Distributed Machine Learning with the Parameter Server (https://www.cs.cmu.edu/~muli/file/parameter_server_osdi14.pdf)
+- 9/12 Mon: BytePS
+  * Reading: [A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters](https://www.usenix.org/system/files/osdi20-jiang.pdf)
+- 9/14 Wed: AllReduce
+  * Reading: 
+- 9/19 Mon: Workload
+  * Reading: [Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads](https://www.usenix.org/system/files/atc19-jeon.pdf)
+
+### Parallelism
 - 9/21 Wed:
 - 9/26 Mon:
-- 9/28 Wed:
-- 10/3 Mon:
-- 10/5 Wed:
+
+### Programming frameworks
+- 9/28 Wed: 
+- 10/3 Mon: Course project discussion
+- 10/5 Wed: Ray
+  * Reading: [Ray: A Distributed Framework for Emerging AI Applications](https://www.usenix.org/system/files/osdi18-moritz.pdf)
+  * Optional reading: [Data-Parallel Actors: A Programming Model for Scalable Query Serving Systems](https://cs.stanford.edu/~matei/papers/2022/nsdi_uniserve.pdf)
+- 10/10 Mon: Course project pitches
 
 ### Offloading ML to network accelerators
-- 10/10 Mon: Programmable switches
+- 10/12 Wed: Programmable switches
   * Reading: [ATP: In-network Aggregation for Multi-tenant Learning](https://www.usenix.org/system/files/nsdi21-lao.pdf)
   * Optional: [Scaling Distributed Machine Learning with In-Network Aggregation](https://www.usenix.org/system/files/nsdi21-sapio.pdf)
-- 10/12 Wed: FPGA
-  * 
 - 10/17 Mon: Optical networks
   * Reading: [SiP-ML: High-Bandwidth Optical Network Interconnects for Machine Learning Training](https://people.csail.mit.edu/ghobadi/papers/sipml_sigcomm_2021.pdf)
 - 10/19 Wed:
