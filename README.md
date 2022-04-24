@@ -28,6 +28,7 @@ Please see detailed requirements after the syllabus
 
 ## Syllabus
 
+### Introduction
 - 8/31 Wed: Introduction  
   * Reading 1: [A Berkeley View of Systems Challenges for AI](https://arxiv.org/pdf/1712.05855.pdf)
   * Reading 2: [How to Read a Paper](https://www.cs.princeton.edu/courses/archive/fall13/cos597E/papers/howtoread.pdf)
@@ -71,6 +72,8 @@ Please see detailed requirements after the syllabus
 - 11/14 Mon:
 - 11/16 Wed:
 - 11/21 Mon:
+
+### Wrapping up
 - 11/23 Wed: no class (Thanksgiving break)
 - 11/28 Mon: Project presentation
 - 11/30 Wed: Project presentation
