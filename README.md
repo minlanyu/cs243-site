@@ -10,7 +10,7 @@ This year we will focus on networked systems for machine learning. Recent trend 
 - Lecture time: MW 1:30pm-2:45pm
 - Location: 
 - Office hour: W 12:30-1:30, SEC 4.415
-- Prerequisite: This course has no prerequisites. But since this course will cover advanced topics in networking and systems, you will need to be able to read textbooks and papers to pick up the relevant background for each topic.
+- Prerequisite: This course has no prerequisites. Since this course will focus on reading papers on latest topics in networking, you will need to be able to pick up the relevant background for each topic from textbooks or online materials.
 - Recommended prep: system programming at the level of CS 61 or CS 143 or CS 145.
 
 
@@ -29,7 +29,8 @@ Please see detailed requirements after the syllabus
 ## Syllabus
 
 - 8/31 Wed: Introduction  
-  * Readings: [Berkely view](https://arxiv.org/pdf/1712.05855.pdf), [How to read](https://www.cs.princeton.edu/courses/archive/fall13/cos597E/papers/howtoread.pdf)
+  * Reading 1: [A Berkeley View of Systems Challenges for AI](https://arxiv.org/pdf/1712.05855.pdf)
+  * Reading 2: [How to Read a Paper](https://www.cs.princeton.edu/courses/archive/fall13/cos597E/papers/howtoread.pdf)
 - 9/5 Mon: no class (labor day)
 - 9/7 Wed: 
 - 9/12 Mon:
@@ -40,8 +41,13 @@ Please see detailed requirements after the syllabus
 - 9/28 Wed:
 - 10/3 Mon:
 - 10/5 Wed:
-- 10/10 Mon:
-- 10/12 Wed:
+
+### Offloading ML to network accelerators
+- 10/10 Mon: Programmable switches
+  * Reading: [ATP: In-network Aggregation for Multi-tenant Learning](https://www.usenix.org/system/files/nsdi21-lao.pdf)
+  * Optional: []
+- 10/12 Wed: SmartNICs
+  * 
 - 10/17 Mon:
 - 10/19 Wed:
 - 10/24 Mon:
