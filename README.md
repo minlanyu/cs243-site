@@ -45,10 +45,11 @@ Please see detailed requirements after the syllabus
 ### Offloading ML to network accelerators
 - 10/10 Mon: Programmable switches
   * Reading: [ATP: In-network Aggregation for Multi-tenant Learning](https://www.usenix.org/system/files/nsdi21-lao.pdf)
-  * Optional: []
-- 10/12 Wed: SmartNICs
+  * Optional: [Scaling Distributed Machine Learning with In-Network Aggregation](https://www.usenix.org/system/files/nsdi21-sapio.pdf)
+- 10/12 Wed: FPGA
   * 
-- 10/17 Mon:
+- 10/17 Mon: Optical networks
+  * Reading: [SiP-ML: High-Bandwidth Optical Network Interconnects for Machine Learning Training](https://people.csail.mit.edu/ghobadi/papers/sipml_sigcomm_2021.pdf)
 - 10/19 Wed:
 - 10/24 Mon:
 - 10/26 Wed:
