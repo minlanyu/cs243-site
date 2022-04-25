@@ -64,14 +64,28 @@ Please see detailed requirements after the syllabus
   * Optional: [Scaling Distributed Machine Learning with In-Network Aggregation](https://www.usenix.org/system/files/nsdi21-sapio.pdf)
 - 10/17 Mon: Optical networks
   * Reading: [SiP-ML: High-Bandwidth Optical Network Interconnects for Machine Learning Training](https://people.csail.mit.edu/ghobadi/papers/sipml_sigcomm_2021.pdf)
-- 10/19 Wed:
-- 10/24 Mon:
-- 10/26 Wed:
+- 10/19 Wed: FPGA
+  * Reading: [Serving DNNs in Real Time at Datacenter Scale with Project Brainwave](https://web.eecs.umich.edu/~mosharaf/Readings/Brainwave.pdf)
+
+### Inferences
+- 10/24 Mon: Serving systems
+  * Reading: [Clipper: A Low-Latency Online Prediction Serving System](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-crankshaw.pdf)
+  * Optional reading: [Serving DNNs like Clockwork: Performance Predictability from the Bottom Up](https://www.usenix.org/system/files/osdi20-gujarati.pdf)
+- 10/26 Wed: Video queries
+  * Reading: [Nexus: A GPU Cluster Engine for Accelerating DNN-Based Video Analysis](https://homes.cs.washington.edu/~arvind/papers/nexus.pdf)
+  * Optional reading: [Focus: Querying Large Video Datasets with Low Latency and Low Cost](https://web.eecs.umich.edu/~mosharaf/Readings/Focus.pdf)
+  
+### Network-aware scheduling
 - 10/31 Mon:
+  * Reading: [THEMIS: Fair and Efficient GPU Cluster Scheduling](https://utns.cs.utexas.edu/papers/nsdi20-themis.pdf)
+  * Optional: [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](https://www.usenix.org/system/files/nsdi19-gu.pdf)
 - 11/2 Wed:
 - 11/7 Mon:
 - 11/9 Wed:
-- 11/14 Mon:
+
+### Learning in wide-area networks
+- 11/14 Mon: 
+  * Reading: [Gaia: Geo-Distributed Machine Learning Approaching LAN Speeds](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-hsieh.pdf)
 - 11/16 Wed:
 - 11/21 Mon:
 
