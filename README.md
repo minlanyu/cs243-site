@@ -2,9 +2,10 @@
 
 ## Overview
 
-This is a graduate-level course on computer networks. Each year we may cover a selected subset of advanced topics in network systems. The goal of this course is not to have the full coverage of networking concepts and protocols, but for you to learn the latest development in networking and how networking plays a role in the end-to-end systems and affect higher-level applications through case studies.
+This is a graduate-level course on computer networks. Each year we select a subset of advanced topics in networked systems to showcase 
+latest developments in networking and how networking plays a role in the end-to-end systems to support higher-level applications.
 
-This year we will focus on networked systems for machine learning. Recent trend of machine learning is to use increasingly large models using large data sets from various sources for a wide range of tasks (e.g., Google trains a large language model with 540-billion parameters on thousands of TPUs for a variety of complex language tasks). This trend means that we need to build systems that process this large amount of data and support large models distributedly across the network. In this course, we will study recent advances and challenges of networked systems in supporting large-scale machine learning applications. The course will include lectures, in-class presentations, paper discussions, and a research project.
+This year we will take machine learning as an example to study their needs for networking and the key challenges they bring to the network stack. The growth of machine learning applications is enabled by system hardware and software advances. A new trend in machine learning is to build increasingly large models using large data sets from various sources for a wide range of tasks. For example, Google trains a large language model with 540-billion parameters on thousands of TPUs for a variety of complex language tasks. This trend brings new challenges to networked systems: We now need to build large-scale distributed systems across the network to process such large amount of data, training large models, and serving inference requests. In this course, we will study system challenges in machine learning and how to co-design networks and the other parts of the systems to meet the needs of machine learning applications. The course will include lectures, in-class presentations, paper discussions, and a research project.
 
 - Instructor: Minlan Yu
 - Lecture time: MW 1:30pm-2:45pm
