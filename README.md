@@ -5,7 +5,7 @@
 This is a graduate-level course on computer networks. Each year we select a subset of advanced topics in networked systems to showcase 
 latest developments in networking and how networking plays a role in the end-to-end systems to support higher-level applications.
 
-This year we will take machine learning as an example to study their needs for networking and the key challenges they bring to the network stack. The growth of machine learning applications is enabled by system hardware and software advances. A new trend in machine learning is to build increasingly large models using large data sets from various sources for a wide range of tasks. For example, Google trains a large language model with 540-billion parameters on thousands of TPUs for a variety of complex language tasks. This trend brings new challenges to networked systems: We now need to build large-scale distributed systems across the network to process such large amount of data, training large models, and serving inference requests. In this course, we will study system challenges in machine learning and how to co-design networks and the other parts of the systems to meet the needs of machine learning applications. The course will include lectures, in-class presentations, paper discussions, and a research project.
+This year we will take machine learning as an example to study their needs for networking and the key challenges they bring to the network stack. The growth of machine learning applications is driven by system hardware and software advances. A new trend in machine learning is to build increasingly large models using large data sets from various sources for a wide range of tasks. For example, Google trains a large language model with 540-billion parameters on thousands of TPUs for a variety of complex language tasks. This trend brings new challenges to networked systems: We now need to build large-scale distributed systems across the network to process such large amount of data, training large models, and serving inference requests. In this course, we will study system challenges in machine learning and how to co-design networks and the other parts of the systems to meet the needs of machine learning applications. The course will include lectures, in-class presentations, paper discussions, and a research project.
 
 - Instructor: Minlan Yu
 - Lecture time: MW 1:30pm-2:45pm
@@ -22,9 +22,10 @@ There are no required textbooks for the course. You will read papers before each
 - Please contact me if some concepts are hard to understand and I'll provide more supplemental materials.
 
 ## Coursework and Grading
+- Assignment: 10%
 - Project: 50%
 - Reviews: 30%
-- Class presentation: 20%
+- Class presentation: 10%
 Please see detailed requirements after the syllabus
 
 ## Syllabus
@@ -35,52 +36,55 @@ Please see detailed requirements after the syllabus
   * Reading 2: [How to Read a Paper](https://www.cs.princeton.edu/courses/archive/fall13/cos597E/papers/howtoread.pdf)
 - 9/5 Mon: no class (labor day)
 
-### Communication frameworks
+### Communication frameworks and Parallelism
 - 9/7 Wed: Parameter Server
   * Reading: Scaling Distributed Machine Learning with the Parameter Server (https://www.cs.cmu.edu/~muli/file/parameter_server_osdi14.pdf)
 - 9/12 Mon: BytePS
   * Reading: [A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters](https://www.usenix.org/system/files/osdi20-jiang.pdf)
-- 9/14 Wed: AllReduce
-  * Reading: 
-- 9/19 Mon: Workload
-  * Reading: [Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads](https://www.usenix.org/system/files/atc19-jeon.pdf)
-
-### Parallelism
-- 9/21 Wed:
-- 9/26 Mon: Pipeline parallelism
+- 9/14 Wed: Data parallelism
+  * Reading: [PyTorch Distributed: Experiences on Accelerating Data Parallel Training](https://arxiv.org/pdf/2006.15704.pdf)
+  * Optional reading: [reading: NCCL communication primitives](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/overview.html), [Tree-based NCCL](https://developer.nvidia.com/blog/massively-scale-deep-learning-training-nccl-2-4/)
+- 9/19 Mon: Pipeline parallelism
   * Reading: [PipeDream: Generalized Pipeline Parallelism for DNN Training](https://cs.stanford.edu/~matei/papers/2019/sosp_pipedream.pdf)
   * Optional reading: [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](https://proceedings.neurips.cc/paper/2019/file/093f65e080a295f8076b1c5722a46aa2-Paper.pdf)
+- 9/21 Wed: Compression
+  * Reading: [Gradient Compression Supercharged High-Performance Data Parallel DNN Training](https://www.ruichuan.org/papers/hipress-sosp21.pdf)
+- 9/26 Mon: 
+- 9/28 Wed:
+  * 
 
 ### Programming frameworks
-- 9/28 Wed: 
 - 10/3 Mon: Course project discussion
 - 10/5 Wed: Ray
   * Reading: [Ray: A Distributed Framework for Emerging AI Applications](https://www.usenix.org/system/files/osdi18-moritz.pdf)
   * Optional reading: [Data-Parallel Actors: A Programming Model for Scalable Query Serving Systems](https://cs.stanford.edu/~matei/papers/2022/nsdi_uniserve.pdf)
 - 10/10 Mon: Course project pitches
 
-### Offloading ML to network accelerators
-- 10/12 Wed: Programmable switches
-  * Reading: [ATP: In-network Aggregation for Multi-tenant Learning](https://www.usenix.org/system/files/nsdi21-lao.pdf)
-  * Optional: [Scaling Distributed Machine Learning with In-Network Aggregation](https://www.usenix.org/system/files/nsdi21-sapio.pdf)
-- 10/17 Mon: Optical networks
-  * Reading: [SiP-ML: High-Bandwidth Optical Network Interconnects for Machine Learning Training](https://people.csail.mit.edu/ghobadi/papers/sipml_sigcomm_2021.pdf)
-- 10/19 Wed: FPGA
-  * Reading: [Serving DNNs in Real Time at Datacenter Scale with Project Brainwave](https://web.eecs.umich.edu/~mosharaf/Readings/Brainwave.pdf)
-
 ### Inferences
-- 10/24 Mon: Serving systems
+- 10/12 Wed: Serving systems
   * Reading: [Clipper: A Low-Latency Online Prediction Serving System](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-crankshaw.pdf)
   * Optional reading: [Serving DNNs like Clockwork: Performance Predictability from the Bottom Up](https://www.usenix.org/system/files/osdi20-gujarati.pdf)
-- 10/26 Wed: Video queries
+- 10/17 Mon: Video queries
   * Reading: [Nexus: A GPU Cluster Engine for Accelerating DNN-Based Video Analysis](https://homes.cs.washington.edu/~arvind/papers/nexus.pdf)
   * Optional reading: [Focus: Querying Large Video Datasets with Low Latency and Low Cost](https://web.eecs.umich.edu/~mosharaf/Readings/Focus.pdf)
   
-### Network-aware scheduling
-- 10/31 Mon:
+### Accelerating ML
+- 10/19 Wed: Programmable switches
+  * Reading: [ATP: In-network Aggregation for Multi-tenant Learning](https://www.usenix.org/system/files/nsdi21-lao.pdf)
+  * Optional: [Scaling Distributed Machine Learning with In-Network Aggregation](https://www.usenix.org/system/files/nsdi21-sapio.pdf)
+- 10/24 Mon: FPGA
+  * Reading: [Serving DNNs in Real Time at Datacenter Scale with Project Brainwave](https://web.eecs.umich.edu/~mosharaf/Readings/Brainwave.pdf) 
+- 10/26 Wed: Optical networks
+  * Reading: [SiP-ML: High-Bandwidth Optical Network Interconnects for Machine Learning Training](https://people.csail.mit.edu/ghobadi/papers/sipml_sigcomm_2021.pdf)
+ 
+### Scheduling
+- Workload
+  * Reading: [Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads](https://www.usenix.org/system/files/atc19-jeon.pdf)
+- 10/31 Mon: Introspective Scheduling
+  * Reading: [Gandiva: Introspective Cluster Scheduling for Deep Learning](https://www.usenix.org/system/files/osdi18-xiao.pdf)
+- 11/2 Wed: Network-aware scheduling
   * Reading: [THEMIS: Fair and Efficient GPU Cluster Scheduling](https://utns.cs.utexas.edu/papers/nsdi20-themis.pdf)
   * Optional: [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](https://www.usenix.org/system/files/nsdi19-gu.pdf)
-- 11/2 Wed:
 - 11/7 Mon:
 - 11/9 Wed:
 
