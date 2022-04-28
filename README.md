@@ -36,6 +36,7 @@ Please see detailed requirements after the syllabus
 - 8/31 Wed: Introduction  
   * Reading 1: [A Berkeley View of Systems Challenges for AI](https://arxiv.org/pdf/1712.05855.pdf)
   * Reading 2: [How to Read a Paper](https://www.cs.princeton.edu/courses/archive/fall13/cos597E/papers/howtoread.pdf)
+  * Optional reading: [MLSys: The New Frontier of Machine Learning Systems](https://arxiv.org/pdf/1904.03257.pdf)
 - 9/5 Mon: no class (labor day)
 
 ### Communication frameworks and Parallelism
@@ -53,23 +54,27 @@ Please see detailed requirements after the syllabus
 
 
 ### Optimizing communications
-- Optimizing AllReduce
-  * Optimizing 
+- Communication scheduler
+  * Reading: [A Generic Communication Scheduler for Distributed
+DNN Training Acceleration]() 
 - 9/26 Mon: Compression
   * Reading: [Gradient Compression Supercharged High-Performance Data Parallel DNN Training](https://www.ruichuan.org/papers/hipress-sosp21.pdf)
 - 9/28 Wed: Course project discussion
+- Multicast
+  * Reading: [Elmo: Source Routed Multicast for Public Clouds](https://gitlab.com/mshahbaz/mshahbaz.gitlab.io/-/raw/master/publications/sigcomm19-elmo.pdf)
+  * Reading 2: Read Sec 5.1 in [Orca: Server-assisted Multicast for Datacenter Networks](https://www.usenix.org/system/files/nsdi22-paper-diab_orca.pdf)
+- Co-flow
+  * Reading: [Sincronia: Near-Optimal Network Design for Coflows](https://www.cs.cornell.edu/~ragarwal/pubs/sincronia.pdf)
 
 ### Programming frameworks
-- 10/3 Mon: Spark
-  * Reading: [Discretized Streams: Fault-Tolerant Streaming Computation at Scale](https://pages.cs.wisc.edu/~shivaram/cs744-readings/dstreams.pdf)
+- 10/3 Mon: TensorFlow
+  * Reading: [TensorFlow: A System for Large-Scale Machine Learning](https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf)
 - 10/5 Wed: Ray
   * Reading: [Ray: A Distributed Framework for Emerging AI Applications](https://www.usenix.org/system/files/osdi18-moritz.pdf)
   * Optional reading: [Data-Parallel Actors: A Programming Model for Scalable Query Serving Systems](https://cs.stanford.edu/~matei/papers/2022/nsdi_uniserve.pdf)
 - : Graph processing
   * Reading: [GraphX: Graph Processing in a Distributed Dataflow Framework](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-gonzalez.pdf)
   * Optional reading: [Scalability! But at what COST?](https://www.usenix.org/system/files/conference/hotos15/hotos15-paper-mcsherry.pdf)
-
-### Inferences
 - 10/10 Mon: Serving systems
   * Reading: [Clipper: A Low-Latency Online Prediction Serving System](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-crankshaw.pdf)
   * Optional reading: [Serving DNNs like Clockwork: Performance Predictability from the Bottom Up](https://www.usenix.org/system/files/osdi20-gujarati.pdf)
@@ -86,6 +91,8 @@ Please see detailed requirements after the syllabus
   * Reading: [Serving DNNs in Real Time at Datacenter Scale with Project Brainwave](https://web.eecs.umich.edu/~mosharaf/Readings/Brainwave.pdf) 
 - 10/26 Wed: Optical networks
   * Reading: [SiP-ML: High-Bandwidth Optical Network Interconnects for Machine Learning Training](https://people.csail.mit.edu/ghobadi/papers/sipml_sigcomm_2021.pdf)
+- CPUs
+  * Reading: [Dorylus: Affordable, Scalable, and Accurate GNN Training over Billion-Edge Graphs](https://web.cs.ucla.edu/~harryxu/papers/dorylus-osdi21.pdf)
  
 ### Scheduling
 - Workload
@@ -103,7 +110,7 @@ Please see detailed requirements after the syllabus
 - 11/14 Mon: Wide-area learning
   * Reading: [Gaia: Geo-Distributed Machine Learning Approaching LAN Speeds](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-hsieh.pdf)
 - 11/16 Wed: Checkpointing
-  * Reading: 
+  * Reading: [https://www.usenix.org/conference/nsdi22/presentation/eisenman](https://www.usenix.org/conference/nsdi22/presentation/eisenman)
 - 11/21 Mon: Ethics: fairness in ML
   * Reading: 
 
