@@ -43,27 +43,31 @@ Please see detailed requirements after the syllabus
   * Reading: [A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters](https://www.usenix.org/system/files/osdi20-jiang.pdf)
 - 9/14 Wed: Data parallelism
   * Reading: [PyTorch Distributed: Experiences on Accelerating Data Parallel Training](https://arxiv.org/pdf/2006.15704.pdf)
-  * Optional reading: [reading: NCCL communication primitives](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/overview.html), [Tree-based NCCL](https://developer.nvidia.com/blog/massively-scale-deep-learning-training-nccl-2-4/)
-- 9/19 Mon: Pipeline parallelism
+  * Optional reading: [NCCL communication primitives](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/overview.html), [Tree-based NCCL](https://developer.nvidia.com/blog/massively-scale-deep-learning-training-nccl-2-4/)
+- 9/19 Mon: Optimizing AllReduce
+  * 
+- 9/21 Wed: Pipeline parallelism
   * Reading: [PipeDream: Generalized Pipeline Parallelism for DNN Training](https://cs.stanford.edu/~matei/papers/2019/sosp_pipedream.pdf)
   * Optional reading: [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](https://proceedings.neurips.cc/paper/2019/file/093f65e080a295f8076b1c5722a46aa2-Paper.pdf)
-- 9/21 Wed: Compression
+- 9/26 Mon: Compression
   * Reading: [Gradient Compression Supercharged High-Performance Data Parallel DNN Training](https://www.ruichuan.org/papers/hipress-sosp21.pdf)
-- 9/26 Mon: 
-- 9/28 Wed:
-  * 
+- 9/28 Wed: Course project discussion
 
 ### Programming frameworks
-- 10/3 Mon: Course project discussion
+- 10/3 Mon: Spark
+  * Reading: [Discretized Streams: Fault-Tolerant Streaming Computation at Scale](https://pages.cs.wisc.edu/~shivaram/cs744-readings/dstreams.pdf)
 - 10/5 Wed: Ray
   * Reading: [Ray: A Distributed Framework for Emerging AI Applications](https://www.usenix.org/system/files/osdi18-moritz.pdf)
   * Optional reading: [Data-Parallel Actors: A Programming Model for Scalable Query Serving Systems](https://cs.stanford.edu/~matei/papers/2022/nsdi_uniserve.pdf)
-- 10/10 Mon: Course project pitches
+- : Graph processing
+  * Reading: [GraphX: Graph Processing in a Distributed Dataflow Framework](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-gonzalez.pdf)
+  * Optional reading: [Scalability! But at what COST?](https://www.usenix.org/system/files/conference/hotos15/hotos15-paper-mcsherry.pdf)
 
 ### Inferences
-- 10/12 Wed: Serving systems
+- 10/10 Mon: Serving systems
   * Reading: [Clipper: A Low-Latency Online Prediction Serving System](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-crankshaw.pdf)
   * Optional reading: [Serving DNNs like Clockwork: Performance Predictability from the Bottom Up](https://www.usenix.org/system/files/osdi20-gujarati.pdf)
+- 10/12 Wed: Course project pitchtes
 - 10/17 Mon: Video queries
   * Reading: [Nexus: A GPU Cluster Engine for Accelerating DNN-Based Video Analysis](https://homes.cs.washington.edu/~arvind/papers/nexus.pdf)
   * Optional reading: [Focus: Querying Large Video Datasets with Low Latency and Low Cost](https://web.eecs.umich.edu/~mosharaf/Readings/Focus.pdf)
@@ -80,19 +84,21 @@ Please see detailed requirements after the syllabus
 ### Scheduling
 - Workload
   * Reading: [Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads](https://www.usenix.org/system/files/atc19-jeon.pdf)
-- 10/31 Mon: Introspective Scheduling
+- 10/31 Mon: Introspective scheduler
   * Reading: [Gandiva: Introspective Cluster Scheduling for Deep Learning](https://www.usenix.org/system/files/osdi18-xiao.pdf)
-- 11/2 Wed: Network-aware scheduling
+- 11/2 Wed: Network-aware scheduler
   * Reading: [THEMIS: Fair and Efficient GPU Cluster Scheduling](https://utns.cs.utexas.edu/papers/nsdi20-themis.pdf)
   * Optional: [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](https://www.usenix.org/system/files/nsdi19-gu.pdf)
-- 11/7 Mon:
+- 11/7 Mon: Scale-adaptive scheduler
+  * Reading: [Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning](https://www.usenix.org/system/files/osdi21-qiao.pdf)
 - 11/9 Wed:
 
 ### Learning in wide-area networks
 - 11/14 Mon: 
   * Reading: [Gaia: Geo-Distributed Machine Learning Approaching LAN Speeds](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-hsieh.pdf)
 - 11/16 Wed:
-- 11/21 Mon:
+- 11/21 Mon: Ethics: fairness in ML
+  * Reading: 
 
 ### Wrapping up
 - 11/23 Wed: no class (Thanksgiving break)
@@ -111,11 +117,11 @@ Please see detailed requirements after the syllabus
 - What are the paper’s areas for improvement? Just a couple of sentences, please.
 - Any thoughts or questions that you hope to discuss in class?
 - Other comments about the paper
-- Paper-specific question: We will also post one question for the paper that you are supposed to answer
+- Paper-specific question: We will post one question for each paper that you are supposed to answer in your review
 
 ## Class Presentation
 - Depending on the number of students, each student will give one to three talks in this class.
-- The speaker should check with me at least 7 days ahead of time to discuss any confusions or questions on the paper. You can also get my feedback on your slides. In the class, we expect you to know most details of the paper and will refer to you if we have any confusions about the paper during our discussion.
+- The speaker should send your slides to me 3 days before the presentation. In the class, we expect you to know all the details of the paper and be able to answer our questions about the paper during the in-class discussion. If you have any questions about the paper, you can reach out to me to discuss it before the class.
 - Some authors share slides online; Some conferences share conference talk videos online. You are encouraged to check out those slides/videos or reuse some for your presentation. However, please be aware that conference talks are often short and focuses more on the motivation rather than the technical details. They may also be biased in highlighting only the benefits of their approaches (everyone likes his own work). So if you reuse the slides, please add more technical details (make sure you really understand what's going on in detail), and share your own opinion of the work (not just the authors').
 - The goal of the presentation and in-class discussion is to learn how to form your own opinions of a paper.
 
@@ -125,15 +131,15 @@ Please see detailed requirements after the syllabus
 - In addition, please read all the reviews submitted by your classmates and list their questions in the slides. And lead the discussions of these questions in class.
 
 ## Projects
-
 The semester-long project is an open-ended systems research project. Project topics are of your choice but should be related to networking. Projects should be done in groups of two or three and include a systems building component. From my previous experiences, a significant portion of the final projects end up as published workshop papers. At the end of the semester, I'll suggest a few places for you to submit your course work to a real workshop! Or you may continue to work on it to make it a conference paper.
 
 ### Project Timeline
-- Project Timeline
-- 9/23 Form groups for course projects
-- 10/02 Course project proposal presentation
-- 11/02 Midterm project report
-- 12/02 Final project presentation
+- 9/23 Fri: Warm-up assignments due
+- 9/30 Fri: Form groups for course projects
+- 10/7 Fri: Course project proposal due
+- 10/12 Wed: Course project pitch presentation
+- 11/04 Fri: Midterm project report
+- 11/28 Mon, 11/30 Wed: Final project presentation
 - 12/17 Final project due
 - 12/19 Review of other students' project due
 
@@ -172,7 +178,6 @@ Together with the final report, you should submit the github link of your projec
 ### Evaluation Testbed
 We will apply for AWS EC2 credits for the class. Please contact me if you need credits.
 You might also consider public testbed such as [CloudLab](https://www.cloudlab.us/)
-
 
 ## Diversity and Inclusion
 I would like to create a learning environment in our class that supports a diversity of thoughts, perspectives and experiences, and honors your identities (including race, gender, class, sexuality, socioeconomic status, religion, ability, etc.). I (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to me about it. If you feel like your performance in the class is being impacted by your experiences outside of class, please don’t hesitate to come and talk with me. As a participant in course discussions, you should also strive to honor the diversity of your classmates. (Statement extracted from one by Dr. Monica Linden at Brown University.)
