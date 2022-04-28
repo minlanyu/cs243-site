@@ -22,10 +22,12 @@ There are no required textbooks for the course. You will read papers before each
 - Please contact me if some concepts are hard to understand and I'll provide more supplemental materials.
 
 ## Coursework and Grading
-- Assignment: 10%
-- Project: 50%
+- Warm-up assignment: 5%
+- Project: 50% (5% initial project presentation, 10% mid-term report, 35% final report and code)
 - Reviews: 30%
 - Class presentation: 10%
+- Class participation: 5%
+
 Please see detailed requirements after the syllabus
 
 ## Syllabus
@@ -44,11 +46,15 @@ Please see detailed requirements after the syllabus
 - 9/14 Wed: Data parallelism
   * Reading: [PyTorch Distributed: Experiences on Accelerating Data Parallel Training](https://arxiv.org/pdf/2006.15704.pdf)
   * Optional reading: [NCCL communication primitives](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/overview.html), [Tree-based NCCL](https://developer.nvidia.com/blog/massively-scale-deep-learning-training-nccl-2-4/)
-- 9/19 Mon: Optimizing AllReduce
-  * 
+- 9/19 Mon: 
 - 9/21 Wed: Pipeline parallelism
   * Reading: [PipeDream: Generalized Pipeline Parallelism for DNN Training](https://cs.stanford.edu/~matei/papers/2019/sosp_pipedream.pdf)
   * Optional reading: [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](https://proceedings.neurips.cc/paper/2019/file/093f65e080a295f8076b1c5722a46aa2-Paper.pdf)
+
+
+### Optimizing communications
+- Optimizing AllReduce
+  * Optimizing 
 - 9/26 Mon: Compression
   * Reading: [Gradient Compression Supercharged High-Performance Data Parallel DNN Training](https://www.ruichuan.org/papers/hipress-sosp21.pdf)
 - 9/28 Wed: Course project discussion
@@ -72,7 +78,7 @@ Please see detailed requirements after the syllabus
   * Reading: [Nexus: A GPU Cluster Engine for Accelerating DNN-Based Video Analysis](https://homes.cs.washington.edu/~arvind/papers/nexus.pdf)
   * Optional reading: [Focus: Querying Large Video Datasets with Low Latency and Low Cost](https://web.eecs.umich.edu/~mosharaf/Readings/Focus.pdf)
   
-### Accelerating ML
+### Heterageneous devices
 - 10/19 Wed: Programmable switches
   * Reading: [ATP: In-network Aggregation for Multi-tenant Learning](https://www.usenix.org/system/files/nsdi21-lao.pdf)
   * Optional: [Scaling Distributed Machine Learning with In-Network Aggregation](https://www.usenix.org/system/files/nsdi21-sapio.pdf)
@@ -93,10 +99,11 @@ Please see detailed requirements after the syllabus
   * Reading: [Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning](https://www.usenix.org/system/files/osdi21-qiao.pdf)
 - 11/9 Wed:
 
-### Learning in wide-area networks
-- 11/14 Mon: 
+### Other topics
+- 11/14 Mon: Wide-area learning
   * Reading: [Gaia: Geo-Distributed Machine Learning Approaching LAN Speeds](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-hsieh.pdf)
-- 11/16 Wed:
+- 11/16 Wed: Checkpointing
+  * Reading: 
 - 11/21 Mon: Ethics: fairness in ML
   * Reading: 
 
