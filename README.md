@@ -55,8 +55,11 @@ Please see detailed requirements after the syllabus
 
 ### Optimizing communications
 - Communication scheduler
-  * Reading: [A Generic Communication Scheduler for Distributed
-DNN Training Acceleration]() 
+  * Reading: [A Generic Communication Scheduler for Distributed DNN Training Acceleration](http://yibozhu.com/doc/bytescheduler-sosp19.pdf) 
+- Collecitve optimization
+  * Reading: [Hoplite: Efficient and Fault-Tolerant Collective Communication for Task-Based Distributed Systems](https://conferences.sigcomm.org/sigcomm/2021/files/papers/3452296.3472897.pdf)
+- AllReduce
+  * Reading: [Efficient Sparse Collective Communication and its application to Accelerate Distributed Deep Learning](https://conferences.sigcomm.org/sigcomm/2021/files/papers/3452296.3472904.pdf)
 - 9/26 Mon: Compression
   * Reading: [Gradient Compression Supercharged High-Performance Data Parallel DNN Training](https://www.ruichuan.org/papers/hipress-sosp21.pdf)
 - 9/28 Wed: Course project discussion
