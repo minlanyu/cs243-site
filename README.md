@@ -75,7 +75,7 @@ Please see detailed requirements after the syllabus
 - 10/19 Wed: Congestion control
   * Reading: [HPCC: High Precision Congestion Control](https://minlanyu.seas.harvard.edu/writeup/sigcomm19.pdf))
 
-### Programming frameworks
+### More Programming frameworks
 - 10/24 Mon: Ray
   * Reading: [Ray: A Distributed Framework for Emerging AI Applications](https://www.usenix.org/system/files/osdi18-moritz.pdf)
   * Optional reading: [Data-Parallel Actors: A Programming Model for Scalable Query Serving Systems](https://cs.stanford.edu/~matei/papers/2022/nsdi_uniserve.pdf)
