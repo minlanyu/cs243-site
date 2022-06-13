@@ -53,7 +53,7 @@ Please see detailed requirements after the syllabus
   * Optional reading: [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](https://proceedings.neurips.cc/paper/2019/file/093f65e080a295f8076b1c5722a46aa2-Paper.pdf)
 <!-- do we need to add model parallelism -->
 
-### Optimizing communications
+### Scheduler
 - 9/19 Mon: Communication scheduler
   * Reading: [A Generic Communication Scheduler for Distributed DNN Training Acceleration](http://yibozhu.com/doc/bytescheduler-sosp19.pdf) 
 - 9/21 Wed: Network-aware scheduler
@@ -62,6 +62,8 @@ Please see detailed requirements after the syllabus
 - 9/26 Mon: Co-flow
   * Reading: [Sincronia: Near-Optimal Network Design for Coflows](https://www.cs.cornell.edu/~ragarwal/pubs/sincronia.pdf)
 - 9/28 Wed: Course project discussion
+
+### Optimizing communication
 - 10/3 Mon: Multicast
   * Reading: [Elmo: Source Routed Multicast for Public Clouds](https://gitlab.com/mshahbaz/mshahbaz.gitlab.io/-/raw/master/publications/sigcomm19-elmo.pdf)
   * Reading 2: Read Sec 5.1 in [Orca: Server-assisted Multicast for Datacenter Networks](https://www.usenix.org/system/files/nsdi22-paper-diab_orca.pdf)
@@ -77,11 +79,6 @@ Please see detailed requirements after the syllabus
 - 10/19 Wed: Ray
   * Reading: [Hoplite: Efficient and Fault-Tolerant Collective Communication for Task-Based Distributed Systems](https://conferences.sigcomm.org/sigcomm/2021/files/papers/3452296.3472897.pdf)
   * Optional reading: [Ray: A Distributed Framework for Emerging AI Applications](https://www.usenix.org/system/files/osdi18-moritz.pdf)
-<!--
-- : Graph processing
-  * Reading: [GraphX: Graph Processing in a Distributed Dataflow Framework](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-gonzalez.pdf)
-  * Optional reading: [Scalability! But at what COST?](https://www.usenix.org/system/files/conference/hotos15/hotos15-paper-mcsherry.pdf)
--->
 - 10/24 Mon: Serving systems
   * Reading: [Clipper: A Low-Latency Online Prediction Serving System](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-crankshaw.pdf)
   * Optional reading: [Serving DNNs like Clockwork: Performance Predictability from the Bottom Up](https://www.usenix.org/system/files/osdi20-gujarati.pdf)
@@ -89,18 +86,24 @@ Please see detailed requirements after the syllabus
   * Reading: [Nexus: A GPU Cluster Engine for Accelerating DNN-Based Video Analysis](https://homes.cs.washington.edu/~arvind/papers/nexus.pdf)
   * Optional reading: [Focus: Querying Large Video Datasets with Low Latency and Low Cost](https://web.eecs.umich.edu/~mosharaf/Readings/Focus.pdf)
   
+<!--
+- : Graph processing
+  * Reading: [GraphX: Graph Processing in a Distributed Dataflow Framework](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-gonzalez.pdf)
+  * Optional reading: [Scalability! But at what COST?](https://www.usenix.org/system/files/conference/hotos15/hotos15-paper-mcsherry.pdf)
+-->
 ### Heterageneous devices
 - 10/31 Mon: Programmable switches
   * Reading: [ATP: In-network Aggregation for Multi-tenant Learning](https://www.usenix.org/system/files/nsdi21-lao.pdf)
   * Optional reading:[In-network Aggregation for Shared Machine Learning Clusters](https://people.csail.mit.edu/ghobadi/papers/panama.pdf)
- <!--
-  * Optional reading: [Scaling Distributed Machine Learning with In-Network Aggregation](https://www.usenix.org/system/files/nsdi21-sapio.pdf)
-  * Optional: [Serving DNNs in Real Time at Datacenter Scale with Project Brainwave](https://web.eecs.umich.edu/~mosharaf/Readings/Brainwave.pdf) 
--->
 - Optical networks
   * Reading: [SiP-ML: High-Bandwidth Optical Network Interconnects for Machine Learning Training](https://people.csail.mit.edu/ghobadi/papers/sipml_sigcomm_2021.pdf)
 - 11/7 Mon: CPUs
   * Reading: [Dorylus: Affordable, Scalable, and Accurate GNN Training over Billion-Edge Graphs](https://web.cs.ucla.edu/~harryxu/papers/dorylus-osdi21.pdf)
+ 
+  <!--
+  * Optional reading: [Scaling Distributed Machine Learning with In-Network Aggregation](https://www.usenix.org/system/files/nsdi21-sapio.pdf)
+  * Optional: [Serving DNNs in Real Time at Datacenter Scale with Project Brainwave](https://web.eecs.umich.edu/~mosharaf/Readings/Brainwave.pdf) 
+-->
  
 <!--
 
