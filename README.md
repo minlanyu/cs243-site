@@ -91,16 +91,17 @@ Please see detailed requirements after the syllabus
   * Reading: [GraphX: Graph Processing in a Distributed Dataflow Framework](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-gonzalez.pdf)
   * Optional reading: [Scalability! But at what COST?](https://www.usenix.org/system/files/conference/hotos15/hotos15-paper-mcsherry.pdf)
 -->
+
 ### Heterageneous devices
 - 10/31 Mon: Programmable switches
   * Reading: [ATP: In-network Aggregation for Multi-tenant Learning](https://www.usenix.org/system/files/nsdi21-lao.pdf)
   * Optional reading:[In-network Aggregation for Shared Machine Learning Clusters](https://people.csail.mit.edu/ghobadi/papers/panama.pdf)
-- Optical networks
+- 11/2 Wed: Optical Networks
   * Reading: [SiP-ML: High-Bandwidth Optical Network Interconnects for Machine Learning Training](https://people.csail.mit.edu/ghobadi/papers/sipml_sigcomm_2021.pdf)
 - 11/7 Mon: CPUs
   * Reading: [Dorylus: Affordable, Scalable, and Accurate GNN Training over Billion-Edge Graphs](https://web.cs.ucla.edu/~harryxu/papers/dorylus-osdi21.pdf)
  
-  <!--
+<!--
   * Optional reading: [Scaling Distributed Machine Learning with In-Network Aggregation](https://www.usenix.org/system/files/nsdi21-sapio.pdf)
   * Optional: [Serving DNNs in Real Time at Datacenter Scale with Project Brainwave](https://web.eecs.umich.edu/~mosharaf/Readings/Brainwave.pdf) 
 -->
