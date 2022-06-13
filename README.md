@@ -162,10 +162,9 @@ Please see detailed requirements after the syllabus
 The semester-long project is an open-ended systems research project. Project topics are of your choice but should be related to networking. Projects should be done in groups of two or three and include a systems building component. From my previous experiences, a significant portion of the final projects end up as published workshop papers. At the end of the semester, I'll suggest a few places for you to submit your course work to a real workshop! Or you may continue to work on it to make it a conference paper.
 
 ### Project Timeline
-- 9/23 Fri: Warm-up assignments due
 - 9/30 Fri: Form groups for course projects
 - 10/7 Fri: Course project proposal due
-- 10/12 Wed: Course project pitch presentation
+- 10/17 Mon: Course project pitch presentation
 - 11/04 Fri: Midterm project report
 - 11/28 Mon, 11/30 Wed: Final project presentation
 - 12/17 Final project due
