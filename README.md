@@ -119,12 +119,12 @@ Please see detailed requirements after the syllabus
 -->
 
 ### Other topics
-- 11/9 Wed: Sky computing
-  * Reading: [The Sky Above The Clouds](https://arxiv.org/pdf/2205.07147.pdf)
+- 11/9 Wed: Checkpointing
+  * Reading: [https://www.usenix.org/conference/nsdi22/presentation/eisenman](https://www.usenix.org/conference/nsdi22/presentation/eisenman)
 - 11/14 Mon: Wide-area learning
   * Reading: [Gaia: Geo-Distributed Machine Learning Approaching LAN Speeds](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-hsieh.pdf)
-- 11/16 Wed: Checkpointing
-  * Reading: [https://www.usenix.org/conference/nsdi22/presentation/eisenman](https://www.usenix.org/conference/nsdi22/presentation/eisenman)
+- 11/16 Wed: Sky computing
+  * Reading: [The Sky Above The Clouds](https://arxiv.org/pdf/2205.07147.pdf)
 - 11/21 Mon: Ethics: System impact on fairness in ML
   * Reading: 
 
