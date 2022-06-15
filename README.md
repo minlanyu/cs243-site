@@ -120,7 +120,7 @@ Please see detailed requirements after the syllabus
 
 ### Other topics
 - 11/9 Wed: Checkpointing
-  * Reading: [https://www.usenix.org/conference/nsdi22/presentation/eisenman](https://www.usenix.org/conference/nsdi22/presentation/eisenman)
+  * Reading: [Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models([https://www.usenix.org/conference/nsdi22/presentation/eisenman](https://www.usenix.org/system/files/nsdi22-paper-eisenman.pdf))
 - 11/14 Mon: Wide-area learning
   * Reading: [Gaia: Geo-Distributed Machine Learning Approaching LAN Speeds](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-hsieh.pdf)
 - 11/16 Wed: Sky computing
