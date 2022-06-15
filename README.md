@@ -120,7 +120,7 @@ Please see detailed requirements after the syllabus
 
 ### Other topics
 - 11/9 Wed: Checkpointing
-  * Reading: [Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models([https://www.usenix.org/conference/nsdi22/presentation/eisenman](https://www.usenix.org/system/files/nsdi22-paper-eisenman.pdf))
+  * Reading: [Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models](https://www.usenix.org/system/files/nsdi22-paper-eisenman.pdf)
 - 11/14 Mon: Wide-area learning
   * Reading: [Gaia: Geo-Distributed Machine Learning Approaching LAN Speeds](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-hsieh.pdf)
 - 11/16 Wed: Sky computing
@@ -203,8 +203,8 @@ The report should be similar in spirit to a workshop paper, which is six pages o
 Together with the final report, you should submit the github link of your project code. No need for superb software engineering, but ideally the code should be accompanied by enough documentation that a motivated user could attempt to replicate your results.
 
 ### Evaluation Testbed
-We will apply for AWS EC2 credits for the class. Please contact me if you need credits.
-You might also consider public testbed such as [CloudLab](https://www.cloudlab.us/)
+- We will apply for AWS EC2 credits for the class. Please contact me if you need credits.
+- You might also consider public testbed such as [CloudLab](https://www.cloudlab.us/)
 
 ## Diversity and Inclusion
 I would like to create a learning environment in our class that supports a diversity of thoughts, perspectives and experiences, and honors your identities (including race, gender, class, sexuality, socioeconomic status, religion, ability, etc.). I (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to me about it. If you feel like your performance in the class is being impacted by your experiences outside of class, please don’t hesitate to come and talk with me. As a participant in course discussions, you should also strive to honor the diversity of your classmates. (Statement extracted from one by Dr. Monica Linden at Brown University.)
