@@ -8,7 +8,7 @@ latest developments in the entire networking stack (hosts, NICs, switches), how 
 This year we will take machine learning as an example to study their needs for networking and the key challenges they bring to the network stack. The growth of machine learning applications is driven by system hardware and software advances. On the other hand, emerging machine learning applications also call for innovations in systems. A new trend in machine learning is to build increasingly large models (with hundreds of billions of parameters) for a wide range of tasks. This trend brings new challenges to networked systems: We now need to build large-scale distributed systems across the network to process such a large amount of data from various sources, train large models that run on thousands of GPUs/TPUs, and serve inference requests with high performance. In this course, we will study system challenges in machine learning and how to co-design networks and the other parts of the systems to meet the needs of machine learning applications. The course will include lectures, in-class presentations, paper discussions, and a research project.
 
 - Instructor: Minlan Yu
-- Lecture time: MW 1:30pm-2:45pm
+- Lecture time: MW 11:15am to 12:30pm
 - Location: 
 - Office hour: W 12:30-1:30, SEC 4.415
 - Prerequisite: This course has no prerequisites. Since this course will focus on reading papers on latest topics in networking, you will need to be able to pick up the relevant background for each topic from textbooks or online materials.
