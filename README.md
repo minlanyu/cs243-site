@@ -9,8 +9,8 @@ This year we will take machine learning as an example to study their needs for n
 
 - Instructor: Minlan Yu
 - Lecture time: MW 11:15am to 12:30pm
-- Location: 
-- Office hour: W 12:30-1:30, SEC 4.415
+- Location: SEC 1.307
+- Office hour: W 10-11am, SEC 4.415
 - Prerequisite: This course has no prerequisites. Since this course will focus on reading papers on latest topics in networking, you will need to be able to pick up the relevant background for each topic from textbooks or online materials.
 - Recommended prep: system programming at the level of CS 61 or CS 143 or CS 145.
 
