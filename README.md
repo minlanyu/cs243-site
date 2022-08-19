@@ -56,11 +56,11 @@ Please see detailed requirements after the syllabus
 ### Scheduler
 - 9/19 Mon: Communication scheduler
   * Reading: [A Generic Communication Scheduler for Distributed DNN Training Acceleration](http://yibozhu.com/doc/bytescheduler-sosp19.pdf) 
-- 9/21 Wed: Network-aware scheduler
+- 9/21 Wed: Job scheduler
+  * Reading: [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](https://www.usenix.org/system/files/nsdi19-gu.pdf)
+  * Optional: [Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning](https://www.usenix.org/system/files/osdi21-qiao.pdf)
+- 9/26 Mon: Network-aware job scheduler
   * Reading: [THEMIS: Fair and Efficient GPU Cluster Scheduling](https://utns.cs.utexas.edu/papers/nsdi20-themis.pdf)
-  * Optional: [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](https://www.usenix.org/system/files/nsdi19-gu.pdf)
-- 9/26 Mon: Scale-adaptive scheduler
-  * Reading: [Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning](https://www.usenix.org/system/files/osdi21-qiao.pdf)  
 - 9/28 Wed: Course project discussion
 - 10/3 Mon: Co-flow
   * Reading: [Sincronia: Near-Optimal Network Design for Coflows](https://www.cs.cornell.edu/~ragarwal/pubs/sincronia.pdf)
@@ -113,10 +113,10 @@ Please see detailed requirements after the syllabus
 ### Scheduling
 - Workload
   * Reading: [Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads](https://www.usenix.org/system/files/atc19-jeon.pdf)
-- 10/31 Mon: Introspective scheduler
+- Introspective scheduler
   * Reading: [Gandiva: Introspective Cluster Scheduling for Deep Learning](https://www.usenix.org/system/files/osdi18-xiao.pdf)
 
-- 11/21 Mon: Ethics: System impact on fairness in ML
+- Ethics: System impact on fairness in ML
 -->
 
 ### Other topics
