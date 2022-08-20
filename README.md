@@ -56,23 +56,28 @@ Please see detailed requirements after the syllabus
 ### Scheduler
 - 9/19 Mon: Communication scheduler
   * Reading: [A Generic Communication Scheduler for Distributed DNN Training Acceleration](http://yibozhu.com/doc/bytescheduler-sosp19.pdf) 
-- 9/21 Wed: Job scheduler
+- 9/21 Wed: Network-aware job scheduler
+  * Reading: [THEMIS: Fair and Efficient GPU Cluster Scheduling](https://utns.cs.utexas.edu/papers/nsdi20-themis.pdf)
+  * Optional: [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](https://www.usenix.org/system/files/nsdi19-gu.pdf)
+- 9/26 Mon: Co-flow
+  * Reading: [Sincronia: Near-Optimal Network Design for Coflows](https://www.cs.cornell.edu/~ragarwal/pubs/sincronia.pdf)
+- 9/28 Wed: Course project discussion
+ 
+<!--
+- : Job scheduler
   * Reading: [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](https://www.usenix.org/system/files/nsdi19-gu.pdf)
   * Optional: [Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning](https://www.usenix.org/system/files/osdi21-qiao.pdf)
-- 9/26 Mon: Network-aware job scheduler
-  * Reading: [THEMIS: Fair and Efficient GPU Cluster Scheduling](https://utns.cs.utexas.edu/papers/nsdi20-themis.pdf)
-- 9/28 Wed: Course project discussion
-- 10/3 Mon: Co-flow
-  * Reading: [Sincronia: Near-Optimal Network Design for Coflows](https://www.cs.cornell.edu/~ragarwal/pubs/sincronia.pdf)
+-->
 
 ### Optimizing communication
-- 10/5 Wed: Multicast
+- 10/3 Mon: Multicast
   * Reading: [Elmo: Source Routed Multicast for Public Clouds](https://gitlab.com/mshahbaz/mshahbaz.gitlab.io/-/raw/master/publications/sigcomm19-elmo.pdf)
   * Reading 2: Read Sec 5.1 in [Orca: Server-assisted Multicast for Datacenter Networks](https://www.usenix.org/system/files/nsdi22-paper-diab_orca.pdf)
-- 10/10 Mon: Sparsity
+- 10/5 Wed: Sparsity
   * Reading: [Efficient Sparse Collective Communication and its application to Accelerate Distributed Deep Learning](https://conferences.sigcomm.org/sigcomm/2021/files/papers/3452296.3472904.pdf)
-- 10/12 Wed: Compression
+- 10/10 Mon: Compression
   * Reading: [Gradient Compression Supercharged High-Performance Data Parallel DNN Training](https://www.ruichuan.org/papers/hipress-sosp21.pdf)
+- 10/12 Wed: No class (Minlan is traveling. We will schedule individual project meetings on Tue/Thur/Fri to prepare for project pitches and project proposals)
 - 10/17 Mon: Course project pitches
 - 10/19 Wed: Congestion control
   * Reading: [HPCC: High Precision Congestion Control](https://minlanyu.seas.harvard.edu/writeup/sigcomm19.pdf))
