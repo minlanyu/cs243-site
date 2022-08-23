@@ -34,7 +34,7 @@ Please see detailed requirements after the syllabus
 
 ### Introduction
 - 8/31 Wed: Introduction  
-  * Reading 1: [Applied Machine Learning at Facebook: A Datacenter Infrastructure Perspective](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8327042)
+  * Reading 1: [Applied Machine Learning at Facebook: A Datacenter Infrastructure Perspective](https://research.facebook.com/file/904032783795098/hpca-2018-facebook.pdf)
   * Reading 2: [How to Read a Paper](https://www.cs.princeton.edu/courses/archive/fall13/cos597E/papers/howtoread.pdf)
   * Optional reading: [MLSys: The New Frontier of Machine Learning Systems](https://arxiv.org/pdf/1904.03257.pdf)
   * Optional reading: [A Berkeley View of Systems Challenges for AI](https://arxiv.org/pdf/1712.05855.pdf)
