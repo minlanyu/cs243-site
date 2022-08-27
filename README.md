@@ -163,7 +163,7 @@ Please see detailed requirements after the syllabus
 - In addition, please read all the reviews submitted by your classmates and list their questions in the slides. And lead the discussions of these questions in class.
 
 ## Projects
-The semester-long project is an open-ended systems research project. Project topics are of your choice but should be related to networking. Projects should be done in groups of two or three and include a systems building component. From my previous experiences, a significant portion of the final projects end up as published workshop papers. At the end of the semester, I'll suggest a few places for you to submit your course work to a real workshop! Or you may continue to work on it to make it a conference paper.
+The semester-long project is an open-ended systems research project. Project topics are of your choice but should be related to networking. Projects should be done in groups of two or three and include a systems building component. Selected projects can be submitted to a peer-reviewed workshop papers or posters.
 
 ### Project Timeline
 - 9/30 Fri: Form groups for course projects
