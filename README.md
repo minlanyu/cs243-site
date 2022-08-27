@@ -175,7 +175,11 @@ The semester-long project is an open-ended systems research project. Project top
 - 12/19 Review of other students' project due
 
 ### Project Proposal presentation
-Each group should give a 10-minute talk on your project ideas. The talk should include - What problem are you solving? - Why it's an important problem? - What are the potential challenges you may face in solving the problem? - What are the first steps (your plan for the next month)?
+Each group should give a 10-minute talk on your project ideas. The talk should include 
+- What problem are you solving? 
+- Why it's an important problem? 
+- What are the potential challenges you may face in solving the problem? 
+- What are the first steps (your plan for the next month)?
 
 ### Midterm Project Report
 - Describe the problem you plan to solve, why it is novel/unique, what the major challenges
