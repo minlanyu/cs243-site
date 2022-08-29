@@ -81,7 +81,7 @@ Please see detailed requirements after the syllabus
 - We will schedule individual project meetings in the week of 10/10-10/14.
 - 10/17 Mon: Course project pitches
 - 10/19 Wed: Congestion control
-  * Reading: [HPCC: High Precision Congestion Control](https://minlanyu.seas.harvard.edu/writeup/sigcomm19.pdf))
+  * Reading: [HPCC: High Precision Congestion Control](https://minlanyu.seas.harvard.edu/writeup/sigcomm19.pdf)
 
 ### More Programming frameworks
 - 10/24 Mon: Ray
