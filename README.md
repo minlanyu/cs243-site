@@ -33,7 +33,7 @@ Please see detailed requirements after the syllabus
 ## Syllabus
 
 ### Introduction
-- 8/31 Wed: Introduction  
+- 8/31 Wed: Introduction (Minlan)
   * Reading 1: [Applied Machine Learning at Facebook: A Datacenter Infrastructure Perspective](https://research.facebook.com/file/904032783795098/hpca-2018-facebook.pdf)
   * Reading 2: [How to Read a Paper](https://www.cs.princeton.edu/courses/archive/fall13/cos597E/papers/howtoread.pdf)
   * Optional reading: [MLSys: The New Frontier of Machine Learning Systems](https://arxiv.org/pdf/1904.03257.pdf)
@@ -41,10 +41,10 @@ Please see detailed requirements after the syllabus
 - 9/5 Mon: no class (labor day)
 
 ### Communication frameworks and Parallelism
-- 9/7 Wed: Parameter Server 
+- 9/7 Wed: Parameter Server (Minlan)
   * Reading: [A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters](https://www.usenix.org/system/files/osdi20-jiang.pdf)
   * Optional reading: [Scaling Distributed Machine Learning with the Parameter Server](https://www.cs.cmu.edu/~muli/file/parameter_server_osdi14.pdf)
-- 9/12 Mon: TensorFlow
+- 9/12 Mon: TensorFlow (Minlan)
   * Reading: [TensorFlow: A System for Large-Scale Machine Learning](https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf)
   * Optional reading: [PyTorch Distributed: Experiences on Accelerating Data Parallel Training](https://arxiv.org/pdf/2006.15704.pdf)
   * Optional reading: [NCCL communication primitives](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/overview.html), [Tree-based NCCL](https://developer.nvidia.com/blog/massively-scale-deep-learning-training-nccl-2-4/)
