@@ -75,9 +75,10 @@ Please see detailed requirements after the syllabus
   * Reading 2: Read Sec 5.1 in [Orca: Server-assisted Multicast for Datacenter Networks](https://www.usenix.org/system/files/nsdi22-paper-diab_orca.pdf)
 - 10/5 Wed: Sparsity
   * Reading: [Efficient Sparse Collective Communication and its application to Accelerate Distributed Deep Learning](https://conferences.sigcomm.org/sigcomm/2021/files/papers/3452296.3472904.pdf)
-- 10/10 Mon: Compression
-  * Reading: [Gradient Compression Supercharged High-Performance Data Parallel DNN Training](https://www.ruichuan.org/papers/hipress-sosp21.pdf)
-- 10/12 Wed: No class (Minlan is traveling. We will schedule individual project meetings on Tue/Thur/Fri to prepare for project pitches and project proposals)
+  * Optional Reading: [Gradient Compression Supercharged High-Performance Data Parallel DNN Training](https://www.ruichuan.org/papers/hipress-sosp21.pdf)
+- 10/10 Mon: No class (University holiday)
+- 10/12 Wed: No class (Minlan is traveling) 
+- We will schedule individual project meetings in the week of 10/10-10/14.
 - 10/17 Mon: Course project pitches
 - 10/19 Wed: Congestion control
   * Reading: [HPCC: High Precision Congestion Control](https://minlanyu.seas.harvard.edu/writeup/sigcomm19.pdf))
