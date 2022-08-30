@@ -76,7 +76,7 @@ Please see detailed requirements after the syllabus
 - 10/5 Wed: Sparsity
   * Reading: [Efficient Sparse Collective Communication and its application to Accelerate Distributed Deep Learning](https://conferences.sigcomm.org/sigcomm/2021/files/papers/3452296.3472904.pdf)
 - 10/10 Mon: No class (University holiday)
-- 10/12 Wed: Compression (Minlan is traveling, TF substitute) 
+- 10/12 Wed: Compression (Led by TF) 
   * Reading: [Gradient Compression Supercharged High-Performance Data Parallel DNN Training](https://www.ruichuan.org/papers/hipress-sosp21.pdf)
 - 10/17 Mon: Course project pitches
 - 10/19 Wed: Congestion control
