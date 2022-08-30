@@ -59,9 +59,9 @@ Please see detailed requirements after the syllabus
 - 9/21 Wed: Network-aware job scheduler
   * Reading: [THEMIS: Fair and Efficient GPU Cluster Scheduling](https://utns.cs.utexas.edu/papers/nsdi20-themis.pdf)
   * Optional: [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](https://www.usenix.org/system/files/nsdi19-gu.pdf)
-- 9/26 Mon: Co-flow
+- 9/26 Mon: Course project discussion
+- 9/28 Wed: Co-flow
   * Reading: [Sincronia: Near-Optimal Network Design for Coflows](https://www.cs.cornell.edu/~ragarwal/pubs/sincronia.pdf)
-- 9/28 Wed: Course project discussion
  
 <!--
 - : Job scheduler
