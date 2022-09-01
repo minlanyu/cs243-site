@@ -11,6 +11,7 @@ This year we will take machine learning as an example to study their needs for n
 - Lecture time: MW 11:15am to 12:30pm
 - Location: SEC 1.402
 - Office hour: W 10-11am, SEC 4.415
+- Teaching fellows: Zhiying Xu (zhiyingxu@g.harvard.edu); Kevin Xu (kxu@college.harvard.edu)
 - Prerequisite: This course has no prerequisites. Since this course will focus on reading papers on latest topics in networking, you will need to be able to pick up the relevant background for each topic from textbooks or online materials.
 - Recommended prep: system programming at the level of CS 61 or CS 143 or CS 145.
 
