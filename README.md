@@ -138,7 +138,6 @@ Please see detailed requirements after the syllabus
 - 11/23 Wed: no class (Thanksgiving break)
 - 11/28 Mon: Project presentation
 - 11/30 Wed: Project presentation
-- 12/17 Project due date
 
 ## Reviews
 - Students are expected to write reviews for the papers in each class. We will give scores based on the top 90\% of the reviews. This means it is ok if you miss 10\% of the reviews throughout the class.
@@ -175,8 +174,8 @@ The semester-long project is an open-ended systems research project. Project top
 - 11/04 Fri: Midterm project report
 - 11/7-11: Schedule individual meetings with Minlan
 - 11/28 Mon, 11/30 Wed: Final project presentation
-- 12/17 Final project due
-- 12/19 Review of other students' project due
+- 12/11 Final project due at noon
+- 12/12 Review of other students' project due at noon
 
 ### Project Proposal presentation
 Each group should give a 10-minute talk on your project ideas. The talk should include 
