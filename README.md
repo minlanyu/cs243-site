@@ -49,19 +49,19 @@ Please see detailed requirements after the syllabus
   * Reading: [TensorFlow: A System for Large-Scale Machine Learning](https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf)
   * Optional reading: [PyTorch Distributed: Experiences on Accelerating Data Parallel Training](https://arxiv.org/pdf/2006.15704.pdf)
   * Optional reading: [NCCL communication primitives](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/overview.html), [Tree-based NCCL](https://developer.nvidia.com/blog/massively-scale-deep-learning-training-nccl-2-4/)
-- 9/14 Wed: Pipeline parallelism
+- 9/14 Wed: Pipeline parallelism (Charumathi Badrinath, Cole French)
   * Reading: [PipeDream: Generalized Pipeline Parallelism for DNN Training](https://cs.stanford.edu/~matei/papers/2019/sosp_pipedream.pdf)
   * Optional reading: [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](https://proceedings.neurips.cc/paper/2019/file/093f65e080a295f8076b1c5722a46aa2-Paper.pdf)
 <!-- do we need to add model parallelism -->
 
-### Scheduler
-- 9/19 Mon: Communication scheduler
+### Scheduler 
+- 9/19 Mon: Communication scheduler (Jailyn Clark, Caitlin Lau)
   * Reading: [A Generic Communication Scheduler for Distributed DNN Training Acceleration](http://yibozhu.com/doc/bytescheduler-sosp19.pdf) 
-- 9/21 Wed: Network-aware job scheduler
+- 9/21 Wed: Network-aware job scheduler (Kidist Alemu, Dimitrije Pavlov) 
   * Reading: [THEMIS: Fair and Efficient GPU Cluster Scheduling](https://utns.cs.utexas.edu/papers/nsdi20-themis.pdf)
   * Optional: [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](https://www.usenix.org/system/files/nsdi19-gu.pdf)
-- 9/26 Mon: Course project discussion
-- 9/28 Wed: Co-flow
+- 9/26 Mon: Course project discussion 
+- 9/28 Wed: Co-flow (Jeff Jiang, Hao	Wang)
   * Reading: [Sincronia: Near-Optimal Network Design for Coflows](https://www.cs.cornell.edu/~ragarwal/pubs/sincronia.pdf)
  
 <!--
@@ -70,14 +70,14 @@ Please see detailed requirements after the syllabus
   * Optional: [Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning](https://www.usenix.org/system/files/osdi21-qiao.pdf)
 -->
 
-### Optimizing communication
-- 10/3 Mon: Multicast
+### Optimizing communication 
+- 10/3 Mon: Multicast (Vic Feng, Joshua Michels)
   * Reading: [Elmo: Source Routed Multicast for Public Clouds](https://gitlab.com/mshahbaz/mshahbaz.gitlab.io/-/raw/master/publications/sigcomm19-elmo.pdf)
   * Reading 2: Read Sec 5.1 in [Orca: Server-assisted Multicast for Datacenter Networks](https://www.usenix.org/system/files/nsdi22-paper-diab_orca.pdf)
-- 10/5 Wed: Sparsity
+- 10/5 Wed: Sparsity (Harrison Termotto, Emil	Ghitman Gilkes)
   * Reading: [Efficient Sparse Collective Communication and its application to Accelerate Distributed Deep Learning](https://conferences.sigcomm.org/sigcomm/2021/files/papers/3452296.3472904.pdf)
 - 10/10 Mon: No class (University holiday)
-- 10/12 Wed: Compression (Led by TF) 
+- 10/12 Wed: Compression (Xinran Tang, Minghao Li) (Led by TF) 
   * Reading: [Gradient Compression Supercharged High-Performance Data Parallel DNN Training](https://www.ruichuan.org/papers/hipress-sosp21.pdf)
 - 10/17 Mon: Course project pitches
 - 10/19 Wed: Congestion control
