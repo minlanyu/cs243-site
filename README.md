@@ -23,11 +23,10 @@ There are no required textbooks for the course. You will read papers before each
 - Please contact me if some concepts are hard to understand and I'll provide more supplemental materials.
 
 ## Coursework and Grading
-- Warm-up assignment: 5%
 - Project: 50% (5% initial project presentation, 10% mid-term report, 35% final report and code)
-- Reviews: 30%
+- Reviews: 35%
 - Class presentation: 10%
-- Class participation: 5%
+- Class participation: 5% (including online discussion on Ed)
 
 Please see detailed requirements after the syllabus
 
