@@ -54,7 +54,7 @@ Please see detailed requirements after the syllabus
 <!-- do we need to add model parallelism -->
 
 ### Scheduler 
-- 9/19 Mon: Communication scheduler (Jailyn Clark, Caitlin Lau)
+- 9/19 Mon: Communication scheduler (Jailyn Clark)
   * Reading: [A Generic Communication Scheduler for Distributed DNN Training Acceleration](http://yibozhu.com/doc/bytescheduler-sosp19.pdf) 
 - 9/21 Wed: Network-aware job scheduler (Kidist Alemu, Dimitrije Pavlov) 
   * Reading: [THEMIS: Fair and Efficient GPU Cluster Scheduling](https://utns.cs.utexas.edu/papers/nsdi20-themis.pdf)
