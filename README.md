@@ -79,11 +79,11 @@ Please see detailed requirements after the syllabus
 - 10/12 Wed: Compression (Xinran Tang, Minghao Li) (Led by TF) 
   * Reading: [Gradient Compression Supercharged High-Performance Data Parallel DNN Training](https://www.ruichuan.org/papers/hipress-sosp21.pdf)
 - 10/17 Mon: Course project pitches
-- 10/19 Wed: Congestion control (Chris Zhu, Jason Akoun)
+- 10/19 Wed: Congestion control (Chris Zhu, Eric Zhang)
   * Reading: [HPCC: High Precision Congestion Control](https://minlanyu.seas.harvard.edu/writeup/sigcomm19.pdf)
 
 ### More Programming frameworks
-- 10/24 Mon: Ray (Joel Runevic, Weifan Jiang)
+- 10/24 Mon: Ray (Joel Runevic, Jason Akoun)
   * Reading: [Hoplite: Efficient and Fault-Tolerant Collective Communication for Task-Based Distributed Systems](https://conferences.sigcomm.org/sigcomm/2021/files/papers/3452296.3472897.pdf)
   * Optional reading: [Ray: A Distributed Framework for Emerging AI Applications](https://www.usenix.org/system/files/osdi18-moritz.pdf)
 - 10/26 Wed: Serving systems (Eric Tang, Andrew Sima)
@@ -128,7 +128,7 @@ Please see detailed requirements after the syllabus
 ### Other topics
 - 11/14 Mon: Checkpointing (Helen Cho, Matt Fu)
   * Reading: [Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models](https://www.usenix.org/system/files/nsdi22-paper-eisenman.pdf)
-- 11/16 Wed: Wide-area learning (Ivy Liang, Eric	Zhang)
+- 11/16 Wed: Wide-area learning (Ivy Liang, Weifan Jiang)
   * Reading: [Gaia: Geo-Distributed Machine Learning Approaching LAN Speeds](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-hsieh.pdf)
 - 11/21 Mon: Sky computing (Yuji Chai, Luke Bailey)
   * Reading: [The Sky Above The Clouds](https://arxiv.org/pdf/2205.07147.pdf)
