@@ -79,17 +79,17 @@ Please see detailed requirements after the syllabus
 - 10/12 Wed: Compression (Xinran Tang, Minghao Li) (Led by TF) 
   * Reading: [Gradient Compression Supercharged High-Performance Data Parallel DNN Training](https://www.ruichuan.org/papers/hipress-sosp21.pdf)
 - 10/17 Mon: Course project pitches
-- 10/19 Wed: Congestion control
+- 10/19 Wed: Congestion control (Chris Zhu, Jason Akoun)
   * Reading: [HPCC: High Precision Congestion Control](https://minlanyu.seas.harvard.edu/writeup/sigcomm19.pdf)
 
 ### More Programming frameworks
-- 10/24 Mon: Ray
+- 10/24 Mon: Ray (Joel Runevic, Weifan Jiang)
   * Reading: [Hoplite: Efficient and Fault-Tolerant Collective Communication for Task-Based Distributed Systems](https://conferences.sigcomm.org/sigcomm/2021/files/papers/3452296.3472897.pdf)
   * Optional reading: [Ray: A Distributed Framework for Emerging AI Applications](https://www.usenix.org/system/files/osdi18-moritz.pdf)
-- 10/26 Wed: Serving systems
+- 10/26 Wed: Serving systems (Eric Tang, Andrew Sima)
   * Reading: [Clipper: A Low-Latency Online Prediction Serving System](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-crankshaw.pdf)
   * Optional reading: [Serving DNNs like Clockwork: Performance Predictability from the Bottom Up](https://www.usenix.org/system/files/osdi20-gujarati.pdf)
-- 10/31 Mon: Video queries
+- 10/31 Mon: Video queries (Wei-Te Ting, Spandan	Madan)
   * Reading: [Nexus: A GPU Cluster Engine for Accelerating DNN-Based Video Analysis](https://homes.cs.washington.edu/~arvind/papers/nexus.pdf)
   * Optional reading: [Focus: Querying Large Video Datasets with Low Latency and Low Cost](https://web.eecs.umich.edu/~mosharaf/Readings/Focus.pdf)
   
@@ -100,13 +100,13 @@ Please see detailed requirements after the syllabus
 -->
 
 ### Heterageneous devices
-- 11/2 Wed: Programmable switches
+- 11/2 Wed: Programmable switches (Marina Elmore, Daniel Son)
   * Reading: [ATP: In-network Aggregation for Multi-tenant Learning](https://www.usenix.org/system/files/nsdi21-lao.pdf)
   * Optional reading:[In-network Aggregation for Shared Machine Learning Clusters](https://people.csail.mit.edu/ghobadi/papers/panama.pdf)
-- 11/7 Mon: Optical Networks
+- 11/7 Mon: Optical Networks (Aakash Mishra, Sayak Maity)
   * Reading: [TOPOOPT: Optimizing the Network Topology for Distributed DNN Training](https://arxiv.org/pdf/2202.00433.pdf)
   * Optional Reading: [SiP-ML: High-Bandwidth Optical Network Interconnects for Machine Learning Training](https://people.csail.mit.edu/ghobadi/papers/sipml_sigcomm_2021.pdf)
-- 11/9 Wed: CPUs
+- 11/9 Wed: CPUs (Chon Lam Lao, William Cooper)
   * Reading: [Dorylus: Affordable, Scalable, and Accurate GNN Training over Billion-Edge Graphs](https://web.cs.ucla.edu/~harryxu/papers/dorylus-osdi21.pdf)
  
 <!--
@@ -126,11 +126,11 @@ Please see detailed requirements after the syllabus
 -->
 
 ### Other topics
-- 11/14 Mon: Checkpointing
+- 11/14 Mon: Checkpointing (Helen Cho, Matt Fu)
   * Reading: [Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models](https://www.usenix.org/system/files/nsdi22-paper-eisenman.pdf)
-- 11/16 Wed: Wide-area learning
+- 11/16 Wed: Wide-area learning (Ivy Liang, Eric	Zhang)
   * Reading: [Gaia: Geo-Distributed Machine Learning Approaching LAN Speeds](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-hsieh.pdf)
-- 11/21 Mon: Sky computing
+- 11/21 Mon: Sky computing (Yuji Chai, Luke Bailey)
   * Reading: [The Sky Above The Clouds](https://arxiv.org/pdf/2205.07147.pdf)
 
 ### Wrapping up
