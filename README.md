@@ -167,17 +167,17 @@ The semester-long project is an open-ended systems research project. Project top
 
 ### Project Timeline
 - 9/30 Fri: Form groups for course projects
-- 10/7 Fri: Course project proposal due
+- 10/7 Fri: Course project proposal due at noon
 - 10/10-14: Schedule individual meetings with Minlan
 - 10/17 Mon: Course project pitch presentation
-- 11/04 Fri: Midterm project report
+- 11/04 Fri: Midterm project report due at noon
 - 11/7-11: Schedule individual meetings with Minlan
 - 11/28 Mon, 11/30 Wed: Final project presentation
 - 12/11 Final project due at noon
 - 12/12 Review of other students' project due at noon
 
 ### Project Proposal presentation
-Each group should give a 10-minute talk on your project ideas. The talk should include 
+Each group should give a 5-minute talk on your project ideas. The talk should include 
 - What problem are you solving? 
 - Why it's an important problem? 
 - What are the potential challenges you may face in solving the problem? 
