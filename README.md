@@ -130,7 +130,7 @@ Please see detailed requirements after the syllabus
   * Reading: [Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models](https://www.usenix.org/system/files/nsdi22-paper-eisenman.pdf)
 - 11/16 Wed: Wide-area learning (Ivy Liang, Weifan Jiang)
   * Reading: [Gaia: Geo-Distributed Machine Learning Approaching LAN Speeds](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-hsieh.pdf)
-- 11/21 Mon: Sky computing (Yuji Chai, Luke Bailey)
+- 11/21 Mon: Sky computing (Yuji Chai, Luke Bailey, Richard Lun)
   * Reading: [The Sky Above The Clouds](https://arxiv.org/pdf/2205.07147.pdf)
 
 ### Wrapping up
