@@ -1,4 +1,4 @@
-# CS 243, Fall 2022: Advanced Computer Networks
+# CS 243, Fall 2023: Advanced Computer Networks
 
 ## Overview
 
