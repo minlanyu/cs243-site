@@ -2,10 +2,9 @@
 
 ## Overview
 
-This is a graduate-level course on computer networks. Each year we select a subset of advanced topics in networked systems to showcase 
-latest developments in the entire networking stack (hosts, NICs, switches), how networks interact with high-level applications, and how networks interact with the other system components such as compute and storage.
+This is a graduate-level course on computer networks. This course offers an in-depth exploration of a subset of advanced topics in networked systems. We will discuss the latest developments in the entire networking stack, the interactions between networks and high-level applications, and their connections with other system components such as compute and storage.
 
-This year we will take machine learning as an example to study their needs for networking and the key challenges they bring to the network stack. The growth of machine learning applications is driven by system hardware and software advances. On the other hand, emerging machine learning applications also call for innovations in systems. A new trend in machine learning is to build increasingly large models (with hundreds of billions of parameters) for a wide range of tasks. This trend brings new challenges to networked systems: We now need to build large-scale distributed systems across the network to process such a large amount of data from various sources, train large models that run on thousands of GPUs/TPUs, and serve inference requests with high performance. In this course, we will study system challenges in machine learning and how to co-design networks and the other parts of the systems to meet the needs of machine learning applications. The course will include lectures, in-class presentations, paper discussions, and a research project.
+In this year's edition, we will use machine learning as a prime example to understand its unique requirements and challenges in the context of networking. As machine learning applications increasingly rely on larger models and faster accelerators, the demand for enhanced networking capabilities becomes imperative. Throughout this course, we will study cutting edge networking solutions and principles for  co-designing networks with compute and storage, to meet the evolving needs of machine learning applications. The course will include lectures, in-class presentations, paper discussions, and a research project.
 
 - Instructor: Minlan Yu
 - Lecture time: MW 11:15am to 12:30pm
