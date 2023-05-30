@@ -18,7 +18,7 @@ In this year's edition, we will use machine learning as a prime example to under
 ## Textbook
 There are no required textbooks for the course. You will read papers before each class to get the most out of the class. For backgrounds, you are encouraged to refer to the following books:
 - For basic networking concepts, you can refer to the textbook (K&R): Computer Networking: A Top-Down Approach (7th edition), by Jim Kurose and Keith Ross. Earlier editions are fine. 
-- An alternative book is Computer Networks: A Systems Approach (5th edition), by Larry Peterson and Bruce Davie. You can find [an online version](https://proquest-safaribooksonline-com.ezp-prod1.hul.harvard.edu/9780123850591) in Harvard library.
+- An alternative book is Computer Networks: A Systems Approach (5th edition), by Larry Peterson and Bruce Davie. You can find an online version [here](https://book.systemsapproach.org/).
 - Please contact me if some concepts are hard to understand and I'll provide more supplemental materials.
 
 ## Coursework and Grading
@@ -40,6 +40,16 @@ Please see detailed requirements after the syllabus
 - 9/5 Mon: no class (labor day)
 
 ### Communication frameworks and Parallelism
+- Data Parallellism 
+  * Reading: [PyTorch FSDP: Experiences on Scaling Fully Sharded Data
+Parallel](https://arxiv.org/pdf/2304.11277.pdf)
+  * Optional reading: [Meta blog post](https://engineering.fb.com/2021/07/15/open-source/fsdp/)
+- Model Parallelism
+  * Reading: [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/pdf/1909.08053.pdf)
+- Tensor Parallelism
+  * Reading: [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://cs.stanford.edu/~matei/papers/2021/sc_megatron_lm.pdf)
+- Automated parallelism
+  * Reading: [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://arxiv.org/pdf/2201.12023.pdf)
 - 9/7 Wed: Parameter Server (Minlan)
   * Reading: [A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters](https://www.usenix.org/system/files/osdi20-jiang.pdf)
   * Optional reading: [Scaling Distributed Machine Learning with the Parameter Server](https://www.cs.cmu.edu/~muli/file/parameter_server_osdi14.pdf)
@@ -50,7 +60,38 @@ Please see detailed requirements after the syllabus
 - 9/14 Wed: Pipeline parallelism (Charumathi Badrinath, Cole French, Vicki Xu)
   * Reading: [PipeDream: Generalized Pipeline Parallelism for DNN Training](https://cs.stanford.edu/~matei/papers/2019/sosp_pipedream.pdf)
   * Optional reading: [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](https://proceedings.neurips.cc/paper/2019/file/093f65e080a295f8076b1c5722a46aa2-Paper.pdf)
-<!-- do we need to add model parallelism -->
+
+### End-to-end ML pipeline
+- Data ingestion
+  * Reading: [Understanding data storage and ingestion for large-scale deep recommendation model training](https://dl.acm.org/doi/pdf/10.1145/3470496.3533044?casa_token=hgqFSo4RkdIAAAAA:ADj2kpsgPUEjftbV54blNpO_98zhNTM675gjwsQ8uw7rDJcFeSRx99bIuEB-_H4Q1E4JPxfHPsJK)
+- Embedding
+- Checkpointing 
+  * Reading: [Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models](https://www.usenix.org/system/files/nsdi22-paper-eisenman.pdf)
+
+### Hardware 
+- TPU
+  * Reading: [TPU v4: An Optically Reconfigurable Supercomputer for Machine Learning with Hardware Support for Embeddings](https://arxiv.org/pdf/2304.01433.pdf)
+- Optical networks
+  * Reading: [Jupiter Evolving: Transforming Google’s Datacenter Network via Optical Circuit Switches and
+Software-Defined Networking](https://dl.acm.org/doi/pdf/10.1145/3544216.3544265)
+  * Optional Reading: [TOPOOPT: Co-optimizing Network Topology and Parallelization Strategy for Distributed Training Jobs](https://people.csail.mit.edu/ghobadi/papers/topoOpt_nsdi_2023.pdf)
+- 11/2 Wed: Programmable switches
+  * Reading: [ATP: In-network Aggregation for Multi-tenant Learning](https://www.usenix.org/system/files/nsdi21-lao.pdf)
+  * Optional reading: [Nvidia SHARP]()
+- NvLink
+
+
+### Other types of ML
+- Federated learning
+- 10/24 Mon: Ray (Joel Runevic, Jason Akoun)
+  * Reading: [Hoplite: Efficient and Fault-Tolerant Collective Communication for Task-Based Distributed Systems](https://conferences.sigcomm.org/sigcomm/2021/files/papers/3452296.3472897.pdf)
+  * Optional reading: [Ray: A Distributed Framework for Emerging AI Applications](https://www.usenix.org/system/files/osdi18-moritz.pdf)
+- 10/26 Wed: Serving systems (Eric Tang, Andrew Sima)
+  * Reading: [Clipper: A Low-Latency Online Prediction Serving System](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-crankshaw.pdf)
+  * Optional reading: [Serving DNNs like Clockwork: Performance Predictability from the Bottom Up](https://www.usenix.org/system/files/osdi20-gujarati.pdf)
+- 10/31 Mon: Video queries (Wei-Te Ting, Spandan	Madan)
+  * Reading: [Nexus: A GPU Cluster Engine for Accelerating DNN-Based Video Analysis](https://homes.cs.washington.edu/~arvind/papers/nexus.pdf)
+  * Optional reading: [Focus: Querying Large Video Datasets with Low Latency and Low Cost](https://web.eecs.umich.edu/~mosharaf/Readings/Focus.pdf)
 
 ### Scheduler 
 - 9/19 Mon: Communication scheduler (Jailyn Clark)
@@ -61,12 +102,8 @@ Please see detailed requirements after the syllabus
 - 9/26 Mon: Course project discussion 
 - 9/28 Wed: Co-flow (Jeff Jiang, Hao	Wang)
   * Reading: [Sincronia: Near-Optimal Network Design for Coflows](https://www.cs.cornell.edu/~ragarwal/pubs/sincronia.pdf)
- 
-<!--
-- : Job scheduler
-  * Reading: [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](https://www.usenix.org/system/files/nsdi19-gu.pdf)
-  * Optional: [Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning](https://www.usenix.org/system/files/osdi21-qiao.pdf)
--->
+- Energy saving
+  * Reading: [Zeus: Understanding and Optimizing GPU Energy Consumption of DNN Training](https://www.usenix.org/system/files/nsdi23-you.pdf)
 
 ### Optimizing communication 
 - 10/3 Mon: Multicast (Vic Feng, Joshua Michels)
@@ -82,51 +119,17 @@ Please see detailed requirements after the syllabus
   * Reading: [HPCC: High Precision Congestion Control](https://minlanyu.seas.harvard.edu/writeup/sigcomm19.pdf)
 
 ### More Programming frameworks
-- 10/24 Mon: Ray (Joel Runevic, Jason Akoun)
-  * Reading: [Hoplite: Efficient and Fault-Tolerant Collective Communication for Task-Based Distributed Systems](https://conferences.sigcomm.org/sigcomm/2021/files/papers/3452296.3472897.pdf)
-  * Optional reading: [Ray: A Distributed Framework for Emerging AI Applications](https://www.usenix.org/system/files/osdi18-moritz.pdf)
-- 10/26 Wed: Serving systems (Eric Tang, Andrew Sima)
-  * Reading: [Clipper: A Low-Latency Online Prediction Serving System](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-crankshaw.pdf)
-  * Optional reading: [Serving DNNs like Clockwork: Performance Predictability from the Bottom Up](https://www.usenix.org/system/files/osdi20-gujarati.pdf)
-- 10/31 Mon: Video queries (Wei-Te Ting, Spandan	Madan)
-  * Reading: [Nexus: A GPU Cluster Engine for Accelerating DNN-Based Video Analysis](https://homes.cs.washington.edu/~arvind/papers/nexus.pdf)
-  * Optional reading: [Focus: Querying Large Video Datasets with Low Latency and Low Cost](https://web.eecs.umich.edu/~mosharaf/Readings/Focus.pdf)
-  
-<!--
-- : Graph processing
-  * Reading: [GraphX: Graph Processing in a Distributed Dataflow Framework](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-gonzalez.pdf)
-  * Optional reading: [Scalability! But at what COST?](https://www.usenix.org/system/files/conference/hotos15/hotos15-paper-mcsherry.pdf)
--->
+
 
 ### Heterageneous devices
-- 11/2 Wed: Programmable switches (Marina Elmore, Chon Lam Lao)
-  * Reading: [ATP: In-network Aggregation for Multi-tenant Learning](https://www.usenix.org/system/files/nsdi21-lao.pdf)
-  * Optional reading:[In-network Aggregation for Shared Machine Learning Clusters](https://people.csail.mit.edu/ghobadi/papers/panama.pdf)
-- 11/7 Mon: Optical Networks (Aakash Mishra, Sayak Maity)
-  * Reading: [TOPOOPT: Optimizing the Network Topology for Distributed DNN Training](https://arxiv.org/pdf/2202.00433.pdf)
-  * Optional Reading: [SiP-ML: High-Bandwidth Optical Network Interconnects for Machine Learning Training](https://people.csail.mit.edu/ghobadi/papers/sipml_sigcomm_2021.pdf)
 - 11/9 Wed: CPUs (Daniel Son, William Cooper)
   * Reading: [Dorylus: Affordable, Scalable, and Accurate GNN Training over Billion-Edge Graphs](https://web.cs.ucla.edu/~harryxu/papers/dorylus-osdi21.pdf)
  
-<!--
-  * Optional reading: [Scaling Distributed Machine Learning with In-Network Aggregation](https://www.usenix.org/system/files/nsdi21-sapio.pdf)
-  * Optional: [Serving DNNs in Real Time at Datacenter Scale with Project Brainwave](https://web.eecs.umich.edu/~mosharaf/Readings/Brainwave.pdf) 
--->
- 
-<!--
-
-### Scheduling
-- Workload
-  * Reading: [Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads](https://www.usenix.org/system/files/atc19-jeon.pdf)
-- Introspective scheduler
-  * Reading: [Gandiva: Introspective Cluster Scheduling for Deep Learning](https://www.usenix.org/system/files/osdi18-xiao.pdf)
-
 - Ethics: System impact on fairness in ML
--->
+
 
 ### Other topics
-- 11/14 Mon: Checkpointing (Helen Cho, Matt Fu)
-  * Reading: [Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models](https://www.usenix.org/system/files/nsdi22-paper-eisenman.pdf)
+
 - 11/16 Wed: Wide-area learning (Ivy Liang, Weifan Jiang)
   * Reading: [Gaia: Geo-Distributed Machine Learning Approaching LAN Speeds](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-hsieh.pdf)
 - 11/21 Mon: Sky computing (Yuji Chai, Luke Bailey, Richard Lun)
