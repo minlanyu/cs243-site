@@ -32,42 +32,70 @@ Please see detailed requirements after the syllabus
 ## Syllabus
 
 ### Introduction
-- 8/31 Wed: Introduction (Minlan)
+- 9/5 Tu: Introduction (Minlan)
   * Reading 1: [Applied Machine Learning at Facebook: A Datacenter Infrastructure Perspective](https://research.facebook.com/file/904032783795098/hpca-2018-facebook.pdf)
   * Reading 2: [How to Read a Paper](https://www.cs.princeton.edu/courses/archive/fall13/cos597E/papers/howtoread.pdf)
   * Optional reading: [MLSys: The New Frontier of Machine Learning Systems](https://arxiv.org/pdf/1904.03257.pdf)
   * Optional reading: [A Berkeley View of Systems Challenges for AI](https://arxiv.org/pdf/1712.05855.pdf)
-- 9/5 Mon: no class (labor day)
+- 9/7 Th: Application: Neural network strucutures; various parallelism schemes (Minlan)
+- 9/12 Tu: Hardware: Popular hardware; Network Techniques; Trends (Minlan)
 
-### Communication frameworks and Parallelism
-- Data Parallellism 
+### Parallelism Schemes
+- 9/14 Th: Data Parallellism and Sharding
   * Reading: [PyTorch FSDP: Experiences on Scaling Fully Sharded Data
 Parallel](https://arxiv.org/pdf/2304.11277.pdf)
   * Optional reading: [Meta blog post](https://engineering.fb.com/2021/07/15/open-source/fsdp/)
-- Model Parallelism
+- 9/19 Tu: Model Parallelism
   * Reading: [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/pdf/1909.08053.pdf)
-- Tensor Parallelism
+- 9/21 Th: Tensor Parallelism
   * Reading: [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://cs.stanford.edu/~matei/papers/2021/sc_megatron_lm.pdf)
-- Automated parallelism
+- 9/26 Tu: Pipelining
+  * Reading: [PipeDream: Generalized Pipeline Parallelism for DNN Training](https://cs.stanford.edu/~matei/papers/2019/sosp_pipedream.pdf)
+  * Optional reading: [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](https://proceedings.neurips.cc/paper/2019/file/093f65e080a295f8076b1c5722a46aa2-Paper.pdf)
+- 9/28 Th: Automated parallelism
   * Reading: [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://arxiv.org/pdf/2201.12023.pdf)
-- 9/7 Wed: Parameter Server (Minlan)
+
+### Communication Schemes
+- 10/3 Tu: Parameter Server 
   * Reading: [A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters](https://www.usenix.org/system/files/osdi20-jiang.pdf)
   * Optional reading: [Scaling Distributed Machine Learning with the Parameter Server](https://www.cs.cmu.edu/~muli/file/parameter_server_osdi14.pdf)
+- 10/5 Th: All Reduce
+  * Optional reading: [NCCL communication primitives](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/overview.html), [Tree-based NCCL](https://developer.nvidia.com/blog/massively-scale-deep-learning-training-nccl-2-4/)
+
+- Energy saving
+  * Reading: [Zeus: Understanding and Optimizing GPU Energy Consumption of DNN Training](https://www.usenix.org/system/files/nsdi23-you.pdf)
+
+### End-to-end ML workflow
+- 10/10 Tu: Data ingestion
+  * Reading: [Understanding data storage and ingestion for large-scale deep recommendation model training](https://dl.acm.org/doi/pdf/10.1145/3470496.3533044?casa_token=hgqFSo4RkdIAAAAA:ADj2kpsgPUEjftbV54blNpO_98zhNTM675gjwsQ8uw7rDJcFeSRx99bIuEB-_H4Q1E4JPxfHPsJK)
+- 10/12 Th: Preprocessing
+- 10/17 Tu: Embedding
+- 10/19 Th: Checkpointing 
+  * Reading: [Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models](https://www.usenix.org/system/files/nsdi22-paper-eisenman.pdf)
+  * Optional reading: [CheckFreq: Frequent, Fine-Grained DNN Checkpointing
+](https://www.microsoft.com/en-us/research/publication/checkfreq-frequent-fine-grained-dnn-checkpointing/)
+- 10/24 Tu: Fault Tolerance
+
+
+- 10/26 Th:
+- 10/31 Tu:
+- 11/2 Th:
+- 11/7 Tu:
+- 11/9 Th:
+- 11/14 Tu:
+- 11/16 Th:
+- 11/21 Tu:
+- 11/23 no class: Thanksgiving 
+- 11/28 Tu:
+- 11/30 Th: Project Presentation
+- 12/5 Tu: Project Presentation
+- 12/15 Final Project Deadline (Tentative)
+
 - 9/12 Mon: TensorFlow (Minlan)
   * Reading: [TensorFlow: A System for Large-Scale Machine Learning](https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf)
   * Optional reading: [PyTorch Distributed: Experiences on Accelerating Data Parallel Training](https://arxiv.org/pdf/2006.15704.pdf)
-  * Optional reading: [NCCL communication primitives](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/overview.html), [Tree-based NCCL](https://developer.nvidia.com/blog/massively-scale-deep-learning-training-nccl-2-4/)
-- 9/14 Wed: Pipeline parallelism (Charumathi Badrinath, Cole French, Vicki Xu)
-  * Reading: [PipeDream: Generalized Pipeline Parallelism for DNN Training](https://cs.stanford.edu/~matei/papers/2019/sosp_pipedream.pdf)
-  * Optional reading: [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](https://proceedings.neurips.cc/paper/2019/file/093f65e080a295f8076b1c5722a46aa2-Paper.pdf)
 
-### End-to-end ML pipeline
-- Data ingestion
-  * Reading: [Understanding data storage and ingestion for large-scale deep recommendation model training](https://dl.acm.org/doi/pdf/10.1145/3470496.3533044?casa_token=hgqFSo4RkdIAAAAA:ADj2kpsgPUEjftbV54blNpO_98zhNTM675gjwsQ8uw7rDJcFeSRx99bIuEB-_H4Q1E4JPxfHPsJK)
-- Embedding
-- Checkpointing 
-  * Reading: [Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models](https://www.usenix.org/system/files/nsdi22-paper-eisenman.pdf)
-
+  
 ### Hardware 
 - TPU
   * Reading: [TPU v4: An Optically Reconfigurable Supercomputer for Machine Learning with Hardware Support for Embeddings](https://arxiv.org/pdf/2304.01433.pdf)
@@ -102,8 +130,6 @@ Software-Defined Networking](https://dl.acm.org/doi/pdf/10.1145/3544216.3544265)
 - 9/26 Mon: Course project discussion 
 - 9/28 Wed: Co-flow (Jeff Jiang, Hao	Wang)
   * Reading: [Sincronia: Near-Optimal Network Design for Coflows](https://www.cs.cornell.edu/~ragarwal/pubs/sincronia.pdf)
-- Energy saving
-  * Reading: [Zeus: Understanding and Optimizing GPU Energy Consumption of DNN Training](https://www.usenix.org/system/files/nsdi23-you.pdf)
 
 ### Optimizing communication 
 - 10/3 Mon: Multicast (Vic Feng, Joshua Michels)
@@ -118,9 +144,6 @@ Software-Defined Networking](https://dl.acm.org/doi/pdf/10.1145/3544216.3544265)
 - 10/19 Wed: Congestion control (Chris Zhu, Eric Zhang)
   * Reading: [HPCC: High Precision Congestion Control](https://minlanyu.seas.harvard.edu/writeup/sigcomm19.pdf)
 
-### More Programming frameworks
-
-
 ### Heterageneous devices
 - 11/9 Wed: CPUs (Daniel Son, William Cooper)
   * Reading: [Dorylus: Affordable, Scalable, and Accurate GNN Training over Billion-Edge Graphs](https://web.cs.ucla.edu/~harryxu/papers/dorylus-osdi21.pdf)
@@ -130,8 +153,6 @@ Software-Defined Networking](https://dl.acm.org/doi/pdf/10.1145/3544216.3544265)
 
 ### Other topics
 
-- 11/16 Wed: Wide-area learning (Ivy Liang, Weifan Jiang)
-  * Reading: [Gaia: Geo-Distributed Machine Learning Approaching LAN Speeds](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-hsieh.pdf)
 - 11/21 Mon: Sky computing (Yuji Chai, Luke Bailey, Richard Lun)
   * Reading: [The Sky Above The Clouds](https://arxiv.org/pdf/2205.07147.pdf)
 
