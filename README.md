@@ -22,10 +22,10 @@ There are no required textbooks for the course. You will read papers before each
 - Please contact me if some concepts are hard to understand and I'll provide more supplemental materials.
 
 ## Coursework and Grading
-- Project: 50% (5% initial project presentation, 10% mid-term report, 35% final report and code)
+- Project: 50% (5% initial project presentation, 5% mid-term report, 5% final project presentation, 35% final report and code)
 - Reviews: 35%
 - Class presentation: 10%
-- Class participation: 5% (including online discussion on Ed)
+- Class participation: 5% (including class attendance, in-class discussion, and online discussion on Ed)
 
 Please see detailed requirements after the syllabus
 
@@ -39,21 +39,22 @@ Please see detailed requirements after the syllabus
   * Optional reading: [A Berkeley View of Systems Challenges for AI](https://arxiv.org/pdf/1712.05855.pdf)
 - 9/7 Th: Application: Neural network strucutures; various parallelism schemes (Minlan)
 - 9/12 Tu: Hardware: Popular hardware; Network Techniques; Trends (Minlan)
+- 9/14 Th: Project ideas
 
 ### Parallelism Schemes
-- 9/14 Th: Data Parallellism and Sharding
+- Data Parallellism and Sharding
   * Reading: [PyTorch FSDP: Experiences on Scaling Fully Sharded Data
 Parallel](https://arxiv.org/pdf/2304.11277.pdf)
   * Optional reading: [Meta blog post](https://engineering.fb.com/2021/07/15/open-source/fsdp/)
-- 9/19 Tu: Model Parallelism
-  * Reading: [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/pdf/1909.08053.pdf)
-- 9/21 Th: Tensor Parallelism
-  * Reading: [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://cs.stanford.edu/~matei/papers/2021/sc_megatron_lm.pdf)
-- 9/26 Tu: Pipelining
+- 9/19 Tu: Model Parallelism and Pipelining
   * Reading: [PipeDream: Generalized Pipeline Parallelism for DNN Training](https://cs.stanford.edu/~matei/papers/2019/sosp_pipedream.pdf)
   * Optional reading: [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](https://proceedings.neurips.cc/paper/2019/file/093f65e080a295f8076b1c5722a46aa2-Paper.pdf)
-- 9/28 Th: Automated parallelism
+- 9/21 Th: Tensor Parallelism
+  * Reading: [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/pdf/1909.08053.pdf)* 
+- 9/26 Tu: Automated parallelism
   * Reading: [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://arxiv.org/pdf/2201.12023.pdf)
+  * Optional reading: [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://cs.stanford.edu/~matei/papers/2021/sc_megatron_lm.pdf)
+- 9/28 Th: 
 
 ### Communication Schemes
 - 10/3 Tu: Parameter Server 
@@ -61,20 +62,28 @@ Parallel](https://arxiv.org/pdf/2304.11277.pdf)
   * Optional reading: [Scaling Distributed Machine Learning with the Parameter Server](https://www.cs.cmu.edu/~muli/file/parameter_server_osdi14.pdf)
 - 10/5 Th: All Reduce
   * Optional reading: [NCCL communication primitives](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/overview.html), [Tree-based NCCL](https://developer.nvidia.com/blog/massively-scale-deep-learning-training-nccl-2-4/)
-
-- Energy saving
-  * Reading: [Zeus: Understanding and Optimizing GPU Energy Consumption of DNN Training](https://www.usenix.org/system/files/nsdi23-you.pdf)
+- Memory-communication tradeoffs
+  * Reading: [ZeRO: Memory Optimizations Toward Training Trillion Parameter Models](https://arxiv.org/pdf/1910.02054.pdf)
 
 ### End-to-end ML workflow
 - 10/10 Tu: Data ingestion
   * Reading: [Understanding data storage and ingestion for large-scale deep recommendation model training](https://dl.acm.org/doi/pdf/10.1145/3470496.3533044?casa_token=hgqFSo4RkdIAAAAA:ADj2kpsgPUEjftbV54blNpO_98zhNTM675gjwsQ8uw7rDJcFeSRx99bIuEB-_H4Q1E4JPxfHPsJK)
-- 10/12 Th: Preprocessing
-- 10/17 Tu: Embedding
+- 10/12 Th: Course project pitch presentation
+- 10/17 Tu: Preprocessing
+  * Reading: [Where Is My Training Bottleneck? Hidden Trade-Offs in Deep Learning Preprocessing Pipelines](https://dl.acm.org/doi/pdf/10.1145/3514221.3517848?casa_token=0sDxMYVe-d8AAAAA:v1Zeh6kccJU9E4xa6fbd_Vy6wGuJfkqhGav9Dv02oPIF1xiLu8CL7tdXO0xiZ_63Eh3mbjwWHbd0)
+- Embedding: Nvidia HugeCTR
+  * Reading: [Blog1](https://developer.nvidia.com/blog/introducing-merlin-hugectr-training-framework-dedicated-to-recommender-systems/), [Blog2]()
 - 10/19 Th: Checkpointing 
   * Reading: [Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models](https://www.usenix.org/system/files/nsdi22-paper-eisenman.pdf)
   * Optional reading: [CheckFreq: Frequent, Fine-Grained DNN Checkpointing
 ](https://www.microsoft.com/en-us/research/publication/checkfreq-frequent-fine-grained-dnn-checkpointing/)
 - 10/24 Tu: Fault Tolerance
+- Energy saving
+  * Reading: [Zeus: Understanding and Optimizing GPU Energy Consumption of DNN Training](https://www.usenix.org/system/files/nsdi23-you.pdf)
+
+
+### Multi-tenancy
+- Job scheduling
 
 
 - 10/26 Th:
@@ -86,16 +95,11 @@ Parallel](https://arxiv.org/pdf/2304.11277.pdf)
 - 11/16 Th:
 - 11/21 Tu:
 - 11/23 no class: Thanksgiving 
-- 11/28 Tu:
+- 11/28 Tu: Ethics
 - 11/30 Th: Project Presentation
 - 12/5 Tu: Project Presentation
 - 12/15 Final Project Deadline (Tentative)
 
-- 9/12 Mon: TensorFlow (Minlan)
-  * Reading: [TensorFlow: A System for Large-Scale Machine Learning](https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf)
-  * Optional reading: [PyTorch Distributed: Experiences on Accelerating Data Parallel Training](https://arxiv.org/pdf/2006.15704.pdf)
-
-  
 ### Hardware 
 - TPU
   * Reading: [TPU v4: An Optically Reconfigurable Supercomputer for Machine Learning with Hardware Support for Embeddings](https://arxiv.org/pdf/2304.01433.pdf)
@@ -152,7 +156,6 @@ Software-Defined Networking](https://dl.acm.org/doi/pdf/10.1145/3544216.3544265)
 
 
 ### Other topics
-
 - 11/21 Mon: Sky computing (Yuji Chai, Luke Bailey, Richard Lun)
   * Reading: [The Sky Above The Clouds](https://arxiv.org/pdf/2205.07147.pdf)
 
@@ -163,7 +166,7 @@ Software-Defined Networking](https://dl.acm.org/doi/pdf/10.1145/3544216.3544265)
 
 ## Reviews
 - Students are expected to write reviews for the papers in each class. We will give scores based on the top 90\% of the reviews. This means it is ok if you miss 10\% of the reviews throughout the class.
-- Your reviews are due at noon one day before (Sunday noon for Monday classes; Tuesday noon for Wed classes). So the presenter of the paper can have more time collect all your questions and we can discuss in class. For the lectures we have guest speakers, the TF will collect the questions and please raise your question in class.
+- Your reviews are due at noon one day before (Monday noon for Tuesday classes; Wednesday noon for Thursday classes). So the presenter of the paper can have time collect all your questions and we can discuss in class. For the lectures we have guest speakers, the TF will collect the questions and please raise your question in class.
 - The goal of the reviews is to get you comfortable of reading research papers in networking
 
 ### Review format
@@ -189,13 +192,13 @@ Software-Defined Networking](https://dl.acm.org/doi/pdf/10.1145/3544216.3544265)
 The semester-long project is an open-ended systems research project. Project topics are of your choice but should be related to networking. Projects should be done in groups of two or three and include a systems building component. Selected projects can be submitted to a peer-reviewed workshop papers or posters.
 
 ### Project Timeline
-- 9/30 Fri: Form groups for course projects
-- 10/7 Fri: Course project proposal due at noon
-- 10/10-14: Schedule individual meetings with Minlan
-- 10/17 Mon: Course project pitch presentation
-- 11/04 Fri: Midterm project report due at noon
-- 11/7-11: Schedule individual meetings with Minlan
-- 11/28 Mon, 11/30 Wed: Final project presentation
+- 9/17 Sun at noon: Form groups for course projects
+- 10/1 Sun at noon: Course project proposal
+- 10/2-6: Schedule individual meetings with Minlan to get feedback on your project proposal
+- 10/12 Th: Course project pitch presentation
+- 11/5 Sun at noon: Midterm project report due at noon
+- 11/6-10: Schedule individual meetings with Minlan to get feedback on your midterm report
+- 11/28 Tu, 11/30 Th: Final project presentation
 - 12/11 Final project due at noon
 - 12/12 Review of other students' project due at noon
 
