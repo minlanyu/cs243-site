@@ -14,9 +14,9 @@ In this year's edition, we will use machine learning as a prime example to under
 - Prerequisite: This course has no prerequisites. Since this course will focus on reading papers on latest topics in networking, you will need to be able to pick up the relevant background for each topic from textbooks or online materials.
 - Recommended prep: system programming at the level of CS 61 or CS 143 or CS 145.
 
-## Infrastrucutre Notes
+## Infrastructure Notes
 
-**If you are thinking of attending the class, please set up your cloud accounts before the class starts as it takes time at the cloud side from our last year's experiences.** Please see details at [the infrastructure page](infra.md).
+**If you are thinking of attending the class, please set up your cloud accounts before the class starts because from our last year's experiences it takes time for the cloud side to approve your requests.** Please see details at [the infrastructure page](infra.md).
 
 ## Textbook
 There are no required textbooks for the course. You will read papers before each class to get the most out of the class. For backgrounds, you are encouraged to refer to the following books:
