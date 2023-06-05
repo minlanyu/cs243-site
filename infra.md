@@ -3,11 +3,10 @@ I'd encourage you to set up AWS accounts first and refer to other options as nee
 
 # Amazon AWS
 ## Get an AWS account
-First you will have to sign up for an AWS regular account, if you don’t already have one. Do not apply for an AWS Educate Starter Account. You could then apply the AWS credits received from course TFs to your regular account (see this link for info about redeeming credits: \url{https://aws.amazon.com/awscredits/}). Below are a few tips of using the AWS account.
-\begin{itemize}
-    \item Set up a billing alert to make sure you don’t accidentally use up your free credits without noticing.
-    \item Stop your instances when are done for the day to avoid incurring charges. Use your funds wisely.
-    \item Terminate them when you are sure you are done with your instance (disk storage also costs something, and can be significant if you have a large disk footprint).
+First you will have to sign up for an AWS regular account, if you don’t already have one. Do not apply for an AWS Educate Starter Account. You could then apply the AWS credits received from course TFs to your regular account (see this [link](https://aws.amazon.com/awscredits/) for info about redeeming credits). Below are a few tips of using the AWS account.
+- Set up a billing alert to make sure you don’t accidentally use up your free credits without noticing.
+- Stop your instances when are done for the day to avoid incurring charges. Use your funds wisely.
+- Terminate them when you are sure you are done with your instance (disk storage also costs something, and can be significant if you have a large disk footprint).
 \end{itemize}
 
 ## Security Group
