@@ -10,6 +10,14 @@ First you will have to sign up for an AWS regular account, if you don’t alread
 - Stop your instances when are done for the day to avoid incurring charges. Use your funds wisely.
 - Terminate them when you are sure you are done with your instance (disk storage also costs something, and can be significant if you have a large disk footprint).
 
+## Quota Request
+
+Your AWS account has default quotas, but you can request a quota increase, such as access to more GPU instances, through one of following options. Increases are not granted immediately. It might take a couple of days for your increase to take effect. (From last year's experiences, AWS could delay weeks to approve new users)
+
+- Open the [Service Quotas console](https://console.aws.amazon.com/servicequotas/home). In the navigation pane, choose **AWS services**. Select a service, select a quota, and follow the directions to [request a quota increase](https://docs.aws.amazon.com/servicequotas/latest/userguide/request-quota-increase.html).
+- Use the [request-service-quota-increase](https://docs.aws.amazon.com/cli/latest/reference/service-quotas/request-service-quota-increase.html) AWS CLI command.
+If a service is not yet available in Service Quotas, create a [service limit increase case](https://support.console.aws.amazon.com/support/home#/case/create?issueType=service-limit-increase) using the AWS Support Center Console.
+
 ## Security Group
 The first thing that you'll want to do after logging into your AWS account is to create a security group. These security groups control which traffic is allowed between your AWS EC2 instances, so in order to do distributed training, we'll need to allow TCP connections between instances.
 1. Click into EC2 from the AWS homepage and go into **Security Groups** on the sidebar.
@@ -31,14 +39,6 @@ Now that the instances are online, you can connect to them using secure shell (S
 2. In your terminal, go to the directory you saved the keypair at, and run the command `chmod 400 keypair.pem` if on Linux and Mac. If running a Ubuntu subsystem or a Windows machine, use the directions [here](https://narmadanannaka.com/how-to-run-the-chmod400-command-on-windows). This changes the permissions so that only the user can read the key. Note that you will not be able to SSH into your instance if you do not properly protect the key.
 3. Run the command `ssh -i keypair.pem ec2-user@[Public IPv4 DNS]` to connect to the instance.
 4. Run `sudo yum update -y` and `sudo yum install git -y` to install git.
-
-## Quota Request
-
-Your AWS account has default quotas, but you can request a quota increase, such as access to more GPU instances, through one of following options. Increases are not granted immediately. It might take a couple of days for your increase to take effect.
-
-- Open the [Service Quotas console](https://console.aws.amazon.com/servicequotas/home). In the navigation pane, choose **AWS services**. Select a service, select a quota, and follow the directions to [request a quota increase](https://docs.aws.amazon.com/servicequotas/latest/userguide/request-quota-increase.html).
-- Use the [request-service-quota-increase](https://docs.aws.amazon.com/cli/latest/reference/service-quotas/request-service-quota-increase.html) AWS CLI command.
-If a service is not yet available in Service Quotas, create a [service limit increase case](https://support.console.aws.amazon.com/support/home#/case/create?issueType=service-limit-increase) using the AWS Support Center Console.
 
 # Google Cloud
 A full tutorial of starting Google Cloud virtual machine can be found [here](https://cloud.google.com/compute/docs/instances/create-start-instance).
