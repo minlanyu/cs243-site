@@ -2,6 +2,8 @@ Most students pick Amazon AWS as the main platform for their research. You can a
 I'd encourage you to set up AWS accounts first and refer to other options as needed by your projects. 
 
 # Amazon AWS
+A full tutorial for AWS virtual machine can be found [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html).
+
 ## Get an AWS account
 First you will have to sign up for an AWS regular account, if you don’t already have one. Do not apply for an AWS Educate Starter Account. You could then apply the AWS credits received from course TFs to your regular account (see this [link](https://aws.amazon.com/awscredits/) for info about redeeming credits). Below are a few tips of using the AWS account.
 - Set up a billing alert to make sure you don’t accidentally use up your free credits without noticing.
@@ -41,3 +43,21 @@ If a service is not yet available in Service Quotas, create a [service limit inc
 # Google Cloud
 
 # Microsoft Azure
+A full tutorial for AWS virtual machine can be found [here](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal?tabs=ubuntu).
+
+## Get an Azure account
+If you don't have an Azure subscription, create a free [account](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) before you begin. You may then sign in to the [Azure portal](https://portal.azure.com/).
+
+## Instances
+1. Enter **virtual machines** in the search and select **Virtual machines** under **Service**. In the **Virtual machines** page, select **Create** and then **Virtual machine**.
+2. In the **Basics** tab, under **Project details**, make sure the correct subscription is selected and then choose to **Create new resource group**. Enter *yourResourceGroup* for the name.
+3. Under **Instance details**, enter *yourVM* for the Virtual machine name, choose your **Image**, and Leave the other defaults. 
+4. Under **Administrator account**, select **SSH public key**. In **Username** enter *yourUsername*. For **SSH public key source**, leave the default of **Generate new key pair** and then enter *yourKey* for the **Key pair name**.
+5. Under **Inbound port rules** > **Public inbound ports**, choose **Allow selected ports** and then select **SSH (22)** and **HTTP (80)** from the drop-down.
+6. Leave the remaining defaults and then select the **Review + create** button at the bottom of the page. On the **Create a virtual machine** page, you can see the details about the VM you are about to create. When you are ready, select **Create**.
+7. When the **Generate new key pair** window opens, select **Download private key and create resource**. Your key file will be download as *yourKey.pem*. Make sure you know where the `.pem` file was downloaded.
+
+## Connecting
+On the page for your new VM, select the **public IP address** and copy it to your clipboard. You could then create an SSH connection with the VM.
+1. If you are on a Mac or Linux machine, open a Bash prompt and set read-only permission on the .pem file using chmod 400 `~/Downloads/yourKey.pem`. If you are on a Windows machine, open a PowerShell prompt.
+2. At your prompt, open an SSH connection to your virtual machine. Replace the IP address with the one from your VM, and replace the path to the `.pem` with the path to where the key file was downloaded.
