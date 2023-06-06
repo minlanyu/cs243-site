@@ -2,7 +2,7 @@ Most students pick Amazon AWS as the main platform for their research. You can a
 I'd encourage you to set up AWS accounts first and refer to other options as needed by your projects. 
 
 # Amazon AWS
-A full tutorial for AWS virtual machine can be found [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html).
+A full tutorial of starting AWS virtual machine can be found [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html).
 
 ## Get an AWS account
 First you will have to sign up for an AWS regular account, if you don’t already have one. Do not apply for an AWS Educate Starter Account. You could then apply the AWS credits received from course TFs to your regular account (see this [link](https://aws.amazon.com/awscredits/) for info about redeeming credits). Below are a few tips of using the AWS account.
@@ -43,7 +43,7 @@ If a service is not yet available in Service Quotas, create a [service limit inc
 # Google Cloud
 
 # Microsoft Azure
-A full tutorial for AWS virtual machine can be found [here](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal?tabs=ubuntu).
+A full tutorial of starting Azure virtual machine can be found [here](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal?tabs=ubuntu).
 
 ## Get an Azure account
 If you don't have an Azure subscription, create a free [account](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) before you begin. You may then sign in to the [Azure portal](https://portal.azure.com/).
