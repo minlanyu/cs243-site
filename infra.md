@@ -41,6 +41,18 @@ Your AWS account has default quotas, but you can request a quota increase, such 
 If a service is not yet available in Service Quotas, create a [service limit increase case](https://support.console.aws.amazon.com/support/home#/case/create?issueType=service-limit-increase) using the AWS Support Center Console.
 
 # Google Cloud
+A full tutorial of starting Google Cloud virtual machine can be found [here](https://cloud.google.com/compute/docs/instances/create-start-instance).
+
+## Instances
+1. In the Google Cloud console, go to the [**VM instances**](https://console.cloud.google.com/compute/instances) page. Select your instances and click **Continue**. Click **Create instance**.
+2. Specify a Name for your VM. Select a **Machine configuration** for your VM. In the **Boot disk** section, click **Change**, and then do the following: On the **Public images** tab, choose Operating system, OS version, Boot disk type, Boot disk size; To confirm your boot disk options, click **Select**.
+3. In the **Firewall** section, to permit HTTP or HTTPS traffic to the VM, select **Allow HTTP traffic** or **Allow HTTPS traffic**. When you select one of these, Compute Engine adds a network tag to your VM, which associates the firewall rule with the VM. Then, Compute Engine creates the corresponding ingress [firewall rule](https://cloud.google.com/vpc/docs/firewalls) that allows all incoming traffic on `tcp:80` (HTTP) or `tcp:443` (HTTPS).
+4. To create and start the VM, click **Create**.
+
+## Connecting
+Connect to VMs using [SSH-in-Browser](https://cloud.google.com/compute/docs/ssh-in-browser) from the Google Cloud console, by doing the following:
+1. In the Google Cloud console, go to the [**VM instances**](https://console.cloud.google.com/compute/instances) page.
+2. In the list of virtual machine instances, click **SSH** in the row of the instance that you want to connect to.
 
 # Microsoft Azure
 A full tutorial of starting Azure virtual machine can be found [here](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal?tabs=ubuntu).
