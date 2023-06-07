@@ -1,5 +1,4 @@
-Most students pick Amazon AWS as the main platform for their research. You can also choose Google Cloud or Microsoft Azure or your local testbeds, or public testbed such as [CloudLab](https://www.cloudlab.us/).
-I'd encourage you to set up AWS accounts first and refer to other options as needed by your projects. 
+Most students pick Amazon AWS as the main platform for their projects. You can also choose Google Cloud or Microsoft Azure or your local testbeds, or public testbed such as [CloudLab](https://www.cloudlab.us/).
 
 # Amazon AWS
 A full tutorial of starting AWS virtual machine can be found [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html).
