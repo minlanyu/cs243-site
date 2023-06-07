@@ -11,12 +11,16 @@ First you will have to sign up for an AWS regular account, if you don’t alread
 - Terminate them when you are sure you are done with your instance (disk storage also costs something, and can be significant if you have a large disk footprint).
 
 ## Quota Request
-
 Your AWS account has default quotas, but you can request a quota increase, such as access to more GPU instances, through one of following options. Increases are not granted immediately. It might take a couple of days for your increase to take effect. (From last year's experiences, AWS could delay weeks to approve new users)
 
 - Open the [Service Quotas console](https://console.aws.amazon.com/servicequotas/home). In the navigation pane, choose **AWS services**. Select a service, select a quota, and follow the directions to [request a quota increase](https://docs.aws.amazon.com/servicequotas/latest/userguide/request-quota-increase.html).
 - Use the [request-service-quota-increase](https://docs.aws.amazon.com/cli/latest/reference/service-quotas/request-service-quota-increase.html) AWS CLI command.
 If a service is not yet available in Service Quotas, create a [service limit increase case](https://support.console.aws.amazon.com/support/home#/case/create?issueType=service-limit-increase) using the AWS Support Center Console.
+
+Here's the recommended quota request from TFs if you don't know what you need for your project yet:
+- All Standard (A, C, D, H, I, M, R, T, Z) Spot Instance Requests: Default limit 5 ==> 100
+- All G and VT Spot Instance Requests: Default limit 0 ==> 20
+- All P Spot Instance Requests: Default limit 0 ==> 20
 
 ## Security Group
 The first thing that you'll want to do after logging into your AWS account is to create a security group. These security groups control which traffic is allowed between your AWS EC2 instances, so in order to do distributed training, we'll need to allow TCP connections between instances.
@@ -58,7 +62,7 @@ Connect to VMs using [SSH-in-Browser](https://cloud.google.com/compute/docs/ssh-
 A full tutorial of starting Azure virtual machine can be found [here](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal?tabs=ubuntu).
 
 ## Get an Azure account
-If you don't have an Azure subscription, create a free [account](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) before you begin. You may then sign in to the [Azure portal](https://portal.azure.com/).
+If you don't have an Azure subscription, create a free [account](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) before you begin. You may then sign in to the [Azure portal](https://portal.azure.com/). There should be free credits for students, which you can directly [apply](https://azure.microsoft.com/en-us/free/students/).  
 
 ## Instances
 1. Enter **virtual machines** in the search and select **Virtual machines** under **Service**. In the **Virtual machines** page, select **Create** and then **Virtual machine**.
