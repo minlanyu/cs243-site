@@ -34,6 +34,8 @@ Please see detailed requirements after the syllabus
 
 ## Syllabus
 
+This field is moving so fast. A majority of papers we read this year is new compared to last year. 
+
 ### Introduction
 - 9/5 Tu: Introduction (Minlan)
   * Reading 1: [Applied Machine Learning at Facebook: A Datacenter Infrastructure Perspective](https://research.facebook.com/file/904032783795098/hpca-2018-facebook.pdf)
