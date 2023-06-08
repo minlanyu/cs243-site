@@ -109,10 +109,10 @@ Software-Defined Networking](https://dl.acm.org/doi/pdf/10.1145/3544216.3544265)
 - 11/14 Tu: Federated learning
   * Reading: [Oort: Efficient Federated Learning via Guided Participant Selection](https://www.mosharaf.com/wp-content/uploads/oort-osdi21.pdf)
   * Optional reading: [Characterizing Impacts of Heterogeneity in Federated Learning upon Large-Scale Smartphone Data](https://arxiv.org/pdf/2006.06983.pdf)
-- 11/21 Tu: Sky computing 
+- 11/16 Th: Sky computing 
   * Reading: [SkyPilot: An Intercloud Broker for Sky Computing](https://www.usenix.org/conference/nsdi23/presentation/yang-zongheng)
   * Optional reading: [From Cloud Computing to Sky Computing](https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s02-stoica.pdf)
-- 11/16 Th: Serving systems 
+- 11/21 Tu: Serving systems 
   * Reading: [Orca: A Distributed Serving System for Transformer-Based Generative Models](https://www.usenix.org/conference/osdi22/presentation/yu)
   * Optional reading: [Shepherd: Serving DNNs in the Wild](https://www.usenix.org/system/files/nsdi23-zhang-hong.pdf)
 
@@ -123,23 +123,10 @@ Software-Defined Networking](https://dl.acm.org/doi/pdf/10.1145/3544216.3544265)
 - 12/5 Tu: Project Presentation
 - 12/15 Final Project Deadline (Tentative)
 
-### Other types of ML
-- Federated learning
-- 10/24 Mon: Ray (Joel Runevic, Jason Akoun)
-  * Reading: [Hoplite: Efficient and Fault-Tolerant Collective Communication for Task-Based Distributed Systems](https://conferences.sigcomm.org/sigcomm/2021/files/papers/3452296.3472897.pdf)
-  * Optional reading: [Ray: A Distributed Framework for Emerging AI Applications](https://www.usenix.org/system/files/osdi18-moritz.pdf)
-- 10/26 Wed: 
-- 11/21 Mon: 
-
-### Wrapping up
-- 11/23 Wed: no class (Thanksgiving break)
-- 11/28 Mon: Project presentation
-- 11/30 Wed: Project presentation
-
 ## Reviews
 - Students are expected to write reviews for the papers in each class. We will give scores based on the top 90\% of the reviews. This means it is ok if you miss 10\% of the reviews throughout the class.
 - Your reviews are due at noon one day before (Monday noon for Tuesday classes; Wednesday noon for Thursday classes). So the presenter of the paper can have time collect all your questions and we can discuss in class. For the lectures we have guest speakers, the TF will collect the questions and please raise your question in class.
-- The goal of the reviews is to get you comfortable of reading research papers in networking
+- The goal of the reviews is to get you comfortable of reading research papers in networking and systems
 
 ### Review format
 - Paper summary
