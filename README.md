@@ -108,7 +108,6 @@ Software-Defined Networking](https://dl.acm.org/doi/pdf/10.1145/3544216.3544265)
 ## Other types of ML
 - 11/14 Tu: Federated learning
   * Reading: [Oort: Efficient Federated Learning via Guided Participant Selection](https://www.mosharaf.com/wp-content/uploads/oort-osdi21.pdf)
-  * Optional reading: [Characterizing Impacts of Heterogeneity in Federated Learning upon Large-Scale Smartphone Data](https://arxiv.org/pdf/2006.06983.pdf)
 - 11/16 Th: Sky computing 
   * Reading: [SkyPilot: An Intercloud Broker for Sky Computing](https://www.usenix.org/conference/nsdi23/presentation/yang-zongheng)
   * Optional reading: [From Cloud Computing to Sky Computing](https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s02-stoica.pdf)
