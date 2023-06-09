@@ -126,14 +126,7 @@ Software-Defined Networking](https://dl.acm.org/doi/pdf/10.1145/3544216.3544265)
 - Students are expected to write reviews for the papers in each class. We will give scores based on the top 90\% of the reviews. This means it is ok if you miss 10\% of the reviews throughout the class.
 - Your reviews are due at noon one day before (Monday noon for Tuesday classes; Wednesday noon for Thursday classes). So the presenter of the paper can have time collect all your questions and we can discuss in class. For the lectures we have guest speakers, the TF will collect the questions and please raise your question in class.
 - The goal of the reviews is to get you comfortable of reading research papers in networking and systems
-
-### Review format
-- Paper summary
-- What are the paper’s strengths? Just a couple of sentences, please.
-- What are the paper’s areas for improvement? Just a couple of sentences, please.
-- Any thoughts or questions that you hope to discuss in class?
-- Other comments about the paper
-- Paper-specific question: We will post one question for each paper that you are supposed to answer in your review
+- Detailed review questions are in HotCRP. 
 
 ## Class Presentation
 - Depending on the number of students, each student will give one to three talks in this class.
@@ -145,6 +138,8 @@ Software-Defined Networking](https://dl.acm.org/doi/pdf/10.1145/3544216.3544265)
 - The presentation is supposed to cover the major content of the paper such as motivation (what problem the paper is solving; why is this problem not solved before), challenges (why is this problem difficult to solve), system design (how the authors address the challenges), Evaluation (Does it demonstrate that the problems/challenges are solved?), and your personal opinions of the paper.
 - The talk is supposed to be longer than a normal conference talk because we want to extend on problem formulation (give more context on problem setting) and detailed system design.
 - In addition, please read all the reviews submitted by your classmates and list their questions in the slides. And lead the discussions of these questions in class.
+- Please also be prepared answer detailed questions we may have on the paper during the discussion.
+- The grading of the presentation will be based on both the content (your understanding of the papers) and presentation (your delivery of the knowledge).
 
 ## Projects
 The semester-long project is an open-ended systems research project. Project topics are of your choice but should be related to networking. Projects should be done in groups of two or three and include a systems building component. Selected projects can be submitted to a peer-reviewed workshop papers or posters.
