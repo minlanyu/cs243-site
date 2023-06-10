@@ -155,7 +155,8 @@ The semester-long project is an open-ended systems research project. Project top
 - 12/11 Final project due at noon
 - 12/12 Review of other students' project due at noon
 
-### Project Proposal presentation
+### Project Proposal and project pitch presentation
+The project proposal is not graded but it serves as the good basis for your individual meeting with Minlan and for your pitch presentation. 
 Each group should give a 5-minute talk on your project ideas. The talk should include 
 - What problem are you solving? 
 - Why it's an important problem? 
@@ -189,11 +190,10 @@ The report should be similar in spirit to a workshop paper, which is six pages o
 - Conclusion: Summary of your work
 
 ### Code submission
-Together with the final report, you should submit the github link of your project code. No need for superb software engineering, but ideally the code should be accompanied by enough documentation that a motivated user could attempt to replicate your results.
+Together with the final report, you should submit the github link of your project code. No need for superb software engineering, but ideally the code should be accompanied by enough documentation that a motivated user could attempt to replicate your results. You will need to demonstrate your product to the TFs at the final office hour. 
 
-### Evaluation Testbed
-- We will apply for AWS EC2 credits for the class. Please contact me if you need credits.
-- You might also consider public testbed such as [CloudLab](https://www.cloudlab.us/)
+### Grading
+The first three milestones (pitch presentation, midterm report, final project report) each take 5%. We will grade based on how much you are keeping up with the progress of the stages. You will also get feedback at these milestones on how to improve your projects. The final project will be graded based on: Motivation, Design, and delivered system and its evaluation. 
 
 ## Diversity and Inclusion
 I would like to create a learning environment in our class that supports a diversity of thoughts, perspectives and experiences, and honors your identities (including race, gender, class, sexuality, socioeconomic status, religion, ability, etc.). I (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to me about it. If you feel like your performance in the class is being impacted by your experiences outside of class, please don’t hesitate to come and talk with me. As a participant in course discussions, you should also strive to honor the diversity of your classmates. (Statement extracted from one by Dr. Monica Linden at Brown University.)
