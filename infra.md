@@ -1,4 +1,4 @@
-Most students pick Amazon AWS as the main platform for their projects. You can also choose Google Cloud or Microsoft Azure or your local testbeds, or public testbed such as [CloudLab](https://www.cloudlab.us/).
+Most students pick Amazon AWS as the main platform for their projects. You can also choose Google Cloud or Microsoft Azure or your local testbeds, or public testbed such as CloudLab.
 
 # Amazon AWS
 A full tutorial of starting AWS virtual machine can be found [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html).
@@ -44,7 +44,7 @@ Now that the instances are online, you can connect to them using secure shell (S
 4. Run `sudo yum update -y` and `sudo yum install git -y` to install git.
 
 # Google Cloud
-A full tutorial of starting Google Cloud virtual machine can be found [here](https://cloud.google.com/compute/docs/instances/create-start-instance).
+A full tutorial of starting Google Cloud virtual machine can be found [here](https://cloud.google.com/compute/docs/instances/create-start-instance). Each student can get 50$ credits for Google Cloud. Please check Ed posting for details.
 
 ## Instances
 1. In the Google Cloud console, go to the [**VM instances**](https://console.cloud.google.com/compute/instances) page. Select your instances and click **Continue**. Click **Create instance**.
@@ -76,3 +76,5 @@ If you don't have an Azure subscription, create a free [account](https://azure.m
 On the page for your new VM, select the **public IP address** and copy it to your clipboard. You could then create an SSH connection with the VM.
 1. If you are on a Mac or Linux machine, open a Bash prompt and set read-only permission on the .pem file using chmod 400 `~/Downloads/yourKey.pem`. If you are on a Windows machine, open a PowerShell prompt.
 2. At your prompt, open an SSH connection to your virtual machine. Replace the IP address with the one from your VM, and replace the path to the `.pem` with the path to where the key file was downloaded.
+
+# Cloud Lab
