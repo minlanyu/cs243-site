@@ -63,11 +63,11 @@ Parallel](https://arxiv.org/pdf/2304.11277.pdf)
 - 9/28 Th: Parameter Server vs All Reduce
   * Reading: [A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters](https://www.usenix.org/system/files/osdi20-jiang.pdf)
   * Optional reading: [NCCL communication primitives](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/overview.html), [Tree-based NCCL](https://developer.nvidia.com/blog/massively-scale-deep-learning-training-nccl-2-4/)
-- 10/3 Tu: Compression 
-  * Reading: [ HiSpeed DNN Training with Espresso: Unleashing the Full Potential of Gradient Compression with Near-Optimal Usage Strategies](https://www.cs.rice.edu/~eugeneng/papers/EuroSys23.pdf)
-- 10/5 Th: Congestion control and flow scheduling
+- 10/3 Tu: Congestion control and flow scheduling
   * Reading: [Congestion Control in Machine Learning Clusters](https://conferences.sigcomm.org/hotnets/2022/papers/hotnets22_rajasekaran.pdf)
   * Reading: [Efficient Flow Scheduling in Distributed Deep Learning Training with Echelon Formation](https://conferences.sigcomm.org/hotnets/2022/papers/hotnets22_pan.pdf)
+- 10/5 Th: Compression (Minlan's out)
+  * Reading: [ HiSpeed DNN Training with Espresso: Unleashing the Full Potential of Gradient Compression with Near-Optimal Usage Strategies](https://www.cs.rice.edu/~eugeneng/papers/EuroSys23.pdf)
 
 <!--
 Memory-communication tradeoffs
@@ -136,7 +136,7 @@ Software-Defined Networking](https://dl.acm.org/doi/pdf/10.1145/3544216.3544265)
 
 ### Presentation format
 - The presentation is supposed to cover the major content of the paper such as motivation (what problem the paper is solving; why is this problem not solved before), challenges (why is this problem difficult to solve), system design (how the authors address the challenges), Evaluation (Does it demonstrate that the problems/challenges are solved?), and your personal opinions of the paper.
-- The talk is supposed to be longer than a normal conference talk because we want to extend on problem formulation (give more context on problem setting) and detailed system design.
+- The talk should be around 45-50 minutes excluding the review questions and discussions. This is longer than a normal conference talk because we want to extend on problem formulation (with more context on problem setting) and detailed system design.
 - In addition, please read all the reviews submitted by your classmates and list their questions in the slides. And lead the discussions of these questions in class.
 - Please also be prepared answer detailed questions we may have on the paper during the discussion.
 - The grading of the presentation will be based on both the content (your understanding of the papers) and presentation (your delivery of the knowledge).
