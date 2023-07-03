@@ -8,7 +8,7 @@ In this year's edition, we will use machine learning as a prime example to under
 
 - Instructor: Minlan Yu
 - Lecture time: TuTh 11:15am to 12:30pm
-- Location: TBD
+- Location: SEC 1.402
 - Office hour: Tu 10-11am, SEC 4.415
 - Teaching fellows: Weifan Jiang (weifanjiang@g.harvard.edu); Mark Ting (weiteting@g.harvard.edu) 
 - Prerequisite: This course has no prerequisites. Since this course will focus on reading papers on latest topics in networking, you will need to be able to pick up the relevant background for each topic from textbooks or online materials.
@@ -16,7 +16,7 @@ In this year's edition, we will use machine learning as a prime example to under
 
 ## Infrastructure Notes
 
-**If you are thinking of attending the class, please set up your cloud accounts before the class starts because from our last year's experiences it takes time for the cloud side to approve your requests.** Please see details at [the infrastructure page](infra.md).
+**If you are thinking of attending the class, please check [the infrastructure page](infra.md) to set up your infrastructure as soon as possible**
 
 ## Textbook
 There are no required textbooks for the course. You will read papers before each class to get the most out of the class. For backgrounds, you are encouraged to refer to the following books:
