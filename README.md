@@ -66,7 +66,7 @@ Parallel](https://arxiv.org/pdf/2304.11277.pdf)
 - 10/3 Tu: Congestion control and flow scheduling
   * Reading: [Congestion Control in Machine Learning Clusters](https://conferences.sigcomm.org/hotnets/2022/papers/hotnets22_rajasekaran.pdf)
   * Reading: [Efficient Flow Scheduling in Distributed Deep Learning Training with Echelon Formation](https://conferences.sigcomm.org/hotnets/2022/papers/hotnets22_pan.pdf)
-- 10/5 Th: Compression (Minlan's out)
+- 10/5 Th: Compression 
   * Reading: [ HiSpeed DNN Training with Espresso: Unleashing the Full Potential of Gradient Compression with Near-Optimal Usage Strategies](https://www.cs.rice.edu/~eugeneng/papers/EuroSys23.pdf)
 
 <!--
