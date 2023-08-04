@@ -45,11 +45,11 @@ This field is moving so fast. A majority of papers we read this year is new comp
 - 9/7 Th: Model trend and Hardware trend (Minlan)
 
 ### Parallelism Schemes
-- 9/12 Tu: Data Parallellism and Sharding
+- 9/12 Tu: Data Parallellism and Sharding (guest lecture, Minlan's out)
   * Reading: [PyTorch FSDP: Experiences on Scaling Fully Sharded Data
 Parallel](https://arxiv.org/pdf/2304.11277.pdf)
   * Optional reading: [Meta blog post](https://engineering.fb.com/2021/07/15/open-source/fsdp/)
-- 9/14 Th: Project ideas (Minlan)
+- 9/14 Th: Project ideas (online video, Minlan's out)
 - 9/19 Tu: Model Parallelism and Pipelining
   * Reading: [PipeDream: Generalized Pipeline Parallelism for DNN Training](https://cs.stanford.edu/~matei/papers/2019/sosp_pipedream.pdf)
   * Optional reading: [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](https://proceedings.neurips.cc/paper/2019/file/093f65e080a295f8076b1c5722a46aa2-Paper.pdf)
@@ -66,7 +66,7 @@ Parallel](https://arxiv.org/pdf/2304.11277.pdf)
 - 10/3 Tu: Congestion control and flow scheduling
   * Reading: [Congestion Control in Machine Learning Clusters](https://conferences.sigcomm.org/hotnets/2022/papers/hotnets22_rajasekaran.pdf)
   * Reading: [Efficient Flow Scheduling in Distributed Deep Learning Training with Echelon Formation](https://conferences.sigcomm.org/hotnets/2022/papers/hotnets22_pan.pdf)
-- 10/5 Th: Compression 
+- 10/5 Th: Compression (Minlan's out)
   * Reading: [ HiSpeed DNN Training with Espresso: Unleashing the Full Potential of Gradient Compression with Near-Optimal Usage Strategies](https://www.cs.rice.edu/~eugeneng/papers/EuroSys23.pdf)
 
 <!--
@@ -78,7 +78,7 @@ Memory-communication tradeoffs
 - 10/10 Tu: Data ingestion
   * Reading: [Understanding data storage and ingestion for large-scale deep recommendation model training](https://dl.acm.org/doi/pdf/10.1145/3470496.3533044?casa_token=hgqFSo4RkdIAAAAA:ADj2kpsgPUEjftbV54blNpO_98zhNTM675gjwsQ8uw7rDJcFeSRx99bIuEB-_H4Q1E4JPxfHPsJK)
 - 10/12 Th: Course project pitch presentation 
-- 10/17 Tu: Checkpointing (Minlan's out)
+- 10/17 Tu: Checkpointing 
   * Reading: [Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models](https://www.usenix.org/system/files/nsdi22-paper-eisenman.pdf)
   * Optional reading: [CheckFreq: Frequent, Fine-Grained DNN Checkpointing
 ](https://www.microsoft.com/en-us/research/publication/checkfreq-frequent-fine-grained-dnn-checkpointing/)
