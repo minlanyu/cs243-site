@@ -1,7 +1,7 @@
 Most students pick Amazon AWS as the main platform for their projects. You can also choose Google Cloud or Microsoft Azure or your local testbeds, or public testbed such as CloudLab.
 
 # Amazon AWS
-A full tutorial of starting AWS virtual machine can be found [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html).
+A full tutorial on starting an AWS virtual machine can be found [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html).
 
 ## Get an AWS account
 First you will have to sign up for an AWS regular account, if you don’t already have one. Do not apply for an AWS Educate Starter Account. You could then apply the AWS credits received from course TFs to your regular account (see this [link](https://aws.amazon.com/awscredits/) for info about redeeming credits). Below are a few tips of using the AWS account.
@@ -10,18 +10,17 @@ First you will have to sign up for an AWS regular account, if you don’t alread
 - Terminate them when you are sure you are done with your instance (disk storage also costs something, and can be significant if you have a large disk footprint).
 
 ## Quota Request
-Your AWS account has default quotas, but you can request a quota increase, such as access to more GPU instances, through one of following options. Increases are not granted immediately. It might take a couple of days for your increase to take effect. (From last year's experiences, AWS could delay weeks to approve new users)
+Your AWS account has default quotas, but you can request a quota increase, such as access to more GPU instances, through one of following options. Increases are not granted immediately: it might take a couple of days for your increase to take effect. (From last year's experiences, AWS could delay weeks to approve new users.)
 
-- Open the [Service Quotas console](https://console.aws.amazon.com/servicequotas/home). In the navigation pane, choose **AWS services**. Select a service, select a quota, and follow the directions to [request a quota increase](https://docs.aws.amazon.com/servicequotas/latest/userguide/request-quota-increase.html).
-- Use the [request-service-quota-increase](https://docs.aws.amazon.com/cli/latest/reference/service-quotas/request-service-quota-increase.html) AWS CLI command.
-If a service is not yet available in Service Quotas, create a [service limit increase case](https://support.console.aws.amazon.com/support/home#/case/create?issueType=service-limit-increase) using the AWS Support Center Console.
+- Open the [Service Quotas console](https://console.aws.amazon.com/servicequotas/home). In the navigation pane, choose **AWS services** and select a service to view your current quotas. You will most likely be interested in the [EC2 quotas](https://console.aws.amazon.com/servicequotas/home/services/ec2/quotas).
+- You can [request a quota increase](https://docs.aws.amazon.com/servicequotas/latest/userguide/request-quota-increase.html) using the [request-service-quota-increase](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/service-quotas/request-service-quota-increase.html) AWS CLI command or, if a service is not yet available in the Service Quotas, [create a service limit increase case](https://support.console.aws.amazon.com/support/home#/case/create?issueType=service-limit-increase) using the AWS Support Center Console.
 
-Here's the recommended quota request from TFs if you don't know what you need for your project yet:
+Here are some recommended quota increase requests from TFs if you don't know what you need for your project yet:
 - All Standard (A, C, D, H, I, M, R, T, Z) Spot Instance Requests: Default limit 5 ==> 100
 - All G and VT Spot Instance Requests: Default limit 0 ==> 20
 - All P Spot Instance Requests: Default limit 0 ==> 20
 
-## Security Group
+## Security Groups
 The first thing that you'll want to do after logging into your AWS account is to create a security group. These security groups control which traffic is allowed between your AWS EC2 instances, so in order to do distributed training, we'll need to allow TCP connections between instances.
 1. Click into EC2 from the AWS homepage and go into **Security Groups** on the sidebar.
 2. Click **Create security group**, choose a name for the group and create the security group. Select the group that you just created and under **Actions**, choose **Edit inbound rules**.
@@ -29,9 +28,9 @@ The first thing that you'll want to do after logging into your AWS account is to
 
 ## Instances
 Now we can generate the actual AWS EC2 instances. We'll be using 2 relatively small CPU instance for this warm-up project, but you'll likely use GPU instances for future projects.
-1. Go to **Instances** in the sidebar and click launch instances.
-2. Enter a name you'd like and then scroll down and choose c4.large for the **Instance type**. This is compute instance with 2 vCPUs.
-3. Under **Key pair**, create a new keypair with RSA and .pem and save it (remember this location).
+1. Go to **Instances** in the sidebar and click **Launch instances**.
+2. Enter a name you'd like and then scroll down and choose *c4.large* for the **Instance type**. This is compute instance with 2 vCPUs.
+3. Under **Key pair**, create a new keypair with RSA and `.pem` and save it (remember this location).
 4. Choose **select existing security group** and choose the security group that you made.
 5. Increase the storage to 20 GiB.
 6. Increase the number of instances to 2 and **Launch instance**.
