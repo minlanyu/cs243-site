@@ -4,7 +4,8 @@ Most students pick Amazon AWS as the main platform for their projects. You can a
 A full tutorial on starting an AWS virtual machine can be found [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html).
 
 ## Get an AWS account
-First you will have to sign up for an AWS regular account, if you don’t already have one. Do not apply for an AWS Educate Starter Account. You could then apply the AWS credits received from course TFs to your regular account (see this [link](https://aws.amazon.com/awscredits/) for info about redeeming credits). Below are a few tips of using the AWS account.
+First you will have to sign up for an AWS regular account, if you don’t already have one. Do not apply for an AWS Educate Starter Account. 
+Please send your AWS IDs to the TFs based on our Ed announcements. You can then apply the AWS credits received from course TFs to your regular account (see this [link](https://aws.amazon.com/awscredits/) for info about redeeming credits). Below are a few tips of using the AWS account.
 - Set up a billing alert to make sure you don’t accidentally use up your free credits without noticing.
 - Stop your instances when are done for the day to avoid incurring charges. Use your funds wisely.
 - Terminate them when you are sure you are done with your instance (disk storage also costs something, and can be significant if you have a large disk footprint).
