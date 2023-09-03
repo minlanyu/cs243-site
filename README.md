@@ -45,15 +45,15 @@ This field is moving so fast. A majority of papers we read this year is new comp
 - 9/7 Th: Model trend and Hardware trend (Minlan)
 
 ### Parallelism Schemes
-- 9/12 Tu: Data Parallellism and Sharding (guest lecture, Minlan's out)
+- 9/12 Tu: Warm up project and infrastructure setup (TFs will lead this class)
+- 9/14 Th: Data Parallellism and Sharding (Guest lecture by Prof. Tushar Krishna and William Won)
   * Reading: [PyTorch FSDP: Experiences on Scaling Fully Sharded Data
 Parallel](https://arxiv.org/pdf/2304.11277.pdf)
   * Optional reading: [Meta blog post](https://engineering.fb.com/2021/07/15/open-source/fsdp/)
-- 9/14 Th: Project ideas (online video, Minlan's out)
-- 9/19 Tu: Model Parallelism and Pipelining
+- 9/19 Tu: Model Parallelism and Pipelining (Minlan)
   * Reading: [PipeDream: Generalized Pipeline Parallelism for DNN Training](https://cs.stanford.edu/~matei/papers/2019/sosp_pipedream.pdf)
   * Optional reading: [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](https://proceedings.neurips.cc/paper/2019/file/093f65e080a295f8076b1c5722a46aa2-Paper.pdf)
-- 9/21 Th: Tensor Parallelism
+- 9/21 Th: Tensor Parallelism 
   * Reading: [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/pdf/1909.08053.pdf)* 
 - 9/26 Tu: Automated parallelism
   * Reading: [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://arxiv.org/pdf/2201.12023.pdf)
@@ -66,7 +66,8 @@ Parallel](https://arxiv.org/pdf/2304.11277.pdf)
 - 10/3 Tu: Congestion control and flow scheduling
   * Reading: [Congestion Control in Machine Learning Clusters](https://conferences.sigcomm.org/hotnets/2022/papers/hotnets22_rajasekaran.pdf)
   * Reading: [Efficient Flow Scheduling in Distributed Deep Learning Training with Echelon Formation](https://conferences.sigcomm.org/hotnets/2022/papers/hotnets22_pan.pdf)
-- 10/5 Th: Compression (Minlan's out)
+- 10/5 Th: Ethics: System impact on fairness in ML
+- Compression 
   * Reading: [ HiSpeed DNN Training with Espresso: Unleashing the Full Potential of Gradient Compression with Near-Optimal Usage Strategies](https://www.cs.rice.edu/~eugeneng/papers/EuroSys23.pdf)
 
 <!--
@@ -117,7 +118,7 @@ Software-Defined Networking](https://dl.acm.org/doi/pdf/10.1145/3544216.3544265)
 
 ## Wrapping up
 - 11/23 no class: Thanksgiving 
-- 11/28 Tu: Ethics: System impact on fairness in ML
+- 11/28 Tu: 
 - 11/30 Th: Project Presentation
 - 12/5 Tu: Project Presentation
 - 12/15 Final Project Deadline (Tentative)
