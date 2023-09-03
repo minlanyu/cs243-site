@@ -67,8 +67,9 @@ Parallel](https://arxiv.org/pdf/2304.11277.pdf)
   * Reading: [Congestion Control in Machine Learning Clusters](https://conferences.sigcomm.org/hotnets/2022/papers/hotnets22_rajasekaran.pdf)
   * Reading: [Efficient Flow Scheduling in Distributed Deep Learning Training with Echelon Formation](https://conferences.sigcomm.org/hotnets/2022/papers/hotnets22_pan.pdf)
 - 10/5 Th: Ethics: System impact on fairness in ML
-- Compression 
+- 10/10 Tu: Compression 
   * Reading: [ HiSpeed DNN Training with Espresso: Unleashing the Full Potential of Gradient Compression with Near-Optimal Usage Strategies](https://www.cs.rice.edu/~eugeneng/papers/EuroSys23.pdf)
+- 10/12 Th: Course project pitch presentation
 
 <!--
 Memory-communication tradeoffs
@@ -76,49 +77,47 @@ Memory-communication tradeoffs
 -->
   
 ### End-to-end ML workflow
-- 10/10 Tu: Data ingestion
+- 10/17 Tu: Data ingestion
   * Reading: [Understanding data storage and ingestion for large-scale deep recommendation model training](https://dl.acm.org/doi/pdf/10.1145/3470496.3533044?casa_token=hgqFSo4RkdIAAAAA:ADj2kpsgPUEjftbV54blNpO_98zhNTM675gjwsQ8uw7rDJcFeSRx99bIuEB-_H4Q1E4JPxfHPsJK)
-- 10/12 Th: Course project pitch presentation 
-- 10/17 Tu: Checkpointing 
+- 10/19 Th: Checkpointing 
   * Reading: [Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models](https://www.usenix.org/system/files/nsdi22-paper-eisenman.pdf)
   * Optional reading: [CheckFreq: Frequent, Fine-Grained DNN Checkpointing
 ](https://www.microsoft.com/en-us/research/publication/checkfreq-frequent-fine-grained-dnn-checkpointing/)
-- 10/19 Th: Preprocessing
+- 10/24 Tu: Preprocessing
   * Reading: [Where Is My Training Bottleneck? Hidden Trade-Offs in Deep Learning Preprocessing Pipelines](https://dl.acm.org/doi/pdf/10.1145/3514221.3517848?casa_token=0sDxMYVe-d8AAAAA:v1Zeh6kccJU9E4xa6fbd_Vy6wGuJfkqhGav9Dv02oPIF1xiLu8CL7tdXO0xiZ_63Eh3mbjwWHbd0)
   * Optional Reading: [FastFlow: Accelerating Deep Learning Model Training with Smart Offloading of Input Data Pipeline](https://www.vldb.org/pvldb/vol16/p1086-um.pdf)
-- 10/24 Tu: Energy saving
+- 10/26 Th: Energy saving
   * Reading: [Zeus: Understanding and Optimizing GPU Energy Consumption of DNN Training](https://www.usenix.org/system/files/nsdi23-you.pdf)
-- 10/26 Th: Job scheduling
+- 10/31 Tu: Job scheduling
   * Reading: [Looking Beyond GPUs for DNN Scheduling on Multi-Tenant Clusters](https://www.microsoft.com/en-us/research/uploads/prod/2022/03/osdi22-fiddle-synergy.pdf)
 
 
 ### Hardware
-- 10/31 Tu: TPU
+- 11/2 Th: TPU
   * Reading: [TPU v4: An Optically Reconfigurable Supercomputer for Machine Learning with Hardware Support for Embeddings](https://arxiv.org/pdf/2304.01433.pdf)
-- 11/2 Th: Optical networks
+- 11/7 Tu: Optical networks
   * Reading: [Jupiter Evolving: Transforming Google’s Datacenter Network via Optical Circuit Switches and
 Software-Defined Networking](https://dl.acm.org/doi/pdf/10.1145/3544216.3544265)
   * Optional Reading: [TOPOOPT: Co-optimizing Network Topology and Parallelization Strategy for Distributed Training Jobs](https://people.csail.mit.edu/ghobadi/papers/topoOpt_nsdi_2023.pdf)
-- 11/7 Tu: Programmable switches
+- 11/9 Th: Programmable switches
   * Reading: [ATP: In-network Aggregation for Multi-tenant Learning](https://www.usenix.org/system/files/nsdi21-lao.pdf)
   * Optional reading: [Scalable Hierarchical Aggregation and Reduction Protocol (SHARP)TM Streaming-Aggregation Hardware Design and Evaluation](https://network.nvidia.com/sites/default/files/related-docs/solutions/hpc/paperieee_copyright.pdf)
-- 11/9 Th: FPGA
+- 11/14 Tu: FPGA
   * Reading: [FAERY: An FPGA-accelerated Embedding-based Retrieval System](https://www.usenix.org/conference/osdi22/presentation/zeng)
   * Optional Reading: [Nvidia HugeCTR](https://developer.nvidia.com/blog/introducing-merlin-hugectr-training-framework-dedicated-to-recommender-systems/)
 
 ## Other types of ML
-- 11/14 Tu: Federated learning
+- 11/16 Th: Federated learning
   * Reading: [Oort: Efficient Federated Learning via Guided Participant Selection](https://www.mosharaf.com/wp-content/uploads/oort-osdi21.pdf)
-- 11/16 Th: Sky computing 
+- 11/21 Tu: Sky computing 
   * Reading: [SkyPilot: An Intercloud Broker for Sky Computing](https://www.usenix.org/conference/nsdi23/presentation/yang-zongheng)
   * Optional reading: [From Cloud Computing to Sky Computing](https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s02-stoica.pdf)
-- 11/21 Tu: Serving systems 
+- 11/23 no class: Thanksgiving 
+- 11/28 Tu: Serving systems 
   * Reading: [Orca: A Distributed Serving System for Transformer-Based Generative Models](https://www.usenix.org/conference/osdi22/presentation/yu)
   * Optional reading: [Shepherd: Serving DNNs in the Wild](https://www.usenix.org/system/files/nsdi23-zhang-hong.pdf)
 
 ## Wrapping up
-- 11/23 no class: Thanksgiving 
-- 11/28 Tu: 
 - 11/30 Th: Project Presentation
 - 12/5 Tu: Project Presentation
 - 12/15 Final Project Deadline (Tentative)
