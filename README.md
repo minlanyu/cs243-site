@@ -54,7 +54,8 @@ Parallel](https://arxiv.org/pdf/2304.11277.pdf)
   * Reading: [PipeDream: Generalized Pipeline Parallelism for DNN Training](https://cs.stanford.edu/~matei/papers/2019/sosp_pipedream.pdf)
   * Optional reading: [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](https://proceedings.neurips.cc/paper/2019/file/093f65e080a295f8076b1c5722a46aa2-Paper.pdf)
 - 9/21 Th: Tensor Parallelism 
-  * Reading: [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/pdf/1909.08053.pdf)* 
+  * Reading: [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/pdf/2104.04473.pdf)
+  * Optional Reading: [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/pdf/1909.08053.pdf)* 
 - 9/26 Tu: Automated parallelism
   * Reading: [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://arxiv.org/pdf/2201.12023.pdf)
   * Optional reading: [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://cs.stanford.edu/~matei/papers/2021/sc_megatron_lm.pdf)
