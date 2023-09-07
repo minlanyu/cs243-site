@@ -64,12 +64,12 @@ Parallel](https://arxiv.org/pdf/2304.11277.pdf)
 - 9/28 Th: Parameter Server vs All Reduce
   * Reading: [A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters](https://www.usenix.org/system/files/osdi20-jiang.pdf)
   * Optional reading: [NCCL communication primitives](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/overview.html), [Tree-based NCCL](https://developer.nvidia.com/blog/massively-scale-deep-learning-training-nccl-2-4/)
-- 10/3 Tu: Congestion control and flow scheduling
-  * Reading: [Congestion Control in Machine Learning Clusters](https://conferences.sigcomm.org/hotnets/2022/papers/hotnets22_rajasekaran.pdf)
+- 10/3 Tu: Flow and network scheduling
+  * Reading: [Cassini: Network-Aware Job Scheduling in Machine Learning Clusters](https://arxiv.org/pdf/2308.00852.pdf)
   * Reading: [Efficient Flow Scheduling in Distributed Deep Learning Training with Echelon Formation](https://conferences.sigcomm.org/hotnets/2022/papers/hotnets22_pan.pdf)
 - 10/5 Th: Ethics: System impact on fairness in ML
 - 10/10 Tu: Compression 
-  * Reading: [ HiSpeed DNN Training with Espresso: Unleashing the Full Potential of Gradient Compression with Near-Optimal Usage Strategies](https://www.cs.rice.edu/~eugeneng/papers/EuroSys23.pdf)
+  * Reading: [HiSpeed DNN Training with Espresso: Unleashing the Full Potential of Gradient Compression with Near-Optimal Usage Strategies](https://www.cs.rice.edu/~eugeneng/papers/EuroSys23.pdf)
 - 10/12 Th: Course project pitch presentation
 
 <!--
