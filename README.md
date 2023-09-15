@@ -58,7 +58,6 @@ Parallel](https://arxiv.org/pdf/2304.11277.pdf)
   * Optional Reading: [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/pdf/1909.08053.pdf)* 
 - 9/26 Tu: Automated parallelism
   * Reading: [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://arxiv.org/pdf/2201.12023.pdf)
-  * Optional reading: [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://cs.stanford.edu/~matei/papers/2021/sc_megatron_lm.pdf)
 
 ### Communication Schemes
 - 9/28 Th: Parameter Server vs All Reduce
