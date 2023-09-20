@@ -145,7 +145,7 @@ Software-Defined Networking](https://dl.acm.org/doi/pdf/10.1145/3544216.3544265)
 The semester-long project is an open-ended systems research project. Project topics are of your choice but should be related to networking. Projects should be done in groups of two or three and include a systems building component. Selected projects can be submitted to a peer-reviewed workshop papers or posters.
 
 ### Project Timeline
-- 9/17 Sun at noon: Form groups for course projects
+- 9/22 Fri at noon: Form groups for course projects
 - 10/1 Sun at noon: Course project proposal
 - 10/2-6: Schedule individual meetings with Minlan to get feedback on your project proposal
 - 10/12 Th: Course project pitch presentation
