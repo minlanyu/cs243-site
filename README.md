@@ -67,6 +67,7 @@ Parallel](https://arxiv.org/pdf/2304.11277.pdf)
   * Reading: [Cassini: Network-Aware Job Scheduling in Machine Learning Clusters](https://arxiv.org/pdf/2308.00852.pdf)
   * Optional Reading: [Efficient Flow Scheduling in Distributed Deep Learning Training with Echelon Formation](https://conferences.sigcomm.org/hotnets/2022/papers/hotnets22_pan.pdf)
 - 10/5 Th: Ethics: System impact on fairness in ML
+  * Reading: [Advances and Open Problems in Federated Learning](https://arxiv.org/pdf/1912.04977.pdf), Section 6 (page 75-80)
 - 10/10 Tu: Compression 
   * Reading: [HiSpeed DNN Training with Espresso: Unleashing the Full Potential of Gradient Compression with Near-Optimal Usage Strategies](https://www.cs.rice.edu/~eugeneng/papers/EuroSys23.pdf)
 - 10/12 Th: Course project pitch presentation
