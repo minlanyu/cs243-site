@@ -63,13 +63,13 @@ Parallel](https://arxiv.org/pdf/2304.11277.pdf)
 - 9/28 Th: Parameter Server vs All Reduce (Safwan Hossain, Tonghan Wang)
   * Reading: [A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters](https://www.usenix.org/system/files/osdi20-jiang.pdf)
   * Optional reading: [NCCL communication primitives](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/overview.html), [Tree-based NCCL](https://developer.nvidia.com/blog/massively-scale-deep-learning-training-nccl-2-4/)
-- 10/3 Tu: Flow and network scheduling
+- 10/3 Tu: Flow and network scheduling (Aayush Karan, Jared Ni, Victor Goncalves)
   * Reading: [Cassini: Network-Aware Job Scheduling in Machine Learning Clusters](https://arxiv.org/pdf/2308.00852.pdf)
   * Optional Reading: [Efficient Flow Scheduling in Distributed Deep Learning Training with Echelon Formation](https://conferences.sigcomm.org/hotnets/2022/papers/hotnets22_pan.pdf)
 - 10/5 Th: Ethics: System impact on fairness in ML
   * Reading: [Advances and Open Problems in Federated Learning](https://arxiv.org/pdf/1912.04977.pdf) Only need to read Section 6 (page 75-80)
   * Optional reading: [Measuring Algorithmic Fairness](https://virginialawreview.org/wp-content/uploads/2020/06/Hellman_Book.pdf)
-- 10/10 Tu: Compression 
+- 10/10 Tu: Compression (Hannah Zhou, Justin O'Dwyer, Nina Lei)
   * Reading: [HiSpeed DNN Training with Espresso: Unleashing the Full Potential of Gradient Compression with Near-Optimal Usage Strategies](https://www.cs.rice.edu/~eugeneng/papers/EuroSys23.pdf)
 - 10/12 Th: Course project pitch presentation
 
@@ -79,18 +79,18 @@ Memory-communication tradeoffs
 -->
   
 ### End-to-end ML workflow
-- 10/17 Tu: Data ingestion
+- 10/17 Tu: Data ingestion (Albert Qi, Alice Wu, Feiyang Huang)
   * Reading: [Understanding data storage and ingestion for large-scale deep recommendation model training](https://dl.acm.org/doi/pdf/10.1145/3470496.3533044?casa_token=hgqFSo4RkdIAAAAA:ADj2kpsgPUEjftbV54blNpO_98zhNTM675gjwsQ8uw7rDJcFeSRx99bIuEB-_H4Q1E4JPxfHPsJK)
-- 10/19 Th: Checkpointing 
+- 10/19 Th: Checkpointing (Michal Kurek, Natnael Teshome, Nithya Gottipati)
   * Reading: [Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models](https://www.usenix.org/system/files/nsdi22-paper-eisenman.pdf)
   * Optional reading: [CheckFreq: Frequent, Fine-Grained DNN Checkpointing
 ](https://www.microsoft.com/en-us/research/publication/checkfreq-frequent-fine-grained-dnn-checkpointing/)
-- 10/24 Tu: Preprocessing
+- 10/24 Tu: Preprocessing (Cameron Wong, Dalila Oliva, Shirley Zhang)
   * Reading: [Where Is My Training Bottleneck? Hidden Trade-Offs in Deep Learning Preprocessing Pipelines](https://dl.acm.org/doi/pdf/10.1145/3514221.3517848?casa_token=0sDxMYVe-d8AAAAA:v1Zeh6kccJU9E4xa6fbd_Vy6wGuJfkqhGav9Dv02oPIF1xiLu8CL7tdXO0xiZ_63Eh3mbjwWHbd0)
   * Optional Reading: [FastFlow: Accelerating Deep Learning Model Training with Smart Offloading of Input Data Pipeline](https://www.vldb.org/pvldb/vol16/p1086-um.pdf)
-- 10/26 Th: Energy saving
+- 10/26 Th: Energy saving (Daniela Shuman, Derek Hu, Yang Hu)
   * Reading: [Zeus: Understanding and Optimizing GPU Energy Consumption of DNN Training](https://www.usenix.org/system/files/nsdi23-you.pdf)
-- 10/31 Tu: Job scheduling
+- 10/31 Tu: Job scheduling (Hannah Pierce-Hoffman, Kane Norman, Parita Shah)
   * Reading: [Looking Beyond GPUs for DNN Scheduling on Multi-Tenant Clusters](https://www.microsoft.com/en-us/research/uploads/prod/2022/03/osdi22-fiddle-synergy.pdf)
 
 
