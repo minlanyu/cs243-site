@@ -56,11 +56,11 @@ Parallel](https://arxiv.org/pdf/2304.11277.pdf)
 - 9/21 Th: Tensor Parallelism (Gareth Wu, Jessica Chen, Sahil Kuchlous)
   * Reading: [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/pdf/2104.04473.pdf)
   * Optional Reading: [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/pdf/1909.08053.pdf)* 
-- 9/26 Tu: Automated parallelism (Grace Li, Sam DePaolo, Stephen Yang)
+- 9/26 Tu: Automated parallelism (Sam DePaolo, Stephen Yang)
   * Reading: [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://arxiv.org/pdf/2201.12023.pdf)
 
 ### Communication Schemes
-- 9/28 Th: Parameter Server vs All Reduce (Safwan Hossain, Steve Dalla, Tonghan Wang)
+- 9/28 Th: Parameter Server vs All Reduce (Safwan Hossain, Tonghan Wang)
   * Reading: [A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters](https://www.usenix.org/system/files/osdi20-jiang.pdf)
   * Optional reading: [NCCL communication primitives](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/overview.html), [Tree-based NCCL](https://developer.nvidia.com/blog/massively-scale-deep-learning-training-nccl-2-4/)
 - 10/3 Tu: Flow and network scheduling
