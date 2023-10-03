@@ -122,7 +122,7 @@ Software-Defined Networking](https://dl.acm.org/doi/pdf/10.1145/3544216.3544265)
 ## Wrapping up
 - 11/30 Th: Project Presentation
 - 12/5 Tu: Project Presentation
-- 12/15 Final Project Deadline (Tentative)
+- 12/11 Final Project Deadline (updated based on school examination group and dates)
 
 ## Reviews
 - Students are expected to write reviews for the papers in each class. We will give scores based on the top 90\% of the reviews. This means it is ok if you miss 10\% of the reviews throughout the class.
