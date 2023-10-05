@@ -81,6 +81,7 @@ Memory-communication tradeoffs
 ### End-to-end ML workflow
 - 10/17 Tu: Data ingestion (Albert Qi, Alice Wu, Feiyang Huang)
   * Reading: [Understanding data storage and ingestion for large-scale deep recommendation model training](https://dl.acm.org/doi/pdf/10.1145/3470496.3533044?casa_token=hgqFSo4RkdIAAAAA:ADj2kpsgPUEjftbV54blNpO_98zhNTM675gjwsQ8uw7rDJcFeSRx99bIuEB-_H4Q1E4JPxfHPsJK)
+  * Optional Reading: [RecD: Deduplication for End-to-End Deep Learning Recommendation Model Training Infrastructure](https://arxiv.org/abs/2211.05239)
 - 10/19 Th: Checkpointing (Michal Kurek, Natnael Teshome, Nithya Gottipati)
   * Reading: [Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models](https://www.usenix.org/system/files/nsdi22-paper-eisenman.pdf)
   * Optional reading: [CheckFreq: Frequent, Fine-Grained DNN Checkpointing
