@@ -89,7 +89,7 @@ Memory-communication tradeoffs
 - 10/24 Tu: Preprocessing (Cameron Wong, Dalila Oliva, Shirley Zhang)
   * Reading: [Where Is My Training Bottleneck? Hidden Trade-Offs in Deep Learning Preprocessing Pipelines](https://dl.acm.org/doi/pdf/10.1145/3514221.3517848?casa_token=0sDxMYVe-d8AAAAA:v1Zeh6kccJU9E4xa6fbd_Vy6wGuJfkqhGav9Dv02oPIF1xiLu8CL7tdXO0xiZ_63Eh3mbjwWHbd0)
   * Optional Reading: [FastFlow: Accelerating Deep Learning Model Training with Smart Offloading of Input Data Pipeline](https://www.vldb.org/pvldb/vol16/p1086-um.pdf)
-- 10/26 Th: Energy saving (Daniela Shuman, Derek Hu, Yang Hu)
+- 10/26 Th: Energy saving (Daniela Shuman, Yang Hu)
   * Reading: [Zeus: Understanding and Optimizing GPU Energy Consumption of DNN Training](https://www.usenix.org/system/files/nsdi23-you.pdf)
 - 10/31 Tu: Job scheduling (Hannah Pierce-Hoffman, Kane Norman, Parita Shah)
   * Reading: [Looking Beyond GPUs for DNN Scheduling on Multi-Tenant Clusters](https://www.microsoft.com/en-us/research/uploads/prod/2022/03/osdi22-fiddle-synergy.pdf)
