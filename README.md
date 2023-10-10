@@ -96,27 +96,27 @@ Memory-communication tradeoffs
 
 
 ### Hardware
-- 11/2 Th: TPU
+- 11/2 Th: TPU (Aditi Raju, Michael Hla, Zev Minsky-Primus)
   * Reading: [TPU v4: An Optically Reconfigurable Supercomputer for Machine Learning with Hardware Support for Embeddings](https://arxiv.org/pdf/2304.01433.pdf)
-- 11/7 Tu: Optical networks
+- 11/7 Tu: Optical networks (Grace Li, Samuel Lin, Yuen Ler Chow)
   * Reading: [Jupiter Evolving: Transforming Google’s Datacenter Network via Optical Circuit Switches and
 Software-Defined Networking](https://dl.acm.org/doi/pdf/10.1145/3544216.3544265)
   * Optional Reading: [TOPOOPT: Co-optimizing Network Topology and Parallelization Strategy for Distributed Training Jobs](https://people.csail.mit.edu/ghobadi/papers/topoOpt_nsdi_2023.pdf)
-- 11/9 Th: Programmable switches
+- 11/9 Th: Programmable switches (Golden Chang, Matt Kiley, Steve Dalla)
   * Reading: [ATP: In-network Aggregation for Multi-tenant Learning](https://www.usenix.org/system/files/nsdi21-lao.pdf)
   * Optional reading: [Scalable Hierarchical Aggregation and Reduction Protocol (SHARP)TM Streaming-Aggregation Hardware Design and Evaluation](https://network.nvidia.com/sites/default/files/related-docs/solutions/hpc/paperieee_copyright.pdf)
-- 11/14 Tu: FPGA
+- 11/14 Tu: FPGA (Ronak Malik, Saketh Mynampati)
   * Reading: [FAERY: An FPGA-accelerated Embedding-based Retrieval System](https://www.usenix.org/conference/osdi22/presentation/zeng)
   * Optional Reading: [Nvidia HugeCTR](https://developer.nvidia.com/blog/introducing-merlin-hugectr-training-framework-dedicated-to-recommender-systems/)
 
 ## Other types of ML
-- 11/16 Th: Federated learning
+- 11/16 Th: Federated learning (Jeremy Hsu, Kevin Huang, Steve Li)
   * Reading: [Oort: Efficient Federated Learning via Guided Participant Selection](https://www.mosharaf.com/wp-content/uploads/oort-osdi21.pdf)
-- 11/21 Tu: Sky computing 
+- 11/21 Tu: Sky computing (Andrew Li, Suvin Sundararajan)
   * Reading: [SkyPilot: An Intercloud Broker for Sky Computing](https://www.usenix.org/conference/nsdi23/presentation/yang-zongheng)
   * Optional reading: [From Cloud Computing to Sky Computing](https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s02-stoica.pdf)
 - 11/23 no class: Thanksgiving 
-- 11/28 Tu: Serving systems 
+- 11/28 Tu: Serving systems (Qianru Lao, Shiji Xin)
   * Reading: [Orca: A Distributed Serving System for Transformer-Based Generative Models](https://www.usenix.org/conference/osdi22/presentation/yu)
   * Optional reading: [Shepherd: Serving DNNs in the Wild](https://www.usenix.org/system/files/nsdi23-zhang-hong.pdf)
 
