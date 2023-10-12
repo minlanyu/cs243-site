@@ -69,7 +69,7 @@ Parallel](https://arxiv.org/pdf/2304.11277.pdf)
 - 10/5 Th: Ethics: System impact on fairness in ML
   * Reading: [Advances and Open Problems in Federated Learning](https://arxiv.org/pdf/1912.04977.pdf) Only need to read Section 6 (page 75-80)
   * Optional reading: [Measuring Algorithmic Fairness](https://virginialawreview.org/wp-content/uploads/2020/06/Hellman_Book.pdf)
-- 10/10 Tu: Compression (Hannah Zhou, Justin O'Dwyer, Nina Lei)
+- 10/10 Tu: Compression (Hannah Zhou, Nina Lei)
   * Reading: [HiSpeed DNN Training with Espresso: Unleashing the Full Potential of Gradient Compression with Near-Optimal Usage Strategies](https://www.cs.rice.edu/~eugeneng/papers/EuroSys23.pdf)
 - 10/12 Th: Course project pitch presentation
 
