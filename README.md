@@ -1,4 +1,4 @@
-# CS 243, Fall 2023: Advanced Computer Networks
+# CS 243, Fall 2024: Advanced Computer Networks
 
 ## Overview
 
@@ -10,7 +10,7 @@ In this year's edition, we will use machine learning as a prime example to under
 - Lecture time: TuTh 11:15am to 12:30pm
 - Location: SEC 1.402
 - Office hour: Tu 10-11am, SEC 4.415
-- Teaching fellows: Weifan Jiang (weifanjiang@g.harvard.edu), OH 2-3pm on Thursdays @ SEC 4.431; Mark Ting (weiteting@g.harvard.edu) 
+- Teaching fellows: Qianru Lao qianrulao@fas.harvard.edu; Shiji Xin sxin@fas.harvard.edu
 - Prerequisite: This course has no prerequisites. Since this course will focus on reading papers on latest topics in networking, you will need to be able to pick up the relevant background for each topic from textbooks or online materials.
 - Recommended prep: system programming at the level of CS 61 or CS 143 or CS 145.
 
@@ -37,92 +37,94 @@ Please see detailed requirements after the syllabus
 This field is moving so fast. A majority of papers we read this year is new compared to last year. 
 
 ### Introduction
-- 9/5 Tu: Introduction (Minlan)
+- 9/3 Tu: Introduction (Minlan)
   * Reading 1: [Applied Machine Learning at Facebook: A Datacenter Infrastructure Perspective](https://research.facebook.com/file/904032783795098/hpca-2018-facebook.pdf)
   * Reading 2: [How to Read a Paper](https://www.cs.princeton.edu/courses/archive/fall13/cos597E/papers/howtoread.pdf)
   * Optional reading: [MLSys: The New Frontier of Machine Learning Systems](https://arxiv.org/pdf/1904.03257.pdf)
   * Optional reading: [A Berkeley View of Systems Challenges for AI](https://arxiv.org/pdf/1712.05855.pdf)
-- 9/7 Th: Model trend and Hardware trend (Minlan)
+- 9/5 Th: Model trend and Hardware trend (Minlan)
 
 ### Parallelism Schemes
-- 9/12 Tu: Warm up project and infrastructure setup (TFs will lead this class)
-- 9/14 Th: Data Parallellism and Sharding (Guest lecture by Prof. Tushar Krishna and William Won)
+- 9/10 Tu: Data Parallellism and Sharding (Guest lecture by Prof. Tushar Krishna and William Won)
   * Reading: [PyTorch FSDP: Experiences on Scaling Fully Sharded Data
 Parallel](https://arxiv.org/pdf/2304.11277.pdf)
   * Optional reading: [Meta blog post](https://engineering.fb.com/2021/07/15/open-source/fsdp/)
-- 9/19 Tu: Model Parallelism and Pipelining (Minlan)
+- 9/12 Th: Model Parallelism and Pipelining (Minlan)
   * Reading: [PipeDream: Generalized Pipeline Parallelism for DNN Training](https://cs.stanford.edu/~matei/papers/2019/sosp_pipedream.pdf)
   * Optional reading: [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](https://proceedings.neurips.cc/paper/2019/file/093f65e080a295f8076b1c5722a46aa2-Paper.pdf)
-- 9/21 Th: Tensor Parallelism (Gareth Wu, Jessica Chen, Sahil Kuchlous)
+- 9/17 Tu: Tensor Parallelism (Gareth Wu, Jessica Chen, Sahil Kuchlous)
   * Reading: [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/pdf/2104.04473.pdf)
   * Optional Reading: [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/pdf/1909.08053.pdf)* 
-- 9/26 Tu: Automated parallelism (Sam DePaolo, Stephen Yang)
+- 9/19 Th: Automated parallelism (Sam DePaolo, Stephen Yang)
   * Reading: [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://arxiv.org/pdf/2201.12023.pdf)
 
-### Communication Schemes
-- 9/28 Th: Parameter Server vs All Reduce (Safwan Hossain, Tonghan Wang)
+
+### Communication Collectives
+- 9/24 Tu: Parameter Server vs All Reduce (Safwan Hossain, Tonghan Wang)
   * Reading: [A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters](https://www.usenix.org/system/files/osdi20-jiang.pdf)
   * Optional reading: [NCCL communication primitives](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/overview.html), [Tree-based NCCL](https://developer.nvidia.com/blog/massively-scale-deep-learning-training-nccl-2-4/)
-- 10/3 Tu: Flow and network scheduling (Aayush Karan, Jared Ni, Victor Goncalves)
-  * Reading: [Cassini: Network-Aware Job Scheduling in Machine Learning Clusters](https://arxiv.org/pdf/2308.00852.pdf)
-  * Optional Reading: [Efficient Flow Scheduling in Distributed Deep Learning Training with Echelon Formation](https://conferences.sigcomm.org/hotnets/2022/papers/hotnets22_pan.pdf)
-- 10/5 Th: Ethics: System impact on fairness in ML
+- 9/26 Th: 
+- 10/1 Tu: Ethics: System impact on fairness in ML
   * Reading: [Advances and Open Problems in Federated Learning](https://arxiv.org/pdf/1912.04977.pdf) Only need to read Section 6 (page 75-80)
   * Optional reading: [Measuring Algorithmic Fairness](https://virginialawreview.org/wp-content/uploads/2020/06/Hellman_Book.pdf)
-- 10/10 Tu: Compression (Hannah Zhou, Nina Lei)
+- 10/3 Th: 
+- 10/8 Tu: Compression (Hannah Zhou, Nina Lei)
   * Reading: [HiSpeed DNN Training with Espresso: Unleashing the Full Potential of Gradient Compression with Near-Optimal Usage Strategies](https://www.cs.rice.edu/~eugeneng/papers/EuroSys23.pdf)
-- 10/12 Th: Course project pitch presentation
+- 10/10 Th: Course project pitch presentation
 
 <!--
 Memory-communication tradeoffs
   * Reading: [ZeRO: Memory Optimizations Toward Training Trillion Parameter Models](https://arxiv.org/pdf/1910.02054.pdf)
+Flow and network scheduling (Aayush Karan, Jared Ni, Victor Goncalves)
+  * Reading: [Cassini: Network-Aware Job Scheduling in Machine Learning Clusters](https://arxiv.org/pdf/2308.00852.pdf)
+  * Optional Reading: [Efficient Flow Scheduling in Distributed Deep Learning Training with Echelon Formation](https://conferences.sigcomm.org/hotnets/2022/papers/hotnets22_pan.pdf)
 -->
   
 ### End-to-end ML workflow
-- 10/17 Tu: Data ingestion (Albert Qi, Alice Wu, Feiyang Huang)
+- 10/15 Tu: Data ingestion (Albert Qi, Alice Wu, Feiyang Huang)
   * Reading: [Understanding data storage and ingestion for large-scale deep recommendation model training](https://dl.acm.org/doi/pdf/10.1145/3470496.3533044?casa_token=hgqFSo4RkdIAAAAA:ADj2kpsgPUEjftbV54blNpO_98zhNTM675gjwsQ8uw7rDJcFeSRx99bIuEB-_H4Q1E4JPxfHPsJK)
   * Optional Reading: [RecD: Deduplication for End-to-End Deep Learning Recommendation Model Training Infrastructure](https://arxiv.org/abs/2211.05239)
-- 10/19 Th: Checkpointing (Michal Kurek, Natnael Teshome, Nithya Gottipati)
+- 10/17 Th: Checkpointing (Michal Kurek, Natnael Teshome, Nithya Gottipati)
   * Reading: [Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models](https://www.usenix.org/system/files/nsdi22-paper-eisenman.pdf)
   * Optional reading: [CheckFreq: Frequent, Fine-Grained DNN Checkpointing
 ](https://www.microsoft.com/en-us/research/publication/checkfreq-frequent-fine-grained-dnn-checkpointing/)
-- 10/24 Tu: Energy saving (Daniela Shuman, Yang Hu)
+- 10/22 Tu: Energy saving (Daniela Shuman, Yang Hu)
   * Reading: [Zeus: Understanding and Optimizing GPU Energy Consumption of DNN Training](https://www.usenix.org/system/files/nsdi23-you.pdf)
-- 10/26 Th: Preprocessing (Cameron Wong, Dalila Oliva, Shirley Zhang)
+- 10/24 Th: Preprocessing (Cameron Wong, Dalila Oliva, Shirley Zhang)
   * Reading: [Where Is My Training Bottleneck? Hidden Trade-Offs in Deep Learning Preprocessing Pipelines](https://dl.acm.org/doi/pdf/10.1145/3514221.3517848?casa_token=0sDxMYVe-d8AAAAA:v1Zeh6kccJU9E4xa6fbd_Vy6wGuJfkqhGav9Dv02oPIF1xiLu8CL7tdXO0xiZ_63Eh3mbjwWHbd0)
   * Optional Reading: [FastFlow: Accelerating Deep Learning Model Training with Smart Offloading of Input Data Pipeline](https://www.vldb.org/pvldb/vol16/p1086-um.pdf)
-- 10/31 Tu: Job scheduling (Hannah Pierce-Hoffman, Parita Shah)
+- 10/29 Tu: Job scheduling (Hannah Pierce-Hoffman, Parita Shah)
   * Reading: [Looking Beyond GPUs for DNN Scheduling on Multi-Tenant Clusters](https://www.microsoft.com/en-us/research/uploads/prod/2022/03/osdi22-fiddle-synergy.pdf)
 
 
 ### Hardware
-- 11/2 Th: TPU (Aditi Raju, Michael Hla, Zev Minsky-Primus)
+- 10/31 Th: TPU (Aditi Raju, Michael Hla, Zev Minsky-Primus)
   * Reading: [TPU v4: An Optically Reconfigurable Supercomputer for Machine Learning with Hardware Support for Embeddings](https://arxiv.org/pdf/2304.01433.pdf)
-- 11/7 Tu: Optical networks (Grace Li, Samuel Lin, Yuen Ler Chow)
+- 11/5 Tu: Optical networks (Grace Li, Samuel Lin, Yuen Ler Chow)
   * Reading: [Jupiter Evolving: Transforming Google’s Datacenter Network via Optical Circuit Switches and
 Software-Defined Networking](https://dl.acm.org/doi/pdf/10.1145/3544216.3544265)
   * Optional Reading: [TOPOOPT: Co-optimizing Network Topology and Parallelization Strategy for Distributed Training Jobs](https://people.csail.mit.edu/ghobadi/papers/topoOpt_nsdi_2023.pdf)
-- 11/9 Th: Programmable switches (Golden Chang, Matt Kiley, Steve Dalla)
+- 11/7 Th: Programmable switches (Golden Chang, Matt Kiley, Steve Dalla)
   * Reading: [ATP: In-network Aggregation for Multi-tenant Learning](https://www.usenix.org/system/files/nsdi21-lao.pdf)
   * Optional reading: [Scalable Hierarchical Aggregation and Reduction Protocol (SHARP)TM Streaming-Aggregation Hardware Design and Evaluation](https://network.nvidia.com/sites/default/files/related-docs/solutions/hpc/paperieee_copyright.pdf)
-- 11/14 Tu: FPGA (Ronak Malik, Saketh Mynampati)
+- 11/12 Tu: FPGA (Ronak Malik, Saketh Mynampati)
   * Reading: [FAERY: An FPGA-accelerated Embedding-based Retrieval System](https://www.usenix.org/conference/osdi22/presentation/zeng)
   * Optional Reading: [Nvidia HugeCTR](https://developer.nvidia.com/blog/introducing-merlin-hugectr-training-framework-dedicated-to-recommender-systems/)
 
 ## Other types of ML
-- 11/16 Th: Federated learning (Jeremy Hsu, Kevin Huang, Steve Li)
+- 11/14 Th: Federated learning (Jeremy Hsu, Kevin Huang, Steve Li)
   * Reading: [Oort: Efficient Federated Learning via Guided Participant Selection](https://www.mosharaf.com/wp-content/uploads/oort-osdi21.pdf)
-- 11/21 Tu: Sky computing (Andrew Li, Suvin Sundararajan)
+- 11/19 Tu: Sky computing (Andrew Li, Suvin Sundararajan)
   * Reading: [SkyPilot: An Intercloud Broker for Sky Computing](https://www.usenix.org/conference/nsdi23/presentation/yang-zongheng)
   * Optional reading: [From Cloud Computing to Sky Computing](https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s02-stoica.pdf)
-- 11/23 no class: Thanksgiving 
-- 11/28 Tu: Serving systems (Qianru Lao, Shiji Xin)
+- 11/21 
+- 11/26 Tu: Serving systems (Qianru Lao, Shiji Xin)
   * Reading: [Orca: A Distributed Serving System for Transformer-Based Generative Models](https://www.usenix.org/conference/osdi22/presentation/yu)
   * Optional reading: [Shepherd: Serving DNNs in the Wild](https://www.usenix.org/system/files/nsdi23-zhang-hong.pdf)
 
 ## Wrapping up
-- 11/30 Th: Project Presentation
-- 12/5 Tu: Project Presentation
+- 11/28 Th: no class: Thanksgiving 
+- 12/3 Tu: In-class discussion and activities
 - 12/11 Final Project Deadline (updated based on school examination group and dates)
 
 ## Reviews
