@@ -34,7 +34,9 @@ Please see detailed requirements after the syllabus
 
 ## Syllabus
 
-This field is moving so fast. A majority of papers we read this year is new compared to last year. 
+This field is moving so fast. A majority of papers we read this year are new compared to last year. 
+
+[The list of papers are still under development.]
 
 ### Introduction
 - 9/3 Tu: Introduction (Minlan)
