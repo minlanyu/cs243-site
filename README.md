@@ -34,44 +34,56 @@ Please see detailed requirements after the syllabus
 
 ## Syllabus
 
-This field is moving so fast. A majority of papers we read this year are new compared to last year. 
-
-[The list of papers are still under development.]
+This field is moving so fast. We have introduced a group of new papers this year again.  
 
 ### Introduction
 - 9/3 Tu: Introduction (Minlan)
   * Reading 1: [Applied Machine Learning at Facebook: A Datacenter Infrastructure Perspective](https://research.facebook.com/file/904032783795098/hpca-2018-facebook.pdf)
   * Reading 2: [How to Read a Paper](https://www.cs.princeton.edu/courses/archive/fall13/cos597E/papers/howtoread.pdf)
-  * Optional reading: [MLSys: The New Frontier of Machine Learning Systems](https://arxiv.org/pdf/1904.03257.pdf)
-  * Optional reading: [A Berkeley View of Systems Challenges for AI](https://arxiv.org/pdf/1712.05855.pdf)
-- 9/5 Th: Model trend and Hardware trend (Minlan)
+- 9/5 Th: Background on model and hardware (Minlan)
+<!--
+https://jalammar.github.io/illustrated-transformer/
+https://jalammar.github.io/illustrated-gpt2/
+-->
 
-### Parallelism Schemes
+### Distributed Training (various parallelism schemes)
 - 9/10 Tu: Data Parallellism and Sharding (Minlan)
-  * Reading: [PyTorch FSDP: Experiences on Scaling Fully Sharded Data
-Parallel](https://arxiv.org/pdf/2304.11277.pdf)
+  * Reading: [PyTorch FSDP: Experiences on Scaling Fully Sharded Data Parallel](https://arxiv.org/pdf/2304.11277.pdf)
   * Optional reading: [Meta blog post](https://engineering.fb.com/2021/07/15/open-source/fsdp/)
-- 9/12 Th: Model Parallelism and Pipelining (Minlan)
+- 9/12 Th: Model Parallelism and Pipelining 
   * Reading: [PipeDream: Generalized Pipeline Parallelism for DNN Training](https://cs.stanford.edu/~matei/papers/2019/sosp_pipedream.pdf)
   * Optional reading: [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](https://proceedings.neurips.cc/paper/2019/file/093f65e080a295f8076b1c5722a46aa2-Paper.pdf)
-- 9/17 Tu: Large language model and Tensor Parallelism (Minlan)
+- 9/17 Tu: Large language model and Tensor Parallelism 
   * Reading: [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/pdf/2104.04473.pdf)
-  * Optional Reading: [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/pdf/1909.08053.pdf)* 
-- 9/19 Th: Automated parallelism (Sam DePaolo, Stephen Yang)
+  * Optional Reading: [ZeRO-Infinity: Breaking the GPU Memory Wall for Extreme Scale Deep Learning](https://ieeexplore.ieee.org/abstract/document/9355301)
+  <!-- * Optional Reading: [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/pdf/1909.08053.pdf)*  -->
+- 9/19 Th: Automated parallelism 
   * Reading: [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://arxiv.org/pdf/2201.12023.pdf)
 
-### Communication Collectives
-- 9/24 Tu: Parameter Server vs All Reduce (Safwan Hossain, Tonghan Wang)
-  * Reading: [A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters](https://www.usenix.org/system/files/osdi20-jiang.pdf)
-  * Optional reading: [NCCL communication primitives](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/overview.html), [Tree-based NCCL](https://developer.nvidia.com/blog/massively-scale-deep-learning-training-nccl-2-4/)
-- 9/26 Th: 
-- 10/1 Tu: Ethics: System impact on fairness in ML
-  * Reading: [Advances and Open Problems in Federated Learning](https://arxiv.org/pdf/1912.04977.pdf) Only need to read Section 6 (page 75-80)
-  * Optional reading: [Measuring Algorithmic Fairness](https://virginialawreview.org/wp-content/uploads/2020/06/Hellman_Book.pdf)
+### LLM Serving
+- 9/24 Tu: Paged Attention
+  * Reading: [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/pdf/2309.06180)
+- 9/26 Th: Throughput-latency tradeoffs
+  * Reading: [Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve](https://www.usenix.org/system/files/osdi24-agrawal.pdf)
+- 10/1 Tu: TF's tutorial on training systems
 - 10/3 Th: Course project pitch presentation
-- 10/8 Tu: Compression (Hannah Zhou, Nina Lei)
-  * Reading: [HiSpeed DNN Training with Espresso: Unleashing the Full Potential of Gradient Compression with Near-Optimal Usage Strategies](https://www.cs.rice.edu/~eugeneng/papers/EuroSys23.pdf)
-- 10/10 Th: 
+- 10/8 Tu: Distributed serving
+  * Reading: [DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving](https://www.usenix.org/system/files/osdi24-zhong-yinmin.pdf)
+
+### Communication Collectives
+- 10/10 Th: Parameter Server vs All Reduce 
+  * Reading: [A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters](https://www.usenix.org/system/files/osdi20-jiang.pdf)
+- 10/15 Tu: NCCL optimizations
+  * Reading: [Rethinking Machine Learning Collective Communication as a Multi-Commodity Flow Problem](https://www.sivak.dev/assets/pdf/sigcomm24_teccl.pdf)
+- 10/17 Th: NCCL as a service
+  * Reading: [MCCS: A Service-based Approach to Collective Communication for Multi-Tenant Cloud](https://www.yongjiwu.me/assets/pdf/sigcomm24-mccs.pdf)
+- 10/22 Tu: Flow scheduling
+  * Reading: [Crux: GPU-Efficient Communication Scheduling for Deep Learning Training](https://dl.acm.org/doi/pdf/10.1145/3651890.3672239)
+
+<!-- - Compression
+  * Reading: [HiSpeed DNN Training with Espresso: Unleashing the Full Potential of Gradient Compression with Near-Optimal Usage Strategies](https://www.cs.rice.edu/~eugeneng/papers/EuroSys23.pdf) -->
+
+<!-- * Optional reading: [NCCL communication primitives](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/overview.html), [Tree-based NCCL](https://developer.nvidia.com/blog/massively-scale-deep-learning-training-nccl-2-4/) -->
 
 <!--
 Memory-communication tradeoffs
@@ -80,49 +92,40 @@ Flow and network scheduling (Aayush Karan, Jared Ni, Victor Goncalves)
   * Reading: [Cassini: Network-Aware Job Scheduling in Machine Learning Clusters](https://arxiv.org/pdf/2308.00852.pdf)
   * Optional Reading: [Efficient Flow Scheduling in Distributed Deep Learning Training with Echelon Formation](https://conferences.sigcomm.org/hotnets/2022/papers/hotnets22_pan.pdf)
 -->
-
-### LLM serving
   
 ### End-to-end ML workflow
-- 10/15 Tu: Data ingestion (Albert Qi, Alice Wu, Feiyang Huang)
+- 10/24 Th: Data ingestion 
   * Reading: [Understanding data storage and ingestion for large-scale deep recommendation model training](https://dl.acm.org/doi/pdf/10.1145/3470496.3533044?casa_token=hgqFSo4RkdIAAAAA:ADj2kpsgPUEjftbV54blNpO_98zhNTM675gjwsQ8uw7rDJcFeSRx99bIuEB-_H4Q1E4JPxfHPsJK)
   * Optional Reading: [RecD: Deduplication for End-to-End Deep Learning Recommendation Model Training Infrastructure](https://arxiv.org/abs/2211.05239)
-- 10/17 Th: Checkpointing (Michal Kurek, Natnael Teshome, Nithya Gottipati)
-  * Reading: [Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models](https://www.usenix.org/system/files/nsdi22-paper-eisenman.pdf)
-  * Optional reading: [CheckFreq: Frequent, Fine-Grained DNN Checkpointing
-](https://www.microsoft.com/en-us/research/publication/checkfreq-frequent-fine-grained-dnn-checkpointing/)
-- 10/22 Tu: Energy saving (Daniela Shuman, Yang Hu)
-  * Reading: [Zeus: Understanding and Optimizing GPU Energy Consumption of DNN Training](https://www.usenix.org/system/files/nsdi23-you.pdf)
-- 10/24 Th: Preprocessing (Cameron Wong, Dalila Oliva, Shirley Zhang)
-  * Reading: [Where Is My Training Bottleneck? Hidden Trade-Offs in Deep Learning Preprocessing Pipelines](https://dl.acm.org/doi/pdf/10.1145/3514221.3517848?casa_token=0sDxMYVe-d8AAAAA:v1Zeh6kccJU9E4xa6fbd_Vy6wGuJfkqhGav9Dv02oPIF1xiLu8CL7tdXO0xiZ_63Eh3mbjwWHbd0)
-  * Optional Reading: [FastFlow: Accelerating Deep Learning Model Training with Smart Offloading of Input Data Pipeline](https://www.vldb.org/pvldb/vol16/p1086-um.pdf)
-- 10/29 Tu: Job scheduling (Hannah Pierce-Hoffman, Parita Shah)
-  * Reading: [Looking Beyond GPUs for DNN Scheduling on Multi-Tenant Clusters](https://www.microsoft.com/en-us/research/uploads/prod/2022/03/osdi22-fiddle-synergy.pdf)
-
+- 10/29 Tu: Ethics
+- 10/31 Th: Checkpointing 
+  * Reading: [Gemini: Fast failure recovery in distributed training with in-memory checkpoints](https://assets.amazon.science/29/31/6523473f48e4af52252bac56ef51/gemini-fast-failure-recovery-in-distributed-training-with-in-memory-checkpoints.pdf)
+  * Optional reading: [Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models](https://www.usenix.org/system/files/nsdi22-paper-eisenman.pdf)
+- 11/5 Tu: Fault tolerance 
+  * Reading: [Oobleck: Resilient Distributed Training of Large Models Using Pipeline Templates](https://xinjin.github.io/files/SOSP23_Oobleck.pdf)
+- 11/7 Th: LLM training in Production
+  * Reading: [MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs](https://www.usenix.org/system/files/nsdi24-jiang-ziheng.pdf)
+  * Optional reading: [The Llama 3 Herd of Models](https://arxiv.org/pdf/2407.21783#page=64.50)
+- 11/12 Tu: Carbon cost for ML (invited talk from Carole-Jean Wu, Meta)
 
 ### Hardware
-- 10/31 Th: TPU (Aditi Raju, Michael Hla, Zev Minsky-Primus)
-  * Reading: [TPU v4: An Optically Reconfigurable Supercomputer for Machine Learning with Hardware Support for Embeddings](https://arxiv.org/pdf/2304.01433.pdf)
-- 11/5 Tu: Optical networks (Grace Li, Samuel Lin, Yuen Ler Chow)
-  * Reading: [Jupiter Evolving: Transforming Google’s Datacenter Network via Optical Circuit Switches and
-Software-Defined Networking](https://dl.acm.org/doi/pdf/10.1145/3544216.3544265)
-  * Optional Reading: [TOPOOPT: Co-optimizing Network Topology and Parallelization Strategy for Distributed Training Jobs](https://people.csail.mit.edu/ghobadi/papers/topoOpt_nsdi_2023.pdf)
-- 11/7 Th: Programmable switches (Golden Chang, Matt Kiley, Steve Dalla)
+- 11/14 Th: TPU 
+  * Reading: [Resiliency at Scale: Managing Google’s
+TPUv4 Machine Learning Supercomputer](https://www.usenix.org/system/files/nsdi24-zu.pdf)
+  * optional Reading: [TPU v4: An Optically Reconfigurable Supercomputer for Machine Learning with Hardware Support for Embeddings](https://arxiv.org/pdf/2304.01433.pdf)
+- 11/19 Tu: RDMA 
+  * Reading: [RDMA over Ethernet for Distributed AI Training at Meta Scale](https://dl.acm.org/doi/pdf/10.1145/3651890.3672233)
+- 11/21 Th: In-network aggregation 
   * Reading: [ATP: In-network Aggregation for Multi-tenant Learning](https://www.usenix.org/system/files/nsdi21-lao.pdf)
   * Optional reading: [Scalable Hierarchical Aggregation and Reduction Protocol (SHARP)TM Streaming-Aggregation Hardware Design and Evaluation](https://network.nvidia.com/sites/default/files/related-docs/solutions/hpc/paperieee_copyright.pdf)
-- 11/12 Tu: FPGA (Ronak Malik, Saketh Mynampati)
-  * Reading: [FAERY: An FPGA-accelerated Embedding-based Retrieval System](https://www.usenix.org/conference/osdi22/presentation/zeng)
-  * Optional Reading: [Nvidia HugeCTR](https://developer.nvidia.com/blog/introducing-merlin-hugectr-training-framework-dedicated-to-recommender-systems/)
 
-## Other types of ML
-- 11/14 Th: Federated learning (Jeremy Hsu, Kevin Huang, Steve Li)
+
+<!-- ## ML in the wild
+- Federated learning 
   * Reading: [Oort: Efficient Federated Learning via Guided Participant Selection](https://www.mosharaf.com/wp-content/uploads/oort-osdi21.pdf)
-- 11/19 Tu: Sky computing (Andrew Li, Suvin Sundararajan)
+- Sky computing 
   * Reading: [SkyPilot: An Intercloud Broker for Sky Computing](https://www.usenix.org/conference/nsdi23/presentation/yang-zongheng)
-  * Optional reading: [From Cloud Computing to Sky Computing](https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s02-stoica.pdf)
-- 11/21 Th: Serving systems (Qianru Lao, Shiji Xin)
-  * Reading: [Orca: A Distributed Serving System for Transformer-Based Generative Models](https://www.usenix.org/conference/osdi22/presentation/yu)
-  * Optional reading: [Shepherd: Serving DNNs in the Wild](https://www.usenix.org/system/files/nsdi23-zhang-hong.pdf)
+  * Optional reading: [From Cloud Computing to Sky Computing](https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s02-stoica.pdf) -->
 - 11/26 Tu: Final project presentation (batch I)
 
 ## Wrapping up
@@ -166,7 +169,7 @@ The semester-long project is an open-ended systems research project. Project top
 
 ### Project Proposal
 The project proposal serves as a checkpoint, providing a basis for your individual meetings with Minlan and for your pitch presentations.
-You will receive the full 1% grade if you submit your proposal on time. Unfortunately, late submissions will not be accepted, and there is no opportunity to make up the grade. After submission, you can keep updating your proposal and bring your latest one to your meeting with Minlan.
+**You will receive the full 1% grade if you submit your proposal on time.** Unfortunately, late submissions will not be accepted, and there is no opportunity to make up the grade. After submission, you can keep updating your proposal and bring your latest one to your meeting with Minlan.
 
 ### Project pitch presentation
 Each group should deliver a 5-minute talk on their project ideas. Be mindful about the scope of your project to ensure it can be completed by your team within two and a half months.
@@ -175,9 +178,10 @@ The presentation should include the following points (one slide per question):
 - Why is it an important problem? 
 - What potential challenges might you face in solving the problem?
 - What is your plan for the midterm report and division of work within the team?
+**Your grade depend on how concrete your problem and execution plan is** 
 
 ### Midterm Project Report
-The midterm report should be about 2-4 pages and serve as a starting point for your final project report (see detailed requirements for the final report below) To achieve a high score for your midterm report, it is important to deliver an initial evaluation of your system. You don't need to complete the entire system; instead, focus on identifying the most critical component/question in your project and provide an initial quantitative evaluation. The midterm report should include the following:
+The midterm report should be about 2-4 pages and serve as a starting point for your final project report (see detailed requirements for the final report below) **To achieve a high score for your midterm report, it is important to deliver an initial evaluation of your system.** You don't need to complete the entire system; instead, focus on identifying the most critical component/question in your project and provide an initial quantitative evaluation. The midterm report should include the following:
 - Describe the problem you plan to solve, why it is novel/unique, and the major challenges (similar to your project pitch presentation, but feel free to adapt it based on your new understanding of the problem).
 - Describe the detailed design of your project and what you have implemented/evaluated so far.
 - Provide one evaluation figure about your initial system (This will be the focus of your meeting with Minlan)
@@ -192,6 +196,7 @@ This presentation should resemble a workshop talk. You might consider covering t
 - How did you solve these challenges? Or how do you plan to solve them?
 - Your preliminary evaluation results
 - What do you plan to improve for the final report?
+
 
 ### Final Project Report
 The report should be similar in spirit to a workshop paper, spanning six pages of double-column, single-spaced, 10-point font, excluding references. Here is an example LaTeX framework for formatting and building your paper. As shown in the framework, you may consider the following sections for your report (adapted from Eddie's version):
