@@ -78,3 +78,4 @@ On the page for your new VM, select the **public IP address** and copy it to you
 2. At your prompt, open an SSH connection to your virtual machine. Replace the IP address with the one from your VM, and replace the path to the `.pem` with the path to where the key file was downloaded.
 
 # Cloud Lab
+See more instructions here: https://www.cloudlab.us/

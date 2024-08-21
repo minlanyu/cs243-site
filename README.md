@@ -34,7 +34,7 @@ Please see detailed requirements after the syllabus
 
 ## Syllabus
 
-This field is moving so fast. We have introduced a group of new papers this year again.  
+We have introduced a group of new papers this year again. The papers we read have an emphasis on distributed systems and networking in the ML area. 
 
 ### Introduction
 - 9/3 Tu: Introduction (Minlan)
@@ -178,7 +178,8 @@ The presentation should include the following points (one slide per question):
 - Why is it an important problem? 
 - What potential challenges might you face in solving the problem?
 - What is your plan for the midterm report and division of work within the team?
-**Your grade depend on how concrete your problem and execution plan is** 
+
+**Your grade depend on how concrete your problem and execution plan are** 
 
 ### Midterm Project Report
 The midterm report should be about 2-4 pages and serve as a starting point for your final project report (see detailed requirements for the final report below) **To achieve a high score for your midterm report, it is important to deliver an initial evaluation of your system.** You don't need to complete the entire system; instead, focus on identifying the most critical component/question in your project and provide an initial quantitative evaluation. The midterm report should include the following:
