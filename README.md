@@ -66,7 +66,7 @@ https://jalammar.github.io/illustrated-gpt2/
   * Optional Reading: [ZeRO-Infinity: Breaking the GPU Memory Wall for Extreme Scale Deep Learning](https://ieeexplore.ieee.org/abstract/document/9355301)
 - 9/26 Th: LLM serving
   * Reading: [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/pdf/2309.06180)
-- 10/1 Tu: TF's tutorial on training systems
+- 10/1 Tu: Tutorial on [ASTRA-sim Distributed Machine Learning System simulator](https://astra-sim.github.io/)
 - 10/3 Th: Course project pitch presentation
 - 10/8 Tu: Throughput-latency tradeoffs
   * Reading: [Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve](https://www.usenix.org/system/files/osdi24-agrawal.pdf)
