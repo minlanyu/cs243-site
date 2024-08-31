@@ -7,7 +7,7 @@ This is a graduate-level course on computer networks, offering an in-depth explo
 In this year's edition, we will use machine learning as a prime example to understand its unique requirements and challenges in the context of networking. As machine learning applications increasingly rely on larger models and faster accelerators, the demand for enhanced networking capabilities becomes imperative. Throughout this course, we will study cutting-edge networking solutions and principles for  co-designing networks with computing and storage, to meet the evolving needs of machine learning applications. The course will include lectures, in-class presentations, paper discussions, and a research project.
 
 - Instructor: Minlan Yu
-- Guest instructor: Tushar Krishna (who will join some class discussions and provide feedback for course projects)
+- Guest instructor: Prof. [Tushar Krishna](https://tusharkrishna.ece.gatech.edu/) (who will join some class discussions and provide feedback for course projects)
 - Lecture time: TuTh 11:15 am to 12:30 pm
 - Location: SEC 1.402
 - Office hours: Tu 10-11 am, SEC 4.415
@@ -41,7 +41,7 @@ We have introduced a group of new papers this year again. The papers we read hav
 - 9/3 Tu: Introduction (Minlan)
   * Reading 1: [Applied Machine Learning at Facebook: A Datacenter Infrastructure Perspective](https://research.facebook.com/file/904032783795098/hpca-2018-facebook.pdf)
   * Reading 2: [How to Read a Paper](https://www.cs.princeton.edu/courses/archive/fall13/cos597E/papers/howtoread.pdf)
-- 9/5 Th: Background on model and hardware (Minlan)
+- 9/5 Th: Background on model and hardware, high-level course project ideas (Minlan)
 <!--
 https://jalammar.github.io/illustrated-transformer/
 https://jalammar.github.io/illustrated-gpt2/
