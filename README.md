@@ -2,16 +2,17 @@
 
 ## Overview
 
-This is a graduate-level course on computer networks, offering an in-depth exploration of selected advanced topics in networked systems. We will discuss the latest developments across the entire networking stack, the interactions between networks and high-level applications, and their connections with other system components such as compute and storage.
+This is a graduate-level course on computer networks, offering an in-depth exploration of selected advanced topics in networked systems. We will discuss the latest developments across the entire networking stack, the interactions between networks and high-level applications, and their connections with other system components such as computing and storage.
 
-In this year's edition, we will use machine learning as a prime example to understand its unique requirements and challenges in the context of networking. As machine learning applications increasingly rely on larger models and faster accelerators, the demand for enhanced networking capabilities becomes imperative. Throughout this course, we will study cutting edge networking solutions and principles for  co-designing networks with compute and storage, to meet the evolving needs of machine learning applications. The course will include lectures, in-class presentations, paper discussions, and a research project.
+In this year's edition, we will use machine learning as a prime example to understand its unique requirements and challenges in the context of networking. As machine learning applications increasingly rely on larger models and faster accelerators, the demand for enhanced networking capabilities becomes imperative. Throughout this course, we will study cutting-edge networking solutions and principles for  co-designing networks with computing and storage, to meet the evolving needs of machine learning applications. The course will include lectures, in-class presentations, paper discussions, and a research project.
 
 - Instructor: Minlan Yu
-- Lecture time: TuTh 11:15am to 12:30pm
+- Guest instructor: Tushar Krishna (who will join some class discussions and provide feedback for course projects)
+- Lecture time: TuTh 11:15 am to 12:30 pm
 - Location: SEC 1.402
-- Office hour: Tu 10-11am, SEC 4.415
+- Office hours: Tu 10-11 am, SEC 4.415
 - Teaching fellows: Qianru Lao qianrulao@fas.harvard.edu; Shiji Xin sxin@fas.harvard.edu
-- Prerequisite: This course has no prerequisites. Since this course will focus on reading papers on latest topics in networking, you will need to be able to pick up the relevant background for each topic from textbooks or online materials.
+- Prerequisite: This course has no prerequisites. Since this course will focus on reading papers on the latest topics in networking, you will need to be able to pick up the relevant background for each topic from textbooks or online materials.
 - Recommended prep: system programming at the level of CS 61 or CS 143 or CS 145.
 
 ## Infrastructure Notes
@@ -30,7 +31,7 @@ There are no required textbooks for the course. You will read papers before each
 - Class presentation: 10%
 - Class participation: 5% (including class attendance, in-class discussion, and online discussion on Ed)
 
-Please see detailed requirements after the syllabus
+Please see the detailed requirements after the syllabus.
 
 ## Syllabus
 
@@ -47,12 +48,13 @@ https://jalammar.github.io/illustrated-gpt2/
 -->
 
 ### Distributed Training (various parallelism schemes)
-- 9/10 Tu: Data Parallellism and Sharding (Minlan)
+- 9/10 Tu: Data Parallelism and Sharding (Minlan)
   * Reading: [PyTorch FSDP: Experiences on Scaling Fully Sharded Data Parallel](https://arxiv.org/pdf/2304.11277.pdf)
   * Optional reading: [Meta blog post](https://engineering.fb.com/2021/07/15/open-source/fsdp/)
 - 9/12 Th: Model Parallelism and Pipelining 
   * Reading: [PipeDream: Generalized Pipeline Parallelism for DNN Training](https://cs.stanford.edu/~matei/papers/2019/sosp_pipedream.pdf)
   * Optional reading: [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](https://proceedings.neurips.cc/paper/2019/file/093f65e080a295f8076b1c5722a46aa2-Paper.pdf)
+  * Optional reading: [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://arxiv.org/pdf/2201.12023.pdf)
 - 9/17 Tu: Parameter Server vs All Reduce 
   * Reading: [A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters](https://www.usenix.org/system/files/osdi20-jiang.pdf)
 - 9/19 Th: NCCL optimizations
@@ -66,7 +68,7 @@ https://jalammar.github.io/illustrated-gpt2/
   * Optional Reading: [ZeRO-Infinity: Breaking the GPU Memory Wall for Extreme Scale Deep Learning](https://ieeexplore.ieee.org/abstract/document/9355301)
 - 9/26 Th: LLM serving
   * Reading: [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/pdf/2309.06180)
-- 10/1 Tu: Tutorial on [ASTRA-sim Distributed Machine Learning System simulator](https://astra-sim.github.io/)
+- 10/1 Tu: Tutorials by TFs: Optional homework project walkthrough; [ASTRA-sim Distributed Machine Learning System simulator](https://astra-sim.github.io/)
 - 10/3 Th: Course project pitch presentation
 - 10/8 Tu: Throughput-latency tradeoffs
   * Reading: [Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve](https://www.usenix.org/system/files/osdi24-agrawal.pdf)
@@ -80,8 +82,17 @@ https://jalammar.github.io/illustrated-gpt2/
   * Reading: [Crux: GPU-Efficient Communication Scheduling for Deep Learning Training](https://dl.acm.org/doi/pdf/10.1145/3651890.3672239)
 - 10/22 Tu: RDMA 
   * Reading: [RDMA over Ethernet for Distributed AI Training at Meta Scale](https://dl.acm.org/doi/pdf/10.1145/3651890.3672233)
+- 10/24 Th: Congestion control
+  * Reading: [SMaRTT-REPS: Sender-based Marked Rapidly-adapting Trimmed & Timed Transport with Recycled Entropies](https://arxiv.org/pdf/2404.01630)
+  * Optional reading: [NVIDIA SpectrumX White Paper: Just check the adaptive routing part](https://resources.nvidia.com/en-us-data-center-overview/nvidia-spectrum-x-whitepaper)
+- 10/29 Tu: Ethics
 
-<!-- - Compression
+<!-- 
+- In-network aggregation 
+  * Reading: [ATP: In-network Aggregation for Multi-tenant Learning](https://www.usenix.org/system/files/nsdi21-lao.pdf)
+  * Optional reading: [Scalable Hierarchical Aggregation and Reduction Protocol (SHARP)TM Streaming-Aggregation Hardware Design and Evaluation](https://network.nvidia.com/sites/default/files/related-docs/solutions/hpc/paperieee_copyright.pdf)
+
+- Compression
   * Reading: [HiSpeed DNN Training with Espresso: Unleashing the Full Potential of Gradient Compression with Near-Optimal Usage Strategies](https://www.cs.rice.edu/~eugeneng/papers/EuroSys23.pdf) -->
 
 <!-- * Optional reading: [NCCL communication primitives](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/overview.html), [Tree-based NCCL](https://developer.nvidia.com/blog/massively-scale-deep-learning-training-nccl-2-4/) -->
@@ -95,62 +106,40 @@ Flow and network scheduling (Aayush Karan, Jared Ni, Victor Goncalves)
 -->
 
 ### Reliability
-- 10/24 Th: Checkpointing 
+- 10/31 Th: Checkpointing 
   * Reading: [Gemini: Fast failure recovery in distributed training with in-memory checkpoints](https://assets.amazon.science/29/31/6523473f48e4af52252bac56ef51/gemini-fast-failure-recovery-in-distributed-training-with-in-memory-checkpoints.pdf)
   * Optional reading: [Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models](https://www.usenix.org/system/files/nsdi22-paper-eisenman.pdf)
-- 10/29 Tu: Ethics
-- 10/31 Th: Fault tolerance 
+- 11/5 Tu: Fault tolerance 
   * Reading: [Oobleck: Resilient Distributed Training of Large Models Using Pipeline Templates](https://xinjin.github.io/files/SOSP23_Oobleck.pdf)
   * Optional reading: [SlipStream: Adapting Pipelines for Distributed Training of Large DNNs Amid Failures](https://arxiv.org/abs/2405.14009)
-- 11/5 Tu: Diagnosis
+- 11/7 Th: Diagnosis
   * Reading: [Cloud Atlas: Efficient Fault Localization for Cloud Systems using Language Models and Causal Insight](https://arxiv.org/pdf/2407.08694)
   * Optional Reading: bytedance paper
 
-### End-to-end ML workflow
-Data ingestion 
+### Production ML systems
+- 11/12 Tu: Data ingestion 
   * Reading: [Understanding data storage and ingestion for large-scale deep recommendation model training](https://dl.acm.org/doi/pdf/10.1145/3470496.3533044?casa_token=hgqFSo4RkdIAAAAA:ADj2kpsgPUEjftbV54blNpO_98zhNTM675gjwsQ8uw7rDJcFeSRx99bIuEB-_H4Q1E4JPxfHPsJK)
-  * Optional Reading: [RecD: Deduplication for End-to-End Deep Learning Recommendation Model Training Infrastructure](https://arxiv.org/abs/2211.05239)
-
- 
-- 11/5 Tu: Automated parallelism 
-  * Reading: [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://arxiv.org/pdf/2201.12023.pdf)
-- 11/7 Th: LLM training in Production
+  * Optional Reading: [RecD: Deduplication for End-to-End Deep Learning Recommendation Model Training Infrastructure](https://arxiv.org/abs/2211.05239) 
+- 11/14 Th: LLM training in Production
   * Reading: [MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs](https://www.usenix.org/system/files/nsdi24-jiang-ziheng.pdf)
   * Optional reading: [The Llama 3 Herd of Models](https://arxiv.org/pdf/2407.21783#page=64.50)
-- 11/12 Tu: Carbon cost for ML (invited talk from Carole-Jean Wu, Meta)
-
-
-
-### Hardware
-- 11/14 Th: TPU 
-  * Reading: [Resiliency at Scale: Managing Google’s
-TPUv4 Machine Learning Supercomputer](https://www.usenix.org/system/files/nsdi24-zu.pdf)
-  * optional Reading: [TPU v4: An Optically Reconfigurable Supercomputer for Machine Learning with Hardware Support for Embeddings](https://arxiv.org/pdf/2304.01433.pdf)
-- 11/19 Tu: 
-- 11/21 Th: In-network aggregation 
-  * Reading: [ATP: In-network Aggregation for Multi-tenant Learning](https://www.usenix.org/system/files/nsdi21-lao.pdf)
-  * Optional reading: [Scalable Hierarchical Aggregation and Reduction Protocol (SHARP)TM Streaming-Aggregation Hardware Design and Evaluation](https://network.nvidia.com/sites/default/files/related-docs/solutions/hpc/paperieee_copyright.pdf)
-
-
-<!-- ## ML in the wild
-- Federated learning 
-  * Reading: [Oort: Efficient Federated Learning via Guided Participant Selection](https://www.mosharaf.com/wp-content/uploads/oort-osdi21.pdf)
-- Sky computing 
-  * Reading: [SkyPilot: An Intercloud Broker for Sky Computing](https://www.usenix.org/conference/nsdi23/presentation/yang-zongheng)
-  * Optional reading: [From Cloud Computing to Sky Computing](https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s02-stoica.pdf) -->
-- 11/26 Tu: Final project presentation (batch I)
-
+- 11/19 Tu: TPU 
+  * Reading: [Resiliency at Scale: Managing Google’s TPUv4 Machine Learning Supercomputer](https://www.usenix.org/system/files/nsdi24-zu.pdf)
+  * Optional Reading: [TPU v4: An Optically Reconfigurable Supercomputer for Machine Learning with Hardware Support for Embeddings](https://arxiv.org/pdf/2304.01433.pdf)
+- 11/21 Th: Carbon cost for ML (invited talk from Carole-Jean Wu, Meta)
+  
 ## Wrapping up
+- 11/26 Tu: Final project presentation (batch I)
 - 11/28 Th: no class: Thanksgiving 
 - 12/3 Tu: Final project presentation (batch II)
 - 12/11 Final Project Deadline (updated based on school examination group and dates)
 
 ## Reviews
-- The goal of the reviews is to help you become comfortable reading research papers in networking and systems.
+- The reviews aim to help you become comfortable reading research papers on networking and systems.
 - Students are expected to write reviews for the papers discussed in each class. Scores will be based on the top 90% of the reviews, meaning it is acceptable to miss THREE reviews throughout the course.
 - Reviews are due by noon one day before class (Monday noon for Tuesday classes; Wednesday noon for Thursday classes). This allows the presenter to collect all your questions for class discussion. For lectures with guest speakers, the TF will collect the questions. Please raise your questions during class.
-- Reviews submitted within a week after the deadline only get half of the scores. All reviews submitted later than that do not get any scores.
-- Detailed review questions are available in HotCRP. Each paper may have a specific question in addition to the general review questions.
+Reviews submitted within a week after the deadline only get half of the scores. Reviews submitted later than that do not get any scores.
+Detailed review questions are available in HotCRP. In addition to the general review questions, each paper may have a specific question.
 
 ## Class Presentation
 - The goal of the presentation and in-class discussion is to learn how to form your own opinions about a paper.
@@ -166,7 +155,7 @@ TPUv4 Machine Learning Supercomputer](https://www.usenix.org/system/files/nsdi24
 - The presentation will be graded based on both content (your understanding of the paper) and presentation (your delivery of the knowledge).
 
 ## Projects
-The semester-long project is an open-ended systems research project. Project topics are of your choice but should be related to networking. Projects should be done in groups of two or three and include a systems building component. Selected projects can be submitted as peer-reviewed workshop papers or posters.
+The semester-long project is an open-ended systems research project. Project topics are of your choice but should be related to networking. Projects should be done in groups of two or three and include a systems-building component. Selected projects can be submitted as peer-reviewed workshop papers or posters.
 
 ### Project Timeline
 - 9/8 Sun at noon: Form groups for course projects
@@ -216,23 +205,23 @@ The report should be similar in spirit to a workshop paper, spanning six pages o
 
 - Title: Something grabby that correctly describes a part of the contribution.
 - Abstract: A paragraph or two that concisely describes the motivation for the work (the problem addressed), the contribution of the work, and a highlight of your results.
-- Introduction: The introduction often covers the following questions: what problem are you trying to solve? Why is your problem important? What are the key challenges in solving your problem? What are your high-level ideas for addressing these challenges? What are your key design/system architecture? What are your key findings and evaluation results?
+- Introduction: The introduction often covers the following questions: what problem are you trying to solve? Why is your problem important? What are the key challenges in solving your problem? What are your high-level ideas for addressing these challenges? What is your key design/system architecture? What are your key findings and evaluation results?
 - Design: Start with the high-level architecture of your system, and then describe the details of your design in enough relevant detail that a skilled system builder could replicate your work. Compare your design choices with alternative approaches to explain why you designed your system this way.
-- Evaluation: For systems work, this often includes the following subsections: (1) Experimental setup: Describe how you ran your experiments. What kinds of machine? How much memory? How many trials? How did you prepare the machine before each trial? (2) The experiments themselves, grouped by purpose. Include figures. (3) A summary of the experimental results. Some good evaluations are organized around performance hypotheses: statements that the experiments aim to support or disprove. It is important to discuss the implications of your observed results and why you see such results.
-- Related work: Describe related research, especially research closely related to your work. This section serves to provide citations and comparisons. For each group of citations, describe (1) the core idea, (2) what is complementary with your work, (3) what is more advanced than your work, and (4) what is advanced upon by your work. (2)–(4) are optional—some papers will be entirely complementary with or orthogonal to your work.
+- Evaluation: For systems work, this often includes the following subsections: (1) Experimental setup: Describe how you ran your experiments. What kinds of machines? How much memory? How many trials? How did you prepare the machine before each trial? (2) The experiments themselves, grouped by purpose. Include figures. (3) A summary of the experimental results. Some good evaluations are organized around performance hypotheses: statements that the experiments aim to support or disprove. It is important to discuss the implications of your observed results and why you see such results.
+- Related work: Describe related research, especially research closely related to your work. This section serves to provide citations and comparisons. For each group of citations, describe (1) the core idea, (2) what is complementary to your work, (3) what is more advanced than your work, and (4) what is advanced upon by your work. (2)–(4) are optional—some papers will be entirely complementary with or orthogonal to your work.
 - Conclusion: Summarize your work and its contributions.
 
 ### Code submission
-Together with the final report, you should submit the github link of your project code. No need for superb software engineering, but ideally the code should be accompanied by enough documentation that a motivated user could attempt to replicate your results. You will need to demonstrate your product to the TFs at the final office hours. 
+Together with the final report, you should submit the GitHub link of your project code. No need for superb software engineering, but ideally the code should be accompanied by enough documentation that a motivated user could attempt to replicate your results. You will need to demonstrate your product to the TFs at the final office hours. 
 
 ### Grading
 The first four milestones (initial proposal, pitch presentation, midterm report, final project presentations) are mainly graded based on how well you keep up with the project progress at each stage. You will also get feedback at these milestones on how to improve your projects. The final project will be graded based on: Motivation, Design, delivered system, and its evaluation. 
 
 ### Policy on ChatGPT and generative AI
-ChatGPT and generative AI tools are in general not useful for this course assignments (reviews and project reports). The default is that such use is disallowed unless with the permission of the course staffs. Any such use must be appropriately acknowledged and cited. It is each student’s responsibility to assess the validity and applicability of any GAI output that is submitted; you bear the final responsibility. Violations of this policy will be considered academic misconduct. We draw your attention to the fact that different classes at Harvard could implement different AI policies, and it is the student’s responsibility to conform to expectations for each course. THere is also [Harvard guidelines for GAI tools](https://provost.harvard.edu/guidelines-using-chatgpt-and-other-generative-ai-tools-harvard). 
+ChatGPT and generative AI tools are in general not useful for this course assignments (reviews and project reports). The default is that such use is disallowed unless with the permission of the course staff. Any such use must be appropriately acknowledged and cited. It is each student’s responsibility to assess the validity and applicability of any GAI output that is submitted; you bear the final responsibility. Violations of this policy will be considered academic misconduct. We draw your attention to the fact that different classes at Harvard could implement different AI policies, and it is the student’s responsibility to conform to expectations for each course. THere are also [Harvard guidelines for GAI tools](https://provost.harvard.edu/guidelines-using-chatgpt-and-other-generative-ai-tools-harvard). 
 
 ## Diversity and Inclusion
-I would like to create a learning environment in our class that supports a diversity of thoughts, perspectives and experiences, and honors your identities (including race, gender, class, sexuality, socioeconomic status, religion, ability, etc.). I (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to me about it. If you feel like your performance in the class is being impacted by your experiences outside of class, please don’t hesitate to come and talk with me. As a participant in course discussions, you should also strive to honor the diversity of your classmates. (Statement extracted from one by Dr. Monica Linden at Brown University.)
+I would like to create a learning environment in our class that supports a diversity of thoughts, perspectives and experiences, and honours your identities (including race, gender, class, sexuality, socioeconomic status, religion, ability, etc.). I (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to me about it. If you feel like your performance in the class is being impacted by your experiences outside of class, please don’t hesitate to come and talk with me. As a participant in course discussions, you should also strive to honour the diversity of your classmates. (Statement extracted from one by Dr. Monica Linden at Brown University.)
 
 ## Accommodations for Disabilities
-If you have a health condition that affects your learning or classroom experience, please let me know as soon as possible. I will, of course, provide all the accommodations listed in your AEO letter (if you have one), but sometimes we can do even better if a student helps me understand what really matters to them. (Statement adapted from one by Prof. Krzysztof Gajos.)
+If you have a health condition that affects your learning or classroom experience, please let me know as soon as possible. I will, of course, provide all the accommodations listed in your AEO letter (if you have one), but sometimes we can do even better if a student helps me understand what matters to them. (Statement adapted from one by Prof. Krzysztof Gajos.)
