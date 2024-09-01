@@ -35,7 +35,7 @@ Please see the detailed requirements after the syllabus.
 
 ## Syllabus
 
-We have introduced a group of new papers this year again. The papers we read have an emphasis on distributed systems and networking in the ML area. 
+We have introduced a group of new papers this year again. The papers we read have an emphasis on distributed systems and networking in the ML area. Review submission starts from 9/12 class.
 
 ### Introduction
 - 9/3 Tu: Introduction (Minlan)
@@ -138,8 +138,8 @@ Flow and network scheduling (Aayush Karan, Jared Ni, Victor Goncalves)
 - The reviews aim to help you become comfortable reading research papers on networking and systems.
 - Students are expected to write reviews for the papers discussed in each class. Scores will be based on the top 90% of the reviews, meaning it is acceptable to miss THREE reviews throughout the course.
 - Reviews are due by noon one day before class (Monday noon for Tuesday classes; Wednesday noon for Thursday classes). This allows the presenter to collect all your questions for class discussion. For lectures with guest speakers, the TF will collect the questions. Please raise your questions during class.
-Reviews submitted within a week after the deadline only get half of the scores. Reviews submitted later than that do not get any scores.
-Detailed review questions are available in HotCRP. In addition to the general review questions, each paper may have a specific question.
+- Reviews submitted within a week after the deadline only get half of the scores. Reviews submitted later than that do not get any scores.
+- Detailed review questions are available in HotCRP. In addition to the general review questions, each paper may have a specific question.
 
 ## Class Presentation
 - The goal of the presentation and in-class discussion is to learn how to form your own opinions about a paper.
@@ -155,7 +155,7 @@ Detailed review questions are available in HotCRP. In addition to the general re
 - The presentation will be graded based on both content (your understanding of the paper) and presentation (your delivery of the knowledge).
 
 ## Projects
-The semester-long project is an open-ended systems research project. Project topics are of your choice but should be related to networking. Projects should be done in groups of two or three and include a systems-building component. Selected projects can be submitted as peer-reviewed workshop papers or posters.
+The semester-long project is an open-ended systems research project. Project topics are of your choice but should be related to networking. Projects should be done in groups of two or three and include a systems-building component. Note that we do not consider the number of students in a group in grading. Selected projects can be submitted as peer-reviewed workshop papers or posters.
 
 ### Project Timeline
 - 9/8 Sun at noon: Form groups for course projects
@@ -166,7 +166,7 @@ The semester-long project is an open-ended systems research project. Project top
 - 11/4-8: Schedule individual meetings with Minlan to get feedback on your midterm report
 - 11/24 Tu, 12/3 Tu: Final project presentation
 - 12/11 Final project due at noon
-- 12/12 Review of other students' project due at noon
+- 12/12 Review of other students' projects due at noon
 
 ### Project Proposal
 The project proposal serves as a checkpoint, providing a basis for your individual meetings with Minlan and for your pitch presentations.
