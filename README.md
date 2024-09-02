@@ -42,6 +42,7 @@ We have introduced a group of new papers this year again. The papers we read hav
   * Reading 1: [Applied Machine Learning at Facebook: A Datacenter Infrastructure Perspective](https://research.facebook.com/file/904032783795098/hpca-2018-facebook.pdf)
   * Reading 2: [How to Read a Paper](https://www.cs.princeton.edu/courses/archive/fall13/cos597E/papers/howtoread.pdf)
 - 9/5 Th: Background on model and hardware, high-level course project ideas (Minlan)
+  * Optional reading: [The Llama 3 Herd of Models](https://arxiv.org/pdf/2407.21783#page=64.50)
 <!--
 https://jalammar.github.io/illustrated-transformer/
 https://jalammar.github.io/illustrated-gpt2/
@@ -114,7 +115,7 @@ Flow and network scheduling (Aayush Karan, Jared Ni, Victor Goncalves)
   * Optional reading: [SlipStream: Adapting Pipelines for Distributed Training of Large DNNs Amid Failures](https://arxiv.org/abs/2405.14009)
 - 11/7 Th: Diagnosis
   * Reading: [Cloud Atlas: Efficient Fault Localization for Cloud Systems using Language Models and Causal Insight](https://arxiv.org/pdf/2407.08694)
-  * Optional Reading: bytedance paper
+  * Optional Reading: bytedance paper (will add later)
 
 ### Production ML systems
 - 11/12 Tu: Data ingestion 
