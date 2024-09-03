@@ -58,10 +58,10 @@ https://jalammar.github.io/illustrated-gpt2/
   * Optional reading: [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://arxiv.org/pdf/2201.12023.pdf)
 - 9/17 Tu: Parameter Server vs All Reduce 
   * Reading: [A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters](https://www.usenix.org/system/files/osdi20-jiang.pdf)
-- 9/19 Th: Collective Communication Optimizations
-  * Reading: [Rethinking Machine Learning Collective Communication as a Multi-Commodity Flow Problem](https://www.sivak.dev/assets/pdf/sigcomm24_teccl.pdf)
-  * Optional Reading: [TACOS: Topology-Aware Collective Algorithm Synthesizer for Distributed Machine Learning
+- 9/19 Th: Collective Communication Optimizations (Tushar)
+  * Reading: [TACOS: Topology-Aware Collective Algorithm Synthesizer for Distributed Machine Learning
 ](https://arxiv.org/abs/2304.05301)
+  * Optional Reading: [Rethinking Machine Learning Collective Communication as a Multi-Commodity Flow Problem](https://www.sivak.dev/assets/pdf/sigcomm24_teccl.pdf)
   * Optional Reading: [GC3: An Optimizing Compiler for GPU Collective Communication](https://arxiv.org/pdf/2201.11840)
 
 
