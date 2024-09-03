@@ -48,7 +48,7 @@ https://jalammar.github.io/illustrated-transformer/
 https://jalammar.github.io/illustrated-gpt2/
 -->
 
-### Distributed Training (various parallelism schemes)
+### Distributed Training (Parallelism schemes and Communication)
 - 9/10 Tu: Data Parallelism and Sharding (Minlan)
   * Reading: [PyTorch FSDP: Experiences on Scaling Fully Sharded Data Parallel](https://arxiv.org/pdf/2304.11277.pdf)
   * Optional reading: [Meta blog post](https://engineering.fb.com/2021/07/15/open-source/fsdp/)
@@ -58,8 +58,10 @@ https://jalammar.github.io/illustrated-gpt2/
   * Optional reading: [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://arxiv.org/pdf/2201.12023.pdf)
 - 9/17 Tu: Parameter Server vs All Reduce 
   * Reading: [A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters](https://www.usenix.org/system/files/osdi20-jiang.pdf)
-- 9/19 Th: NCCL optimizations
+- 9/19 Th: Collective Communication Optimizations
   * Reading: [Rethinking Machine Learning Collective Communication as a Multi-Commodity Flow Problem](https://www.sivak.dev/assets/pdf/sigcomm24_teccl.pdf)
+  * Optional Reading: [TACOS: Topology-Aware Collective Algorithm Synthesizer for Distributed Machine Learning
+](https://arxiv.org/abs/2304.05301)
   * Optional Reading: [GC3: An Optimizing Compiler for GPU Collective Communication](https://arxiv.org/pdf/2201.11840)
 
 
