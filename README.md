@@ -129,7 +129,9 @@ Flow and network scheduling (Aayush Karan, Jared Ni, Victor Goncalves)
 - 11/19 Tu: TPU 
   * Reading: [Resiliency at Scale: Managing Google’s TPUv4 Machine Learning Supercomputer](https://www.usenix.org/system/files/nsdi24-zu.pdf)
   * Optional Reading: [TPU v4: An Optically Reconfigurable Supercomputer for Machine Learning with Hardware Support for Embeddings](https://arxiv.org/pdf/2304.01433.pdf)
-- 11/21 Th: Carbon cost for ML (invited talk from Carole-Jean Wu, Meta)
+- 11/21 Th: Sustainable AI: Environmental Implications, Challenges and Opportunities (invited talk from [Carole-Jean Wu](https://sites.google.com/site/carolejeanwu), Meta)
+  * Reading: [Sustainable AI: Environmental Implications, Challenges and Opportunities](https://proceedings.mlsys.org/paper_files/paper/2022/file/462211f67c7d858f663355eff93b745e-Paper.pdf)
+  * Optional Reading: [Beyond Efficiency: Scaling AI Sustainably](https://ieeexplore.ieee.org/document/10550120)
   
 ## Wrapping up
 - 11/26 Tu: Final project presentation (batch I)
