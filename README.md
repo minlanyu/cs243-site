@@ -58,9 +58,9 @@ We have introduced a group of new papers this year again. The papers we read hav
   * Reading: [PipeDream: Generalized Pipeline Parallelism for DNN Training](https://cs.stanford.edu/~matei/papers/2019/sosp_pipedream.pdf)
   * Optional reading: [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](https://proceedings.neurips.cc/paper/2019/file/093f65e080a295f8076b1c5722a46aa2-Paper.pdf)
   * Optional reading: [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://arxiv.org/pdf/2201.12023.pdf)
-- 9/17 Tu: Parameter Server vs All Reduce (Gili Rusak)
+- 9/17 Tu: Parameter Server vs All Reduce (Gili Rusak, Rajiv Swamy)
   * Reading: [A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters](https://www.usenix.org/system/files/osdi20-jiang.pdf)
-- 9/19 Th: Collective Communication Optimizations (Xingyu Xiang)
+- 9/19 Th: Collective Communication Optimizations (Xingyu Xiang, Shi Feng)
   * Reading: [TACOS: Topology-Aware Collective Algorithm Synthesizer for Distributed Machine Learning](https://arxiv.org/abs/2304.05301)
   * Optional Reading: [Rethinking Machine Learning Collective Communication as a Multi-Commodity Flow Problem](https://www.sivak.dev/assets/pdf/sigcomm24_teccl.pdf)
   * Optional Reading: [GC3: An Optimizing Compiler for GPU Collective Communication](https://arxiv.org/pdf/2201.11840)
@@ -68,16 +68,16 @@ We have introduced a group of new papers this year again. The papers we read hav
 
 ### Large language models
 
-- 9/24 Tu: LLM training (Javid Lakha)
+- 9/24 Tu: LLM training (Javid Lakha, Daniel Li)
   * Reading: [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/pdf/2104.04473.pdf)
   * Optional Reading: [ZeRO-Infinity: Breaking the GPU Memory Wall for Extreme Scale Deep Learning](https://ieeexplore.ieee.org/abstract/document/9355301)
-- 9/26 Th: LLM serving (Wanxin Xie)
+- 9/26 Th: LLM serving (Wanxin Xie, Hanying Feng)
   * Reading: [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/pdf/2309.06180)
 - 10/1 Tu: Tutorials by TFs: Optional homework project walkthrough; [ASTRA-sim Distributed Machine Learning System simulator](https://astra-sim.github.io/)
 - 10/3 Th: Course project pitch presentation
-- 10/8 Tu: Throughput-latency tradeoffs (Sartaj Gulati)
+- 10/8 Tu: Throughput-latency tradeoffs (Sartaj Gulati, Harrison Zhang)
   * Reading: [Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve](https://www.usenix.org/system/files/osdi24-agrawal.pdf)
-- 10/10 Th: Distributed serving (Han Qi)
+- 10/10 Th: Distributed serving (Han Qi, Yiming Wang)
   * Reading: [DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving](https://www.usenix.org/system/files/osdi24-zhong-yinmin.pdf)
 
 ### Network optimizations
@@ -88,7 +88,7 @@ We have introduced a group of new papers this year again. The papers we read hav
   * Reading: [Crux: GPU-Efficient Communication Scheduling for Deep Learning Training](https://dl.acm.org/doi/pdf/10.1145/3651890.3672239)
 - 10/22 Tu: RDMA (Shirley Zhu, Shreeja Kikkisetti)
   * Reading: [RDMA over Ethernet for Distributed AI Training at Meta Scale](https://dl.acm.org/doi/pdf/10.1145/3651890.3672233)
-- 10/24 Th: Congestion control (Shi Feng)
+- 10/24 Th: Congestion control (Giovanni D'Antonio, Romeo Dean)
   * Reading: [SMaRTT-REPS: Sender-based Marked Rapidly-adapting Trimmed & Timed Transport with Recycled Entropies](https://arxiv.org/pdf/2404.01630)
   * Optional reading: [NVIDIA SpectrumX White Paper: Just check the adaptive routing part](https://resources.nvidia.com/en-us-data-center-overview/nvidia-spectrum-x-whitepaper)
 - 10/29 Tu: Ethics
@@ -118,19 +118,19 @@ Memory-communication tradeoffs
 - 10/31 Th: Checkpointing (Jason Wang, Edward Kang)
   * Reading: [Gemini: Fast failure recovery in distributed training with in-memory checkpoints](https://assets.amazon.science/29/31/6523473f48e4af52252bac56ef51/gemini-fast-failure-recovery-in-distributed-training-with-in-memory-checkpoints.pdf)
   * Optional reading: [Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models](https://www.usenix.org/system/files/nsdi22-paper-eisenman.pdf)
-- 11/5 Tu: Fault tolerance (Dagim Gebrie)
+- 11/5 Tu: Fault tolerance (Dagim Gebrie, Xinjie Yi)
   * Reading: [Oobleck: Resilient Distributed Training of Large Models Using Pipeline Templates](https://xinjin.github.io/files/SOSP23_Oobleck.pdf)
   * Optional reading: [SlipStream: Adapting Pipelines for Distributed Training of Large DNNs Amid Failures](https://arxiv.org/abs/2405.14009)
-- 11/7 Th: Diagnosis (Michel Arab)
+- 11/7 Th: Diagnosis (Michel Arab, Jiayi Xu)
   * Reading: [Cloud Atlas: Efficient Fault Localization for Cloud Systems using Language Models and Causal Insight](https://arxiv.org/pdf/2407.08694)
   * Optional Reading: bytedance paper (will add later)
 
 ### Production ML systems
 
-- 11/12 Tu: Data ingestion (Hanying Feng)
+- 11/12 Tu: Data ingestion (Jonathan Geuter, Taj Gulati)
   * Reading: [Understanding data storage and ingestion for large-scale deep recommendation model training](https://dl.acm.org/doi/pdf/10.1145/3470496.3533044?casa_token=hgqFSo4RkdIAAAAA:ADj2kpsgPUEjftbV54blNpO_98zhNTM675gjwsQ8uw7rDJcFeSRx99bIuEB-_H4Q1E4JPxfHPsJK)
   * Optional Reading: [RecD: Deduplication for End-to-End Deep Learning Recommendation Model Training Infrastructure](https://arxiv.org/abs/2211.05239) 
-- 11/14 Th: LLM training in Production (Shiyu Ma)
+- 11/14 Th: LLM training in Production (Shiyu Ma, Yepeng Huang)
   * Reading: [MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs](https://www.usenix.org/system/files/nsdi24-jiang-ziheng.pdf)
   * Optional reading: [The Llama 3 Herd of Models](https://arxiv.org/pdf/2407.21783#page=64.50)
 - 11/19 Tu: TPU (Emma Yang)
