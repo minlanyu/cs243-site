@@ -59,7 +59,7 @@ We have introduced a group of new papers this year again. The papers we read hav
   * Reading: [PipeDream: Generalized Pipeline Parallelism for DNN Training](https://cs.stanford.edu/~matei/papers/2019/sosp_pipedream.pdf)
   * Optional reading: [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](https://proceedings.neurips.cc/paper/2019/file/093f65e080a295f8076b1c5722a46aa2-Paper.pdf)
   * Optional reading: [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://arxiv.org/pdf/2201.12023.pdf)
-- 9/17 Tu: Parameter Server vs All Reduce (Gili Rusak, Rajiv Swamy)
+- 9/17 Tu: Parameter Server vs All Reduce (Gili Rusak)
   * Reading: [A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters](https://www.usenix.org/system/files/osdi20-jiang.pdf)
 - 9/19 Th: Collective Communication Optimizations (Xingyu Xiang, Shi Feng)
   * Reading: [TACOS: Topology-Aware Collective Algorithm Synthesizer for Distributed Machine Learning](https://arxiv.org/abs/2304.05301)
@@ -69,21 +69,21 @@ We have introduced a group of new papers this year again. The papers we read hav
 
 ### Large language models
 
-- 9/24 Tu: LLM training (Javid Lakha, Daniel Li)
+- 9/24 Tu: LLM training (Javid Lakha, Leslie Gu)
   * Reading: [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/pdf/2104.04473.pdf)
   * Optional Reading: [ZeRO-Infinity: Breaking the GPU Memory Wall for Extreme Scale Deep Learning](https://ieeexplore.ieee.org/abstract/document/9355301)
 - 9/26 Th: LLM serving (Wanxin Xie, Hanying Feng)
   * Reading: [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/pdf/2309.06180)
 - 10/1 Tu: Tutorials by TFs: Optional homework project walkthrough; [ASTRA-sim Distributed Machine Learning System simulator](https://astra-sim.github.io/)
 - 10/3 Th: Course project pitch presentation
-- 10/8 Tu: Throughput-latency tradeoffs (Sartaj Gulati, Harrison Zhang)
+- 10/8 Tu: Throughput-latency tradeoffs (Taj Gulati)
   * Reading: [Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve](https://www.usenix.org/system/files/osdi24-agrawal.pdf)
-- 10/10 Th: Distributed serving (Han Qi, Yiming Wang)
+- 10/10 Th: Distributed serving (Han Qi)
   * Reading: [DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving](https://www.usenix.org/system/files/osdi24-zhong-yinmin.pdf)
 
 ### Network optimizations
 
-- 10/15 Tu: NCCL as a service (Dennis Eum, Neil Shah)
+- 10/15 Tu: NCCL as a service (Dennis Eum, Cassie Dai)
   * Reading: [MCCS: A Service-based Approach to Collective Communication for Multi-Tenant Cloud](https://www.yongjiwu.me/assets/pdf/sigcomm24-mccs.pdf)
 - 10/17 Th: Flow scheduling (Vignav Ramesh, Naomi Bashkansky)
   * Reading: [Crux: GPU-Efficient Communication Scheduling for Deep Learning Training](https://dl.acm.org/doi/pdf/10.1145/3651890.3672239)
@@ -119,16 +119,16 @@ Memory-communication tradeoffs
 - 10/31 Th: Checkpointing (Jason Wang, Edward Kang)
   * Reading: [Gemini: Fast failure recovery in distributed training with in-memory checkpoints](https://assets.amazon.science/29/31/6523473f48e4af52252bac56ef51/gemini-fast-failure-recovery-in-distributed-training-with-in-memory-checkpoints.pdf)
   * Optional reading: [Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models](https://www.usenix.org/system/files/nsdi22-paper-eisenman.pdf)
-- 11/5 Tu: Fault tolerance (Dagim Gebrie, Xinjie Yi)
+- 11/5 Tu: Fault tolerance (Dagim Gebrie)
   * Reading: [Oobleck: Resilient Distributed Training of Large Models Using Pipeline Templates](https://xinjin.github.io/files/SOSP23_Oobleck.pdf)
   * Optional reading: [SlipStream: Adapting Pipelines for Distributed Training of Large DNNs Amid Failures](https://arxiv.org/abs/2405.14009)
-- 11/7 Th: Diagnosis (Michel Arab, Jiayi Xu)
+- 11/7 Th: Diagnosis (Tong Ding)
   * Reading: [Cloud Atlas: Efficient Fault Localization for Cloud Systems using Language Models and Causal Insight](https://arxiv.org/pdf/2407.08694)
   * Optional Reading: bytedance paper (will add later)
 
 ### Production ML systems
 
-- 11/12 Tu: Data ingestion (Jonathan Geuter, Taj Gulati)
+- 11/12 Tu: Data ingestion (Jonathan Geuter)
   * Reading: [Understanding data storage and ingestion for large-scale deep recommendation model training](https://dl.acm.org/doi/pdf/10.1145/3470496.3533044?casa_token=hgqFSo4RkdIAAAAA:ADj2kpsgPUEjftbV54blNpO_98zhNTM675gjwsQ8uw7rDJcFeSRx99bIuEB-_H4Q1E4JPxfHPsJK)
   * Optional Reading: [RecD: Deduplication for End-to-End Deep Learning Recommendation Model Training Infrastructure](https://arxiv.org/abs/2211.05239) 
 - 11/14 Th: LLM training in Production (Shiyu Ma, Yepeng Huang)
