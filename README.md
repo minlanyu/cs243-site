@@ -59,7 +59,7 @@ We have introduced a group of new papers this year again. The papers we read hav
   * Reading: [PipeDream: Generalized Pipeline Parallelism for DNN Training](https://cs.stanford.edu/~matei/papers/2019/sosp_pipedream.pdf)
   * Optional reading: [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](https://proceedings.neurips.cc/paper/2019/file/093f65e080a295f8076b1c5722a46aa2-Paper.pdf)
   * Optional reading: [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://arxiv.org/pdf/2201.12023.pdf)
-- 9/17 Tu: Parameter Server vs All Reduce (Gili Rusak)
+- 9/17 Tu: Parameter Server vs All Reduce (Gili Rusak, Cassie Dai)
   * Reading: [A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters](https://www.usenix.org/system/files/osdi20-jiang.pdf)
 - 9/19 Th: Collective Communication Optimizations (Xingyu Xiang, Shi Feng)
   * Reading: [TACOS: Topology-Aware Collective Algorithm Synthesizer for Distributed Machine Learning](https://arxiv.org/abs/2304.05301)
@@ -83,7 +83,7 @@ We have introduced a group of new papers this year again. The papers we read hav
 
 ### Network optimizations
 
-- 10/15 Tu: NCCL as a service (Dennis Eum, Cassie Dai)
+- 10/15 Tu: NCCL as a service (Dennis Eum)
   * Reading: [MCCS: A Service-based Approach to Collective Communication for Multi-Tenant Cloud](https://www.yongjiwu.me/assets/pdf/sigcomm24-mccs.pdf)
 - 10/17 Th: Flow scheduling (Vignav Ramesh, Naomi Bashkansky)
   * Reading: [Crux: GPU-Efficient Communication Scheduling for Deep Learning Training](https://dl.acm.org/doi/pdf/10.1145/3651890.3672239)
