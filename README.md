@@ -89,7 +89,7 @@ We have introduced a group of new papers this year again. The papers we read hav
   * Reading: [Crux: GPU-Efficient Communication Scheduling for Deep Learning Training](https://dl.acm.org/doi/pdf/10.1145/3651890.3672239)
 - 10/22 Tu: RDMA (Shirley Zhu, Shreeja Kikkisetti)
   * Reading: [RDMA over Ethernet for Distributed AI Training at Meta Scale](https://dl.acm.org/doi/pdf/10.1145/3651890.3672233)
-- 10/24 Th: Congestion control (Giovanni D'Antonio, Romeo Dean)
+- 10/24 Th: Congestion control (Giovanni D'Antonio)
   * Reading: [SMaRTT-REPS: Sender-based Marked Rapidly-adapting Trimmed & Timed Transport with Recycled Entropies](https://arxiv.org/pdf/2404.01630)
   * Optional reading: [NVIDIA SpectrumX White Paper: Just check the adaptive routing part](https://resources.nvidia.com/en-us-data-center-overview/nvidia-spectrum-x-whitepaper)
 - 10/29 Tu: Ethics
@@ -128,7 +128,7 @@ Memory-communication tradeoffs
 
 ### Production ML systems
 
-- 11/12 Tu: Data ingestion (Jonathan Geuter)
+- 11/12 Tu: Data ingestion (Romeo Dean)
   * Reading: [Understanding data storage and ingestion for large-scale deep recommendation model training](https://dl.acm.org/doi/pdf/10.1145/3470496.3533044?casa_token=hgqFSo4RkdIAAAAA:ADj2kpsgPUEjftbV54blNpO_98zhNTM675gjwsQ8uw7rDJcFeSRx99bIuEB-_H4Q1E4JPxfHPsJK)
   * Optional Reading: [RecD: Deduplication for End-to-End Deep Learning Recommendation Model Training Infrastructure](https://arxiv.org/abs/2211.05239) 
 - 11/14 Th: LLM training in Production (Shiyu Ma)
