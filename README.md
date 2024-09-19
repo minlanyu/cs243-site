@@ -71,7 +71,7 @@ We have introduced a group of new papers this year again. The papers we read hav
 
 - 9/24 Tu: LLM training (Javid Lakha, Leslie Gu)
   * Reading: [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/pdf/2104.04473.pdf)
-  * Optional Reading: [ZeRO-Infinity: Breaking the GPU Memory Wall for Extreme Scale Deep Learning](https://ieeexplore.ieee.org/abstract/document/9355301)
+  * Optional Reading: [ZeRO-Infinity: Breaking the GPU Memory Wall for Extreme Scale Deep Learning](https://arxiv.org/abs/2104.07857)
 - 9/26 Th: LLM serving (Wanxin Xie, Hanying Feng)
   * Reading: [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/pdf/2309.06180)
 - 10/1 Tu: Tutorials by TFs: Optional homework project walkthrough; [ASTRA-sim Distributed Machine Learning System simulator](https://astra-sim.github.io/)
