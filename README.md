@@ -182,7 +182,8 @@ The semester-long project is an open-ended systems research project. Project top
 - 12/12 Review of other students' projects due at noon
 
 ### Project Proposal
-The project proposal serves as a checkpoint, providing a basis for your individual meetings with Minlan and for your pitch presentations.
+The project proposal serves as a checkpoint, providing a basis for your meetings with Minlan and your pitch presentations. 
+Please check out the guidelines for pitch presentation below on what to write in your project proposal.
 **You will receive the full 1% grade if you submit your proposal on time.** Unfortunately, late submissions will not be accepted, and there is no opportunity to make up the grade. After submission, you can keep updating your proposal and bring your latest one to your meeting with Minlan.
 
 ### Project pitch presentation
