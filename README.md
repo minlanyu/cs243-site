@@ -128,7 +128,7 @@ Memory-communication tradeoffs
 
 ### Production ML systems
 
-- 11/12 Tu: Data ingestion (Romeo Dean)
+- 11/12 Tu: Data ingestion (Romeo Dean, Ayush Noori)
   * Reading: [Understanding data storage and ingestion for large-scale deep recommendation model training](https://dl.acm.org/doi/pdf/10.1145/3470496.3533044?casa_token=hgqFSo4RkdIAAAAA:ADj2kpsgPUEjftbV54blNpO_98zhNTM675gjwsQ8uw7rDJcFeSRx99bIuEB-_H4Q1E4JPxfHPsJK)
   * Optional Reading: [RecD: Deduplication for End-to-End Deep Learning Recommendation Model Training Infrastructure](https://arxiv.org/abs/2211.05239) 
 - 11/14 Th: LLM training in Production (Shiyu Ma)
