@@ -90,7 +90,7 @@ We have introduced a group of new papers this year again. The papers we read hav
 - 10/22 Tu: RDMA (Shirley Zhu, Shreeja Kikkisetti)
   * Reading: [RDMA over Ethernet for Distributed AI Training at Meta Scale](https://dl.acm.org/doi/pdf/10.1145/3651890.3672233)
 - 10/24 Th: Congestion control (Giovanni D'Antonio)
-  * Reading: [SMaRTT-REPS: Sender-based Marked Rapidly-adapting Trimmed & Timed Transport with Recycled Entropies](https://arxiv.org/pdf/2404.01630)
+  * Reading: [FASTFLOW: Flexible Adaptive Congestion Control for High-Performance Datacenters](https://arxiv.org/pdf/2404.01630) (please note that the version 1 of this paper is titled: SMaRTT-REPS: Sender-based Marked Rapidly-adapting Trimmed & Timed Transport with Recycled Entropies)
   * Optional reading: [NVIDIA SpectrumX White Paper: Just check the adaptive routing part](https://resources.nvidia.com/en-us-data-center-overview/nvidia-spectrum-x-whitepaper)
 - 10/29 Tu: Ethics
 
