@@ -93,6 +93,7 @@ We have introduced a group of new papers this year again. The papers we read hav
   * Reading: [FASTFLOW: Flexible Adaptive Congestion Control for High-Performance Datacenters](https://arxiv.org/pdf/2404.01630) (please note that the version 1 of this paper is titled: SMaRTT-REPS: Sender-based Marked Rapidly-adapting Trimmed & Timed Transport with Recycled Entropies)
   * Optional reading: [NVIDIA SpectrumX White Paper: Just check the adaptive routing part](https://resources.nvidia.com/en-us-data-center-overview/nvidia-spectrum-x-whitepaper)
 - 10/29 Tu: Ethics
+  * Reading: [Not all AI models should be freely available, argues a legal scholar](https://www.economist.com/by-invitation/2024/07/29/not-all-ai-models-should-be-freely-available-argues-a-legal-scholar) [Keep the code behind AI open, say two entrepreneurs](https://www.economist.com/by-invitation/2024/07/29/keep-the-code-behind-ai-open-say-two-entrepreneurs)
 
 <!-- 
 
