@@ -13,7 +13,7 @@ In this year's edition, we will use machine learning as a prime example to under
 - Office hours: Tu 10-11 am, SEC 4.415
 - Teaching fellows: Qianru Lao qianrulao@fas.harvard.edu; Shiji Xin sxin@fas.harvard.edu
 - Prerequisite: This course has no prerequisites. Since this course will focus on reading papers on the latest topics in networking, you will need to be able to pick up the relevant background for each topic from textbooks or online materials.
-- Recommended prep: system programming at the level of CS 61 or CS 143 or CS 145.
+- Recommended prep: system programming at the level of CS 61, CS 143, or CS 145.
 
 ## Infrastructure Notes
 
@@ -21,10 +21,10 @@ In this year's edition, we will use machine learning as a prime example to under
 
 ## Textbook
 There are no required textbooks for the course. You will read papers before each class to get the most out of the class. For backgrounds, you are encouraged to refer to the following books:
-- For basic networking concepts, you can refer to the textbook (K&R): Computer Networking: A Top-Down Approach, by Jim Kurose and Keith Ross. The latest is 8th edition but earlier editions are fine. 
+For basic networking concepts, you can refer to the textbook (K&R) Computer Networking: A Top-Down Approach by Jim Kurose and Keith Ross. The latest edition is the 8th, but earlier editions are fine. 
 - An alternative book is Computer Networks: A Systems Approach, by Larry Peterson and Bruce Davie. You can find an online version [here](https://book.systemsapproach.org/).
 - On the ML side, Prof Vijay Reddi is developing a book on [Machine Learning Systems](https://mlsysbook.ai/) 
-- Please contact me if some concepts are hard to understand and I'll provide more supplemental materials.
+- Please feel free to contact me if some concepts are difficult to understand; I'll provide more supplemental materials.
 
 ## Coursework and Grading
 - Project: 50% (1% project proposal, 4% initial project presentation, 5% mid-term report, 5% final project presentation, 35% final report and code)
@@ -93,7 +93,8 @@ We have introduced a group of new papers this year again. The papers we read hav
   * Reading: [FASTFLOW: Flexible Adaptive Congestion Control for High-Performance Datacenters](https://arxiv.org/pdf/2404.01630) (please note that the version 1 of this paper is titled: SMaRTT-REPS: Sender-based Marked Rapidly-adapting Trimmed & Timed Transport with Recycled Entropies)
   * Optional reading: [NVIDIA SpectrumX White Paper: Just check the adaptive routing part](https://resources.nvidia.com/en-us-data-center-overview/nvidia-spectrum-x-whitepaper)
 - 10/29 Tu: Ethics
-  * Reading: [Not all AI models should be freely available, argues a legal scholar](https://www.economist.com/by-invitation/2024/07/29/not-all-ai-models-should-be-freely-available-argues-a-legal-scholar) [Keep the code behind AI open, say two entrepreneurs](https://www.economist.com/by-invitation/2024/07/29/keep-the-code-behind-ai-open-say-two-entrepreneurs)
+  * Reading 1: [Not all AI models should be freely available, argues a legal scholar](https://www.economist.com/by-invitation/2024/07/29/not-all-ai-models-should-be-freely-available-argues-a-legal-scholar)
+  * Reading 2: [Keep the code behind AI open, say two entrepreneurs](https://www.economist.com/by-invitation/2024/07/29/keep-the-code-behind-ai-open-say-two-entrepreneurs)
 
 <!-- 
 
